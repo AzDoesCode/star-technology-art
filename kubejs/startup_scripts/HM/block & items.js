@@ -33,6 +33,7 @@ StartupEvents.registry('item', event => {
 
 	['hematite', 'cassiterite', 'chalcopyrite', 'sphalerite', 'pyrite', 'magnetite', 'galena'].forEach(type => {
 		event.create(`${type}_crushed_ore_chunk`)
+            .tooltip(Text.translate(`item.kubejs.${type}_crushed_ore_chunk.tooltip`))
 			.texture(`kubejs:item/hm/pre-lv/${type}_crushed_ore_chunk`);
 	});
 

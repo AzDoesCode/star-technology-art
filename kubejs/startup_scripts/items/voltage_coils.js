@@ -2,12 +2,15 @@
 StartupEvents.registry('item', event => {
 
     event.create('uhv_voltage_coil')
+        .tooltip(Text.translate('item.kubejs.uhv_voltage_coil.tooltip'))
         .texture('kubejs:item/component_part/uhv_voltage_coil');
 
     event.create('uev_voltage_coil')
+        .tooltip(Text.translate('item.kubejs.uev_voltage_coil.tooltip'))
         .texture('kubejs:item/component_part/uev_voltage_coil');
 
     event.create('uiv_voltage_coil')
+        .tooltip(Text.translate('item.kubejs.uiv_voltage_coil.tooltip'))
         .texture('kubejs:item/component_part/uiv_voltage_coil');
 
     /*event.create('uxv_voltage_coil')

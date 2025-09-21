@@ -10,6 +10,7 @@ StartupEvents.registry('item', event => {
         'uepic_chip', 'draco_boule', 'draco_wafer', 'draco_advanced_soc_wafer', 'draco_advanced_soc',
         'uipic_wafer', 'uipic_chip'].forEach(item => {
         event.create(`${item}`)
+            .tooltip(Text.translate(`item.kubejs.${item}.tooltip`))
             .texture(`kubejs:item/chips_n_wafers/${item}`);
     });
 

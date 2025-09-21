@@ -2,23 +2,29 @@
 StartupEvents.registry('item', event => {
 
     event.create('crude_stargate_rod')
+        .tooltip(Text.translate('item.kubejs.crude_stargate_rod.tooltip'))
         .texture('kubejs:item/gate_items/crude_stargate_rod')
         .rarity('rare');
 
     event.create('stargate_rod')
+        .tooltip(Text.translate('item.kubejs.stargate_rod.tooltip'))
         .texture('kubejs:item/gate_items/stargate_rod')
         .rarity('epic');
 
     event.create('untreated_infernal_stargate_rod')
+        .tooltip(Text.translate('item.kubejs.untreated_infernal_stargate_rod.tooltip'))
         .texture('kubejs:item/gate_items/untreated_infernal_stargate_rod');
 
     event.create('infernal_stargate_rod')
+        .tooltip(Text.translate('item.kubejs.infernal_stargate_rod.tooltip'))
         .texture('kubejs:item/gate_items/infernal_stargate_rod');
 
     event.create('untreated_abyssal_stargate_rod')
+        .tooltip(Text.translate('item.kubejs.untreated_abyssal_stargate_rod.tooltip'))
         .texture('kubejs:item/gate_items/untreated_abyssal_stargate_rod');
 
     event.create('abyssal_stargate_rod')
+        .tooltip(Text.translate('item.kubejs.abyssal_stargate_rod.tooltip'))
         .texture('kubejs:item/gate_items/abyssal_stargate_rod');
 
     event.create('computational_super_matrix')
@@ -49,6 +55,7 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/gate_items/empty_coordinate_core');
 
     event.create('draconic_coordinate_core')
+        .tooltip(Text.translate('item.kubejs.draconic_coordinate_core.tooltip'))
         .texture('kubejs:item/gate_items/draconic_core');
 
     event.create('inferno_fragment')

@@ -1,7 +1,7 @@
 
 StartupEvents.registry('item', event => {
 
-    const partTiers = (tier,color,tier_proper) => {
+    const partTiers = (tier) => {
         
         event.create(`${tier}_computational_matrix`)
             .texture(`kubejs:item/component_part/${tier}_computational_matrix`);
@@ -29,10 +29,10 @@ StartupEvents.registry('item', event => {
     
     }
         
-    partTiers('ruined','7','Ruined');
-    partTiers('uhv','4','UHV');
-    partTiers('uev','a','UEV');
-    partTiers('uiv','2','UIV');
+    partTiers('ruined');
+    partTiers('uhv');
+    partTiers('uev');
+    partTiers('uiv');
     // partTiers('uxv','e','UXV');
     // partTiers('opv','9§l','OpV');
 

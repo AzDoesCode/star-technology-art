@@ -2,6 +2,7 @@
 StartupEvents.registry('item', event => {
 
     event.create('runic_engraved_plating')
+        .tooltip(Text.translate('item.kubejs.runic_engraved_plating.tooltip'))
         .texture('kubejs:item/gate_items/rune_engraved_plating')
         .rarity('epic');
 
