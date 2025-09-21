@@ -508,6 +508,20 @@
     "item.kubejs.ingot_ceramic_casting_mold": "Ingot Ceramic Casting Mold",
     "item.kubejs.ball_ceramic_casting_mold": "Ball Ceramic Casting Mold",
 
+    "block.kubejs.reinforced_stone_bricks": "Reinforced Stone Bricks",
+    "block.kubejs.high_steam_machine_casing": "Sturdy Steam Machine Casing",
+    "block.kubejs.refined_sand": "Refined Sand",
+    "block.kubejs.refined_dust": "Refined Dust",
+
+
+    "block.kubejs.crucible_stage_1": "Slightly Hollowed Log",
+    "block.kubejs.crucible_stage_2": "Fairly Hollowed Log",
+    "block.kubejs.crucible_stage_3": "Mostly Hollowed Log",
+
+    "block.kubejs.crafting_stage_1": "Shaped Stripped Log",
+    "block.kubejs.crafting_stage_2": "Partially Carved Crafting Table",
+    "block.kubejs.crafting_stage_3": "Uncovered Crafting Table",
+
     "block.kubejs.ancient_stargate_ring_block": "Ancient Stargate Ring Block",
     "block.kubejs.ancient_stargate_base_block": "Ancient Stargate Base Block",
     "block.kubejs.ancient_stargate_chevron_block": "Ancient Stargate Chevron Block",
