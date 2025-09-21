@@ -3,6 +3,11 @@
     "death.attack.abyssal_pull": "%s was drained by the pull of the abyss",
     "death.attack.heat_exhaustion": "%s dried up from the intense heat",
 
+    "effect.kubejs.sand_erosion": "Sand Erosion",
+    "effect.kubejs.radiation_poisoning": "Radiation Poisoning",
+    "effect.kubejs.toxic_atmosphere": "Toxic Atmosphere",
+    "effect.kubejs.abyssal_drain": "Abyssal Drain",
+
     "effects.radiation.message": "§cYou feel sick from radiation...",
     "effects.sand_erosion.message": "§eThe sands of Abydos are eroding you...",
 

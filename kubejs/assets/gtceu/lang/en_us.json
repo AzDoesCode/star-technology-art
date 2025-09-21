@@ -1168,6 +1168,30 @@
     "material.gtceu.nutrient_rich_fertilizer_solution": "Nutrient-Rich Fertilizer Solution",
     "material.gtceu.seaweed_oil": "Seaweed Oil",
     "material.gtceu.liquefied_nutrient_paste": "Liquefied Nutrient Paste",
-    "material.gtceu.biostimulating_mixture": "Biostimulating Mixture"
+    "material.gtceu.biostimulating_mixture": "Biostimulating Mixture",
+
+    "block.gtceu.large_chemical_reactor.tooltip.2": "Has §6Perfect Overclock§r and §cSubtick Parallels",
+    "block.gtceu.implosion_compressor.tooltip.2": "Has §cSubtick Parallels",
+    "block.gtceu.distillation_tower.tooltip.2": "Has §cSubtick Parallels",
+    "block.gtceu.vacuum_freezer.tooltip.2": "Has §cSubtick Parallels",
+    "block.gtceu.assembly_line.tooltip.2": "Has §cSubtick Parallels",
+    "block.gtceu.multi_smelter.tooltip.2": "Has §cSubtick Parallels§r and §bCoil Parallels§r",
+
+    "block.gtceu.lp_steam_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.hp_steam_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.lv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.mv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.hv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.ev_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.iv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.luv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.zpm_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.uv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.uhv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.uev_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+    "block.gtceu.uiv_macerator.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+
+    "block.gtceu.ulv_fluid_input.tooltip.1": "Fluid Input for Primitive Multiblocks",
+    "block.gtceu.ulv_fluid_input.tooltip.2": "§9Fluid Capacity:§r 2,000 mB"
 
 }
