@@ -65,7 +65,7 @@
 
     "block.gtceu.primitive_ore_factory.tooltip.0": "§7Your first all in one ore processing machine.",
     
-    "block.gtceu.steam_ore_factory.tooltip.0": "§7A slightly more advanced ore processor, that can accept inputs from busses and hatches, and because of that can be automated.",
+    "block.gtceu.steam_ore_factory.tooltip.0": "§7A slightly more advanced ore processor, that can accept inputs from buses and hatches, and because of that can be automated.",
 
     "block.gtceu.electric_ore_factory.tooltip.0": "§7The electric all in one ore processing machine.",
     
@@ -113,7 +113,7 @@
 
     "block.gtceu.void_extractor.tooltip.0": "§7A machine that uses the ever present abyss under your feet to extract resources. Where they come from is unknown, but there is no time for those questions.",
     "block.gtceu.void_extractor.tooltip.1": "Can only have §bone§r Energy Hatch",
-    "block.gtceu.void_extractor.tooltip.2": "§7You are gonna need multiple Output Busses and Hatches",
+    "block.gtceu.void_extractor.tooltip.2": "§7You are gonna need multiple Output Buses and Hatches",
     
     "block.gtceu.essence_enchancer.tooltip.0": "§7A convoluted machine, that can infuse mystical essences with large amounts of electricity to trigger a change in their composition, making them more useful.",
     "block.gtceu.essence_enchancer.tooltip.1": "Has §6Perfect Overclock",
