@@ -79,4 +79,15 @@ StartupEvents.registry('block', event => {
         .tagBlock('minecraft:needs_iron_tool')
         .requiresTool(false)
         .textureAll('kubejs:block/casings/ultimate_multis/abyssal_drill_casing_2');
+
+
+    event.create('advanced_assembly_casing')
+        .displayName('Advanced Assembly Casing')
+        .hardness(5)
+        .resistance(10)
+        .soundType('metal')
+        .tagBlock('mineable/pickaxe')
+        .tagBlock('minecraft:needs_iron_tool')
+        .requiresTool(false)
+        .textureAll('kubejs:block/casings/ultimate_multis/advanced_assembly_casing');
 });

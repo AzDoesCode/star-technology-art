@@ -73,13 +73,6 @@ StartupEvents.registry('item', event => {
         .tooltip(Text.translate('item.kubejs.awakened_draconic_wetware_processor_mainframe.tooltip'))
         .texture('kubejs:item/circuits/awakened_draconic_wetware_processor_mainframe');
 
-    // UEV Wetware //Recipe being removed, this is being depricated over Eta-2
-    event.create('wetware_based_runic_neuroloom')
-        .tooltip(Text.translate('item.kubejs.wetware_based_runic_neuroloom.tooltip.1'))
-        .tooltip(Text.translate('item.kubejs.wetware_based_runic_neuroloom.tooltip.2'))
-        .tooltip(Text.translate('item.kubejs.wetware_based_runic_neuroloom.tooltip.3'))
-        .texture('kubejs:item/circuits/wetware_based_runic_neuroloom');
-
     // Draco-QMDs
     event.create('draconic_qmd_transistor')
         .tooltip(Text.translate('item.kubejs.draconic_qmd_transistor.tooltip'))

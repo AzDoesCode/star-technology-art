@@ -36,4 +36,9 @@ StartupEvents.registry('item', event => {
     // partTiers('uxv','e','UXV');
     // partTiers('opv','9§l','OpV');
 
+    event.create('multithread_data_module') //might need to move to core
+        .displayName('Multithread Data Module')
+        .tooltip('§7Capable of Recalling Immense Quantities of Information')
+        .texture('kubejs:item/component_part/multithread_data_module');
+
 });
