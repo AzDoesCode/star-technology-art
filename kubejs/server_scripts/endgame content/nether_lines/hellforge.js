@@ -99,6 +99,7 @@ ServerEvents.recipes(event => {
     HellForgeMat('ohmderblux_alloy', 23, ['gtceu:chalyblux 720', 'gtceu:maraging_steel_300 288', 'gtceu:zirconium 576', 'gtceu:glowstone 1296', 'gtceu:ultimet 432'], 'paradox', 1151, GTValues.VHA[GTValues.UIV], 46.9);
     HellForgeMat('draconyallium', 258, ['gtceu:duranium 9792', 'gtceu:silver 2880', 'gtceu:oxygen_plasma 94000', 'gtceu:nitrogen_plasma 76000', 'gtceu:dragon_breath 25800'], 'voidic', 1258, GTValues.VHA[GTValues.UXV], 13.3);
     HellForgeMat('draco_abyssal', 9, ['gtceu:draconyallium 144', 'gtceu:abyssal_alloy 432', 'gtceu:void 288', 'gtceu:ancient_runicalium 432'], 'preon', 1104, GTValues.VA[GTValues.UXV], 39.4);
+    HellForgeMat('expetidalloy_d_17', 17, ['gtceu:hafnide_ceramic_base 288', 'gtceu:hastelloy_c_276 1584', 'gtceu:dragonsteel 432', 'gtceu:rhodium_plated_palladium 144'], 'americium_plas', 783, GTValues.VA[GTValues.UIV], 32.7);
 
     // Heating Fluids
     event.recipes.gtceu.cyclonic_sifter(id('infernal_concentrate_refinement'))

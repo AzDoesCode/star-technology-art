@@ -355,7 +355,7 @@
 			description: [
 				"Your first Cutting Saw, made out of Cobalt Brass."
 				""
-				"Cutting Saws will always use alloys that require some work, but are definitly worth the investment."
+				"Cutting Saws always use alloys that require some work, but are definitely worth the investment."
 			]
 			id: "5AA77BA8B764A2AA"
 			rewards: [{
@@ -378,7 +378,7 @@
 				"4179261E3E8278E0"
 			]
 			dependency_requirement: "one_started"
-			description: ["Cobalt Dust can aquired through either Cobaltite Slude, the Electric Ore Factory, or simply washing Copper Ore."]
+			description: ["Cobalt Dust can acquired through either Cobaltite Slude, the Electric Ore Factory, or simply washing Copper Ore."]
 			id: "5D3B5EF195A3093B"
 			rewards: [{
 				id: "6EEC913BD06C07C4"
@@ -612,7 +612,7 @@
 				"23C8E1371ABA986C"
 			]
 			description: [
-				"The Electric Blast Furnace (EBF for short) is a better furnace, which you will need for most of your ingots going forward. If you are curious about how to use the EBF for &bMV&r recipes "
+				"The Electric Blast Furnace (EBF for short) is a better furnace, which you will need for most of your ingots going forward. If you are curious about how to use the EBF for &bMV&r recipes"
 				"{ \"text\": \"Click Here\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"34EDF98BDC245F77\" } }"
 			]
 			icon: "gtceu:electric_blast_furnace"
@@ -1374,7 +1374,7 @@
 			description: [
 				"The next material for Coils."
 				""
-				"It is not easy to get, but most definitly worth it."
+				"It is not easy to get, but most definitely worth it."
 			]
 			id: "6749EECB949732DB"
 			rewards: [{

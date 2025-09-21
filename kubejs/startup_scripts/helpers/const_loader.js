@@ -57,3 +57,13 @@
             // sets multiblock to use IV tiered turbine (like plasma turbine)
         //.recipeModifier((machine, recipe) => $LargeTurbine.recipeModifier(machine, recipe), true)
             // allows multiblock to do turbine parallels/scaling
+
+    const $CleanroomType = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.CleanroomType")
+        //usable to add "cleanroom types", example:
+    const absoluteStabilization = new $CleanroomType('stabilized', 'gtceu.absolute_stabilization')
+
+    const $CleaningMaintenanceHatchPartMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.part.CleaningMaintenanceHatchPartMachine") 
+        //Applying with Maintanence Hatches
+
+    const $FluidHatchPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.FluidHatchPartMachine')
+        //Adding new fluid hatch types

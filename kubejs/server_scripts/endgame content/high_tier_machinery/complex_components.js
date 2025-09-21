@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
     const id = global.id;
+    const MCSF_Scaler = 64; //Should be 16n variant (cap64)
     
     // === Fixing LuV - UV Scaling ===
 
@@ -70,18 +71,34 @@ ServerEvents.recipes(event => {
 
     // === Controller Blocks === 
         event.recipes.gtceu.assembly_line(id('component_part_assembly'))
-        .itemInputs('gtceu:uv_assembler','8x gtceu:uv_robot_arm','8x gtceu:uv_conveyor_module',
-            '8x gtceu:uv_electric_pump', '4x #gtceu:circuits/uhv', '6x #gtceu:circuits/uv', '8x #gtceu:circuits/zpm')
-        .inputFluids('gtceu:soldering_alloy 12528', 'gtceu:lubricant 2500')
-        .itemOutputs('gtceu:component_part_assembly')
-        .duration(1800)
-        .stationResearch(
-            researchRecipeBuilder => researchRecipeBuilder
-                .researchStack(Item.of('gtceu:uv_assembler'))
-                .EUt(GTValues.VHA[GTValues.UV])
-                .CWUt(96)
-            )
-        .EUt(GTValues.VHA[GTValues.UV]);
+            .itemInputs('gtceu:uv_assembler','8x gtceu:uv_robot_arm','8x gtceu:uv_conveyor_module',
+                '8x gtceu:uv_electric_pump', '4x #gtceu:circuits/uhv', '6x #gtceu:circuits/uv', '8x #gtceu:circuits/zpm')
+            .inputFluids('gtceu:soldering_alloy 12528', 'gtceu:lubricant 2500')
+            .itemOutputs('gtceu:component_part_assembly')
+            .duration(1800)
+            .stationResearch(
+                researchRecipeBuilder => researchRecipeBuilder
+                    .researchStack(Item.of('gtceu:uv_assembler'))
+                    .EUt(GTValues.VHA[GTValues.UV])
+                    .CWUt(96)
+                )
+            .EUt(GTValues.VHA[GTValues.UV]);
+
+        event.recipes.gtceu.assembly_line(id('multithreaded_component_synthesis_forge'))
+            .itemInputs('32x gtceu:component_nexus','16x #gtceu:circuits/uiv','8x kubejs:multithread_data_module','6x gtceu:dense_expetidalloy_d_17_plate',
+                '16x gtceu:uev_robot_arm','8x gtceu:uev_conveyor_module','8x gtceu:uev_fluid_regulator','12x kubejs:uev_catalyst_core',
+                '3x kubejs:runic_wave_generator','24x gtceu:cupronickel_coil_block'/*To be the blank threading block, same amount as multi (8or24)*/,'8x kubejs:uev_micropower_router','24x gtceu:nyanium_screw',
+                '64x kubejs:uepic_chip','64x kubejs:uepic_chip','64x kubejs:uepic_chip','64x kubejs:uepic_chip')
+            .inputFluids('gtceu:nyanium 108000','gtceu:dragon_breath 80000','gtceu:poly_34_ethylenedioxythiophene_polystyrene_sulfate 72000','gtceu:indium_tin_lead_cadmium_soldering_alloy 57600')
+            .itemOutputs('gtceu:multithreaded_component_synthesis_forge')
+            .duration(9000)
+            .stationResearch(
+                researchRecipeBuilder => researchRecipeBuilder
+                    .researchStack(Item.of('gtceu:component_nexus'))
+                    .EUt(GTValues.VHA[GTValues.UIV])
+                    .CWUt(192)
+                )
+            .EUt(GTValues.VHA[GTValues.UIV]);
 
     // === Draco-QMDs ===
     const DracoQMD = (nameType,type,quantity,inputs,polymerAmount,cwu) => {
@@ -221,11 +238,142 @@ ServerEvents.recipes(event => {
             .EUt(eut)
             .circuit(1);
 
+        //Multi-Threaded UHV+
+        const MCSF_Components = (type,inputs,fluids,duration,circuit) => {
+        event.recipes.gtceu.multithreaded_component_synthesis_forge(id(`${Tier}_${type}`))
+            .itemInputs(inputs)
+            .inputFluids(fluids)
+            .itemOutputs(`${MCSF_Scaler}x gtceu:${Tier}_${type}`)
+            .duration(MCSF_Scaler * duration / 4)
+            .circuit(circuit)
+            .cleanroom(CleanroomType.getByName('stabilized'))
+            //Will also need to rearch self using Multithread Data Module
+            .EUt(3 * eut);
+        }
+
+        MCSF_Components('electric_motor', [`${MCSF_Scaler * .75}x kubejs:${Tier}_super_magnetic_core`, `${2 * MCSF_Scaler * .75}x gtceu:long_${Primary}_rod`, `${MCSF_Scaler * .75}x kubejs:${Tier}_transmission_assembly`, `${MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeMechanical}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeMechanical}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeMechanical}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeMechanical}_wire`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*288*(2**Scaler)}`, `gtceu:${Lubricant} ${MCSF_Scaler*.75*(500+Scaler*500)}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 0);
+        
+        MCSF_Components('electric_pump', [`${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`, `${MCSF_Scaler * .75}x gtceu:${Material}_normal_fluid_pipe`, `${MCSF_Scaler * .75}x kubejs:${Tier}_microfluidic_flow_valve`, `${MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`, `${8 * MCSF_Scaler * .75}x gtceu:${RubberR}_ring`, `${MCSF_Scaler * .75}x gtceu:${Support}_rotor`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*288*(2**Scaler)}`, `gtceu:${Lubricant} ${MCSF_Scaler*.75*(500+Scaler*500)}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 1);
+        
+        MCSF_Components('conveyor_module', [`${2 * MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`, `${MCSF_Scaler * .75}x kubejs:${Tier}_high_strength_panel`, `${MCSF_Scaler * .75}x kubejs:${Tier}_precision_drive_mechanism`, `${4 * MCSF_Scaler * .75}x gtceu:${Primary}_ring`, `${MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*288*(2**Scaler)}`, `gtceu:${Lubricant} ${MCSF_Scaler*.75*(500+Scaler*500)}`, `gtceu:${RubberF} ${MCSF_Scaler*.75*3456}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 2);
+        
+        MCSF_Components('electric_piston', [`${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`, `${2 * MCSF_Scaler * .75}x kubejs:${Tier}_high_strength_panel`, `${MCSF_Scaler * .75}x kubejs:${Tier}_transmission_assembly`, `${MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`, `${MCSF_Scaler * .75}x gtceu:${Support}_gear`, `${MCSF_Scaler * .75}x gtceu:small_${Primary}_gear`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*288*(2**Scaler)}`, `gtceu:${Lubricant} ${MCSF_Scaler*.75*(500+Scaler*500)}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 3);
+        
+        MCSF_Components('robot_arm', [`${4 * MCSF_Scaler * .75}x gtceu:long_${Primary}_rod`, `${MCSF_Scaler * .75}x kubejs:${Tier}_precision_drive_mechanism`, `${MCSF_Scaler * .75}x kubejs:${Tier}_transmission_assembly`, `${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`, `${MCSF_Scaler * .75}x gtceu:${Tier}_electric_piston`, `${2 * MCSF_Scaler * .75}x kubejs:${Tier}_computational_matrix`, `${2 * MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*864*(2**Scaler)}`, `gtceu:${Lubricant} ${MCSF_Scaler*.75*(500+Scaler*500)}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 4);
+       
+        MCSF_Components('field_generator', [`${MCSF_Scaler * .75}x gtceu:${Primary}_frame`, `${2 * MCSF_Scaler * .75}x kubejs:${Tier}_high_strength_panel`, `${MCSF_Scaler * .75}x kubejs:${Tier}_catalyst_core`, `${2 * MCSF_Scaler * .75}x gtceu:${Tier}_emitter`, `${MCSF_Scaler * .75}x kubejs:${Tier}_computational_matrix`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`, `${2 * MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*864*(2**Scaler)}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 5);
+        
+        MCSF_Components('emitter', [`${MCSF_Scaler * .75}x gtceu:${Primary}_frame`, `${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`, `${4 * MCSF_Scaler * .75}x gtceu:long_${Primary}_rod`, `${MCSF_Scaler * .75}x kubejs:${Tier}_catalyst_core`, `${MCSF_Scaler * .75}x kubejs:${Tier}_computational_matrix`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*288*(2**Scaler)}`, `gtceu:${Lubricant} ${MCSF_Scaler*.75*(500+Scaler*500)}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 6);
+        
+        MCSF_Components('sensor', [`${MCSF_Scaler * .75}x gtceu:${Primary}_frame`, `${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`, `${4 * MCSF_Scaler * .75}x gtceu:${Primary}_plate`, `${MCSF_Scaler * .75}x kubejs:${Tier}_catalyst_core`, `${MCSF_Scaler * .75}x kubejs:${Tier}_computational_matrix`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${16 * MCSF_Scaler * .75}x gtceu:${Material}_foil`, `${MCSF_Scaler * .75}x kubejs:${Tier}_micropower_router`],
+            [`gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*288*(2**Scaler)}`, `gtceu:${Lubricant} ${MCSF_Scaler*.75*(500+Scaler*500)}`, `gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 600, 7);
+
+        //Multi-Threaded UHV+ Parts
+        const MCSF_Component_Parts = (type,inputs,fluids,duration,circuit) => {
+        event.recipes.gtceu.multithreaded_component_synthesis_forge(id(`${Tier}_${type}`))
+            .itemInputs(inputs)
+            .inputFluids(fluids)
+            .itemOutputs(`${MCSF_Scaler}x kubejs:${Tier}_${type}`)
+            .duration(MCSF_Scaler * duration / 4)
+            .circuit(circuit)
+            .cleanroom(CleanroomType.getByName('stabilized'))
+            //Will also need to rearch self using Multithread Data Module
+            .EUt(3 * eut);
+        }
+
+        MCSF_Component_Parts('computational_matrix', [`${MCSF_Scaler * .75}x gtceu:${Primary}_frame`, `${MCSF_Scaler * .75}x #gtceu:circuits/${Tier}`, `${2 * MCSF_Scaler * .75}x #gtceu:circuits/${Tier1}`, `${3 * MCSF_Scaler * .75}x #gtceu:circuits/${Tier2}`, `${4 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeComputational}_wire`, `${MCSF_Scaler * .75 * (2**Scaler)}x kubejs:qram_chip`, `${MCSF_Scaler * .75 * (2**Scaler)}x kubejs:qram_chip`],
+            [`gtceu:sterilized_growth_medium ${MCSF_Scaler*.75*(250+Scaler*250)}`, `gtceu:indium_tin_lead_cadmium_soldering_alloy ${MCSF_Scaler*.75*(72+Scaler*72)}`], 400, 8);
+        
+        MCSF_Component_Parts('transmission_assembly', [`${MCSF_Scaler * .75}x gtceu:${Material}_frame`, `${MCSF_Scaler * .75}x gtceu:${Tier1}_electric_motor`, `${2 * MCSF_Scaler * .75}x gtceu:${Primary}_rod`, `${2 * MCSF_Scaler * .75}x gtceu:${Primary}_ring`, `${4 * MCSF_Scaler * .75}x gtceu:${Primary}_round`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeMechanical}_wire`],
+            [`gtceu:${Lubricant} ${MCSF_Scaler*.75*(250+Scaler*250)}`], 320, 9);
+        
+        MCSF_Component_Parts('precision_drive_mechanism', [`${MCSF_Scaler * .75}x gtceu:${Primary}_frame`, `${MCSF_Scaler * .75}x gtceu:${Tier1}_electric_motor`, `${MCSF_Scaler * .75}x #gtceu:circuits/${Tier1}`, `${MCSF_Scaler * .75}x gtceu:${Support}_gear`, `${MCSF_Scaler * .75}x gtceu:small_${Primary}_gear`, `${8 * MCSF_Scaler * .75}x gtceu:${Primary}_round`],
+            [`gtceu:${Lubricant} ${MCSF_Scaler*.75*(250+Scaler*250)}`, `gtceu:${RubberF} ${MCSF_Scaler*.75*1728}`], 480, 10);
+        
+        MCSF_Component_Parts('microfluidic_flow_valve', [`${MCSF_Scaler * .75}x gtceu:${Tier1}_fluid_regulator`, `${MCSF_Scaler * .75}x gtceu:${Material}_small_fluid_pipe`, `${2 * MCSF_Scaler * .75}x gtceu:${Primary}_plate`, `${4 * MCSF_Scaler * .75}x gtceu:${Primary}_round`, `${4 * MCSF_Scaler * .75}x gtceu:${RubberR}_ring`, `${2 * MCSF_Scaler * .75}x gtceu:${Primary}_ring`],
+            [`gtceu:${Plastic} ${MCSF_Scaler*.75*(396+Scaler*36)}`], 320, 11);
+        
+        MCSF_Component_Parts('super_magnetic_core', [`${MCSF_Scaler * .75}x gtceu:long_magnetic_${PrimaryMagnet}_rod`, `${2 * MCSF_Scaler * .75}x gtceu:magnetic_${SecondaryMagnet}_rod`, `${3 * MCSF_Scaler * .75}x gtceu:${Primary}_rod`, `${12 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeMechanical}_wire`, `${12 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeMechanical}_wire`, `${2 * MCSF_Scaler * .75}x gtceu:${Material}_tiny_fluid_pipe`],
+            [`gtceu:${Coolant} ${MCSF_Scaler*.75*2500}`], 300, 12);
+        
+        MCSF_Component_Parts('catalyst_core', [`${4 * MCSF_Scaler * .75}x gtceu:${Primary}_rod`, `${MCSF_Scaler * .75}x ${GlassType}`, `${MCSF_Scaler * .75 * CatalystType[0]}x ${CatalystType.split(" ")[1]}`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`, `${MCSF_Scaler * .75}x gtceu:${Tier1}_emitter`, `${4 * MCSF_Scaler * .75}x gtceu:${Support}_ring`],
+            [`gtceu:${Fluid} ${MCSF_Scaler*.75*576}`], 480, 13);
+        
+        MCSF_Component_Parts('high_strength_panel', [`${2 * MCSF_Scaler * .75}x gtceu:double_${Primary}_plate`, `${MCSF_Scaler * .75}x #gtceu:circuits/${Tier1}`, `${8 * MCSF_Scaler * .75}x gtceu:${Support}_screw`],
+            [`gtceu:${Material} ${MCSF_Scaler*.75*576}`, `gtceu:${Plastic} ${MCSF_Scaler*.75*(396+Scaler*36)}`], 200, 14);
+    
+        MCSF_Component_Parts('micropower_router', [`${MCSF_Scaler * .75}x gtceu:${CableType}_double_cable`, `${4 * MCSF_Scaler * .75}x gtceu:${CableType}_single_cable`, `${2 * MCSF_Scaler * .75}x gtceu:${Primary}_plate`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeComputational}_wire`, `${16 * MCSF_Scaler * .75}x gtceu:fine_${WireTypeComputational}_wire`],
+            [`gtceu:${RubberF} ${MCSF_Scaler*.75*720}`], 240, 15);
+
     }
 
     materialList('uhv', 'uv', 'zpm', 'zalloy', 'zircalloy_4', 'neutronium', 'styrene_butadiene_rubber', 'perfluoroelastomer_rubber', 'polyether_ether_ketone', 'lubricant', 'iron_selenide_over_strontium_titanium_oxide', 'zirconium', 'zirconium_selenide_diiodide', 'gtceu:fusion_glass', '2x gtceu:gravi_star', 'pure_netherite', 'samarium', 'naquadria', 'thorium_plut_duranide_241', GTValues.VHA[GTValues.UHV], 1, 'liquid_helium', 'ruthenium_trinium_americium_neutronate', 128);
     materialList('uev', 'uhv', 'uv', 'starium_alloy', 'magmada_alloy', 'mythrolic_alloy', 'styrene_butadiene_rubber', 'perfluoroelastomer_rubber', 'polyether_ether_ketone', 'lubricant', 'astatine_bis_tritelluride_cobo_selenium_over_iron_titanium_oxide', 'adamantine', 'astatium_bioselex_carbonite', 'gtceu:fusion_glass', '2x kubejs:helish_star', 'zapolgium', 'pure_netherite', 'isovol', 'aurourium', GTValues.VHA[GTValues.UEV], 2, 'liquid_helium', 'seaborgium_palladium_enriched_estalt_flerovium_alloy', 160);
-    materialList('uiv', 'uev', 'uhv', 'ohmderblux_alloy', 'abyssal_alloy', 'chaotixic_alloy', 'perfluoroelastomer_rubber', 'perfluoroelastomer_rubber', 'poly_34_ethylenedioxythiophene_polystyrene_sulfate', 'tungsten_disulfide', 'polonium_flux', 'xeproda', 'hafnide_ito_ceramic', 'kubejs:draco_resilient_fusion_glass', 'kubejs:dragonic_eye', 'zapolgium', 'pure_netherite', 'calamatium', 'magmada_alloy', GTValues.VHA[GTValues.UIV], 3, 'superstate_helium_3', 'rhenium_super_composite_alloy', 192);
+    materialList('uiv', 'uev', 'uhv', 'ohmderblux_alloy', 'abyssal_alloy', 'chaotixic_alloy', 'perfluoroelastomer_rubber', 'perfluoroelastomer_rubber', 'poly_34_ethylenedioxythiophene_polystyrene_sulfate', 'tungsten_disulfide', 'polonium_flux', 'xeproda', 'hafnide_ito_ceramic', 'kubejs:draco_resilient_fusion_glass', '1x kubejs:dragonic_eye', 'zapolgium', 'pure_netherite', 'calamatium', 'magmada_alloy', GTValues.VHA[GTValues.UIV], 3, 'superstate_helium_3', 'rhenium_super_composite_alloy', 192);
+
+    const preUHVmaterialList = (scale,Tier,Tier1,Tier2,Primary,Secondary,MechanicalWire,Cable,Pipe,SuperConductor,Catalyst,SenMat,SenFoil,Frame,eut) => {
+
+        const MCSF_Components_PreUHV = (type,inputs,fluids,circuit) => {
+            if (Tier == 'uv'){
+            event.recipes.gtceu.multithreaded_component_synthesis_forge(id(`${Tier}_${type}`))
+                .itemInputs(inputs)
+                .inputFluids(fluids)
+                .inputFluids(`gtceu:naquadria ${MCSF_Scaler*.75*576}`)
+                .itemOutputs(`${MCSF_Scaler}x gtceu:${Tier}_${type}`)
+                .duration(MCSF_Scaler * 600 / 4)
+                .circuit(circuit)
+                .cleanroom(CleanroomType.getByName('stabilized'))
+                //Will also need to rearch self using Multithread Data Module
+                .EUt(3 * eut);
+            } else {
+            event.recipes.gtceu.multithreaded_component_synthesis_forge(id(`${Tier}_${type}`))
+                .itemInputs(inputs)
+                .inputFluids(fluids)
+                .itemOutputs(`${MCSF_Scaler}x gtceu:${Tier}_${type}`)
+                .duration(MCSF_Scaler * 600 / 4)
+                .circuit(circuit)
+                .cleanroom(CleanroomType.getByName('stabilized'))
+                //Will also need to rearch self using Multithread Data Module
+                .EUt(3 * eut);    
+            }
+        }
+
+        MCSF_Components_PreUHV('electric_motor',[`${MCSF_Scaler * .75}x gtceu:long_magnetic_samarium_rod`,`${4 * MCSF_Scaler * .75}x gtceu:long_${Primary}_rod`,`${4 * MCSF_Scaler * .75}x gtceu:${Primary}_ring`,`${8 * MCSF_Scaler * .75}x gtceu:${Primary}_round`,`${16 * MCSF_Scaler * .75}x gtceu:fine_${MechanicalWire}_wire`,`${16 * MCSF_Scaler * .75}x gtceu:fine_${MechanicalWire}_wire`,`${16 * MCSF_Scaler * .75}x gtceu:fine_${MechanicalWire}_wire`,`${16 * MCSF_Scaler * .75}x gtceu:fine_${MechanicalWire}_wire`,`${2 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*72*(2**scale)}`,`gtceu:lubricant ${MCSF_Scaler*.75*125*(2**scale)}`],0);
+
+        MCSF_Components_PreUHV('electric_pump',[`${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`,`${MCSF_Scaler * .75}x gtceu:${Pipe}_normal_fluid_pipe`,`${2 * MCSF_Scaler * .75}x gtceu:${Primary}_plate`,`${8 * MCSF_Scaler * .75}x gtceu:${Primary}_screw`,`${MCSF_Scaler * .75 * 2*(scale+1)}x gtceu:silicone_rubber_ring`,`${MCSF_Scaler * .75}x gtceu:${Secondary}_rotor`,`${2 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*72*(2**scale)}`,`gtceu:lubricant ${MCSF_Scaler*.75*125*(2**scale)}`],1);
+
+        MCSF_Components_PreUHV('conveyor_module',[`${2 * MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`,`${2 * MCSF_Scaler * .75}x gtceu:${Primary}_plate`,`${4 * MCSF_Scaler * .75}x gtceu:${Primary}_ring`,`${16 * MCSF_Scaler * .75}x gtceu:${Primary}_round`,`${4 * MCSF_Scaler * .75}x gtceu:${Primary}_screw`,`${2 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*72*(2**scale)}`,`gtceu:lubricant ${MCSF_Scaler*.75*125*(2**scale)}`,`gtceu:styrene_butadiene_rubber ${MCSF_Scaler*.75*scale*1152}`],2);
+
+        MCSF_Components_PreUHV('electric_piston',[`${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`,`${4 * MCSF_Scaler * .75}x gtceu:${Primary}_plate`,`${4 * MCSF_Scaler * .75}x gtceu:${Primary}_ring`,`${16 * MCSF_Scaler * .75}x gtceu:${Primary}_round`,`${4 * MCSF_Scaler * .75}x gtceu:${Primary}_rod`,`${MCSF_Scaler * .75}x gtceu:${Secondary}_gear`,`${2 * MCSF_Scaler * .75}x gtceu:small_${Secondary}_gear`,`${2 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*72*(2**scale)}`,`gtceu:lubricant ${MCSF_Scaler*.75*125*(2**scale)}`],3);
+
+        MCSF_Components_PreUHV('robot_arm',[`${4 * MCSF_Scaler * .75}x gtceu:long_${Primary}_rod`,`${MCSF_Scaler * .75}x gtceu:${Primary}_gear`,`${3 * MCSF_Scaler * .75}x gtceu:small_${Primary}_gear`,`${2 * MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`,`${MCSF_Scaler * .75}x gtceu:${Tier}_electric_piston`,`${MCSF_Scaler * .75}x #gtceu:circuits/${Tier}`,`${2 * MCSF_Scaler * .75}x #gtceu:circuits/${Tier1}`,`${4 * MCSF_Scaler * .75}x #gtceu:circuits/${Tier2}`,`${4 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*576*scale}`,`gtceu:lubricant ${MCSF_Scaler*.75*125*(2**scale)}`],4);
+
+        MCSF_Components_PreUHV('field_generator',[`${MCSF_Scaler * .75}x gtceu:${Frame}_frame`,`${6 * MCSF_Scaler * .75}x gtceu:${Primary}_plate`,`${MCSF_Scaler * .75}x gtceu:${Catalyst}`,`${2 * MCSF_Scaler * .75}x gtceu:${Tier}_emitter`,`${2 * MCSF_Scaler * .75}x #gtceu:circuits/${Tier}`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${16 *  MCSF_Scaler * .75}x gtceu:fine_${SuperConductor}_wire`,`${4 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*576*scale}`],5);
+
+        MCSF_Components_PreUHV('emitter',[`${MCSF_Scaler * .75}x gtceu:${Frame}_frame`,`${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`,`${4 * MCSF_Scaler * .75}x gtceu:long_${SenMat}_rod`,`${MCSF_Scaler * .75}x gtceu:${Catalyst}`,`${2 * MCSF_Scaler * .75}x #gtceu:circuits/${Tier}`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${4 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*144*(2**scale)}`],6);
+
+        MCSF_Components_PreUHV('sensor',[`${MCSF_Scaler * .75}x gtceu:${Frame}_frame`,`${MCSF_Scaler * .75}x gtceu:${Tier}_electric_motor`,`${4 * MCSF_Scaler * .75}x gtceu:${SenMat}_plate`,`${MCSF_Scaler * .75}x gtceu:${Catalyst}`,`${2 * MCSF_Scaler * .75}x #gtceu:circuits/${Tier}`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${16 * MCSF_Scaler * .75}x gtceu:${SenFoil}_foil`,`${4 * MCSF_Scaler * .75}x gtceu:${Cable}_single_cable`],
+            [`gtceu:soldering_alloy ${MCSF_Scaler*.75*144*(2**scale)}`],7);
+
+    }
+
+    preUHVmaterialList(1,'luv','iv','ev','hsss','hsss','ruridit','niobium_titanium','niobium_titanium','indium_tin_barium_titanium_cuprate','quantum_star','ruridit','palladium','hsss',6000);
+    preUHVmaterialList(2,'zpm','luv','iv','osmiridium','osmiridium','europium','vanadium_gallium','polybenzimidazole','uranium_rhodium_dinaquadide','quantum_star','osmiridium','trinium','naquadah_alloy',24000);
+    preUHVmaterialList(3,'uv','zpm','luv','tritanium','naquadah_alloy','americium','yttrium_barium_cuprate','naquadah','enriched_naquadah_trinium_europium_duranide','gravi_star','tritanium','naquadria','tritanium',100000);
 
 });
 

@@ -7,7 +7,6 @@ ServerEvents.tags('item', event => {
     event.add('gtceu:circuits/uhv', 'kubejs:draconic_wetware_processor_assembly');
     event.add('gtceu:circuits/uev', 'kubejs:draconic_wetware_processor_computer');
     event.add('gtceu:circuits/uiv', 'kubejs:draconic_wetware_processor_mainframe');
-    event.add('gtceu:circuits/uev', 'kubejs:wetware_based_runic_neuroloom');
     event.add('gtceu:circuits/uev', 'kubejs:awakened_draconic_wetware_processor_assembly');
     event.add('gtceu:circuits/uiv', 'kubejs:awakened_draconic_wetware_processor_computer');
     event.add('gtceu:circuits/uxv', 'kubejs:awakened_draconic_wetware_processor_mainframe');

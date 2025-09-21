@@ -26,7 +26,7 @@
 			description: [
 				"Red screens flash and alarms are going off. Everyone in the room is evacuating. The experiment is a failure. There is little time before this building will explode. But you notice something... the gate ... is opening! You stare in awe and think: \"Yes! My theories were right and I figured out what was the problem!\". You don't notice the others calling out to you to run. But it was too late. A failure is still a failure and the gate engulfs everything in the room."
 				""
-				"You wake up stranded on a floating island in an alternate dimension. The only things you have is a tree and some dirt around it. But you are not discouraged. As the world's greatest scientist you can use these materials to develop technology at faster rate than anyone. You can try once again interdimensional travel. For that you will have to make from almost nothing everything, to develop up to draconic and even star technology. You &oWILL&r succed. You &oWILL&r return home."
+				"You wake up stranded on a floating island in an alternate dimension. The only things you have is a tree and some dirt around it. But you are not discouraged. As the world's greatest scientist you can use these materials to develop technology at faster rate than anyone. You can try once again interdimensional travel. For that you will have to make from almost nothing everything, to develop up to draconic and even star technology. You &oWILL&r succeed. You &oWILL&r return home."
 				""
 				"  &lWelcome to Star Technology.&r"
 			]
@@ -43,7 +43,7 @@
 		}
 		{
 			description: [
-				"&cALPHA 1&r (Initial Release): Gameplay is in a working state. Theoreticaly it should be able to reach UHV. Done an initial gregification of some mods. No end game content yet."
+				"&cALPHA 1&r (Initial Release): Gameplay is in a working state. Theoretically it should be able to reach UHV. Done an initial gregification of some mods. No end game content yet."
 				"&cALPHA 1 HOTFIX 1&r: fixed nickel being gated behind LV"
 				"&cALPHA 1 HOTFIX 2&r: Updated some mods and added red alloy dust recipe"
 				"{@pagebreak}"
@@ -56,9 +56,9 @@
 				"&cBeta 1:&r Added the following mods: Travel Anchors, Functional Storage, Item Collectors, Carry On. Made dynamos, arc upgrade, mic upgrade and components cheaper.  Buffed the Tree Greenhouse. Slightly nerfed the Extreme Reactors recipes."
 				"&9Stargate 1 content&r: Added 6 new multiblocks. Added recipes related to the first stargate. Added appropriate quests."
 				"{@pagebreak}"
-				"&cBeta 2&r: Updated Forge version. Added the following mods: Architect's Pallete, 'Dustrial Decor, Simple Discord RPC. Fixed Electrico-Kinetic Ore Factory. Fixed some langs. Added quests chapter Quality of Life."
+				"&cBeta 2&r: Updated Forge version. Added the following mods: Architect's Palette, 'Dustrial Decor, Simple Discord RPC. Fixed Electrico-Kinetic Ore Factory. Fixed some langs. Added quests chapter Quality of Life."
 				"&cBeta 2 HOTFIX 1:&r Removed Simple Discord RPC. Fixed soul infused ingots. Made slight modifications to Quality of Life Chapter. Buffed dynamo energy generation. Made dynamo upgrades even cheaper. Added a new panorama."
-				"&cBeta 2 HOTFIX 2:&r Readded vanadium magneite to sieving"
+				"&cBeta 2 HOTFIX 2:&r Re-added vanadium magneite to sieving"
 				"{@pagebreak}"
 				"&cBeta 3:&r Fixed some typos in quests. Added new quests. Tweaked the color of some casings. Tweaked lumium color. Fixed soul infused ingots recipe in Primitive Alloy Smelter. Added alloy smelter recipe for soul infused ingots. Fixed lithium perchlorate recipe. Fixed saltpeter essence burning in cryptand recipe. Fixed not being able to place blocks in Kinetic Ore Factory's area. Limited colossal chests to 5x5x5. Made nether/end agglomeratio recipes take less time. Fixed Electrico-Kinetic Ore Factory infaltion issue. removed shapeless recipe for bronze and brass. Added magnetite to sieving and ore factories. Increased duration of slime spores production in Large barrel. Modified dynamo upgrades. Added new multiblock Large Stone Barrel for lava, obsidian and pebble production. Fixed netherite sieve upgrade taking HV circuits instead of IV circuits. Added crushed diamond and emerald ore to sieving. Modified create goggle recipes."
 				"Added the following mods: Jet Boots, Pipez, Create New Age, Ender Chests, Ender Tanks, Iris and Oculus Flywheel Compat, NuclearCraft: Neoteric, Daily Dad, Forgiving Void, CraftPresence, Embeddium++."
@@ -120,7 +120,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarely enable them before claiming this quest."]
+			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
 			icon: "ae2:controller"
 			id: "01D554315C80E32A"
 			optional: true
@@ -141,7 +141,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarely enable them before claiming this quest."]
+			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
 			icon: "ae2:controller"
 			id: "1D223731850769CF"
 			optional: true
@@ -162,7 +162,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarely enable them before claiming this quest."]
+			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
 			icon: "ae2:controller"
 			id: "650968485BE86ECC"
 			optional: true
@@ -183,7 +183,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarely enable them before claiming this quest."]
+			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
 			icon: "ae2:controller"
 			id: "2EE5068AEA2B2F0C"
 			optional: true
@@ -204,7 +204,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarely enable them before claiming this quest."]
+			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
 			icon: "ae2:controller"
 			id: "3CCF44ACC8A78039"
 			optional: true

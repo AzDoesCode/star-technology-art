@@ -37,7 +37,7 @@
 				"1B32FFCDA1C87B90"
 			]
 			description: [
-				"The Stirling dynamo is a furnace that generates power. "
+				"The Stirling dynamo is a furnace that generates power."
 				""
 				"It consumes furnace fuels, and gives power in exchange. Although it is not a strong source of energy, it is an easy and relatively cheap generator, making it a popular choice for people who want to quickly get some power for LV."
 			]
@@ -933,7 +933,7 @@
 		}
 		{
 			dependencies: ["51639FA6915BC51A"]
-			description: ["The first of many energy cores. The later tiers of these take a while to make, so it is adviced you plan your production of them if you are gonna rely on solar for power."]
+			description: ["The first of many energy cores. The later tiers of these take a while to make, so it is advised you plan your production of them if you are gonna rely on solar for power."]
 			id: "3DB836585182F614"
 			tasks: [{
 				id: "5AFD383C58F00AFC"
@@ -1561,7 +1561,7 @@
 		{
 			dependencies: ["6BE70F5B5287034B"]
 			description: [
-				"The controller, although not necessary for your flux network to operate, allows you to use wireless charging. "
+				"The controller, although not necessary for your flux network to operate, allows you to use wireless charging."
 				""
 				"No longer will you fall out of the sky because of empty jetboots, or lose access to ae2 because your terminal ran out of power."
 			]
@@ -1624,7 +1624,7 @@
 		}
 		{
 			dependencies: ["0E5CA4D9E70B6765"]
-			description: ["A medium sized amount of storage, perfect for storing energy untill you get access to the substation."]
+			description: ["A medium sized amount of storage, perfect for storing energy until you get access to the substation."]
 			id: "25E66BD9F536A3F2"
 			tasks: [{
 				id: "5ADC12CE566588F7"
@@ -1932,7 +1932,7 @@
 		}
 		{
 			dependencies: ["16E96E304325E38C"]
-			description: ["Early power tranfer over long distances but can be limited."]
+			description: ["Early power transfer over long distances but can be limited."]
 			id: "45D1535F842964DA"
 			tasks: [
 				{
@@ -2063,12 +2063,12 @@
 				"5B72F7526494EAEC"
 			]
 			description: [
-				"This is the final capacitator container."
+				"This is the final capacitor container."
 				""
-				"It can be used for the UV and UHV capacitators, which includes the Ultimate Capacitator."
+				"It can be used for the UV and UHV capacitors, which includes the Ultimate Capacitor."
 			]
 			id: "178F411F38970DAB"
-			subtitle: "The third and final tier of capacitator containers"
+			subtitle: "The third and final tier of capacitor containers"
 			tasks: [{
 				id: "53D65FFA68E3620D"
 				item: "gtceu:empty_tier_iii_battery"
@@ -2082,9 +2082,9 @@
 				"138E77CDBA50A619"
 				"5B72F7526494EAEC"
 			]
-			description: ["This one can be used for crafting the LuV and ZPM capacitators."]
+			description: ["This one can be used to craft LuV and ZPM capacitors."]
 			id: "2CBF80C9C2CEE2AD"
-			subtitle: "The second tier of capacitator containers"
+			subtitle: "The second tier of capacitor containers"
 			tasks: [{
 				id: "14D896841610C86E"
 				item: "gtceu:empty_tier_ii_battery"
@@ -2096,12 +2096,12 @@
 		{
 			dependencies: ["5B72F7526494EAEC"]
 			description: [
-				"This is the first of the three capacitator containers or hulls. "
+				"The first of three capacitor containers or hulls."
 				""
-				"This one is used for EV and IV capacitators."
+				"This one is used for EV and IV capacitors."
 			]
 			id: "2018D0A87008C089"
-			subtitle: "The first tier of capacitator containers"
+			subtitle: "The first tier of capacitor containers"
 			tasks: [{
 				id: "0CEF754E3143F0D5"
 				item: "gtceu:empty_tier_i_battery"
@@ -2279,7 +2279,7 @@
 			id: "611614FF7006D32B"
 			tasks: [{
 				id: "3546E07C5D849D76"
-				title: "Dont Worry About It"
+				title: "Don't Worry About It"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -2491,9 +2491,9 @@
 			description: [
 				"The Supreme Plasma Turbine is a beast of a machine, capable of generating insane amounts of power."
 				""
-				"With the main focus of the SPT being reducing the spam of plasma turbines, in exchange for the insane amounts of power it eats through an equally insane amount of plasma. "
+				"The main focus of the SPT is reducing the spam of plasma turbines. In exchange for the insane amounts of power produced, it eats through an equally insane amount of plasma."
 				""
-				"The SPT is most definitly worth it, especially if you apply coolant boosting."
+				"The SPT is most definitely worth it, especially if you apply coolant boosting."
 				""
 				"&4Note:&7If the Machine has issues forming, break and re-place the controller"
 			]

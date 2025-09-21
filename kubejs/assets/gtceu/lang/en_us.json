@@ -25,13 +25,13 @@
     "block.gtceu.large_rotor_machine.tooltip.0": "§7A machine that can fold together rods using large amounts of rotational force, condensing layers on top of layers to create some incredibly resilient materials.",
     "block.gtceu.large_rotor_machine.tooltip.1": "Can use §3Parallel§r hatches",
 
-    "block.gtceu.large_quantum_compressor.tooltip.0": "§7This multi can compress large amounts of matter into infusions and colapse gravi-stars into a singularities via said infusions.",
+    "block.gtceu.large_quantum_compressor.tooltip.0": "§7This multi can compress large amounts of matter into infusions and collapse gravi-stars into a singularities via said infusions.",
     "block.gtceu.large_quantum_compressor.tooltip.1": "Can use §3Parallel§r hatches",
 
     "block.gtceu.runic_circuitry_assembling_station.tooltip.0": "§7An apparatus crossing the boundaries between technology and magic, that can inscribe dense plates with pure singularities to write runes containing mystical powers.",
     "block.gtceu.runic_circuitry_assembling_station.tooltip.1": "Can use §3Parallel§r hatches",
 
-    "block.gtceu.runic_inscribe_manipulate.tooltip.0": "§7A more advanced Runic Inscriber, that can layer runes on top of eachother to fuse their powers, or assemble them into a structured block form, so they can exert power over the material world.",
+    "block.gtceu.runic_inscribe_manipulate.tooltip.0": "§7A more advanced Runic Inscriber, that can layer runes on top of each other to fuse their powers, or assemble them into a structured block form so they can exert power over the material world.",
     "block.gtceu.runic_inscribe_manipulate.tooltip.1": "Has §6Perfect Overclock",
 
     "block.gtceu.stargate_component_assembly.tooltip.0": "§7A giant structure designed with the ability to create extremely strong blocks inscribed with ancient runes that hold the power to slip between the cracks in space.",
@@ -94,7 +94,7 @@
 
     "block.gtceu.rock_filtrator.tooltip.0": "§7A multiblock that can sieve through gravel and sand more precisely than a basic sieve could ever achieve, uncovering the gems hidden inside.",
     "block.gtceu.rock_filtrator.tooltip.1": "Can only have §bone§r Energy Hatch",
-    "block.gtceu.rock_filtrator.tooltip.2": "§7You are gonna need multiple Output Busses",
+    "block.gtceu.rock_filtrator.tooltip.2": "§7You are gonna need multiple Output Buses",
 
     "block.gtceu.rock_sifter.tooltip.0": "§7A more powerful version of the Rock Filtrator, that can sieve materials at an astonishing speed.",
     "block.gtceu.rock_sifter.tooltip.1": "Can use §3Parallel§r hatches",
@@ -910,7 +910,7 @@
     "block.gtceu.draco_infusion.tooltip.1": "§7A mystic convergence of abyssal energies, channeling primal draconic forces to awaken and enhance matter at a fundamental level. It transforms the ordinary into the extraordinary through ritualistic infusion with a catalyst.",
     "block.gtceu.draco_infusion.tooltip.2": "§8-----------------------------------",
     "block.gtceu.draco_infusion.tooltip.3": "§6Ritual Placement:",
-    "block.gtceu.draco_infusion.tooltip.4": "§7The items must be correctly placed as shown in the recipe in the input busses of the Draconic Infusion Array from the perspective of the player facing the controller.",
+    "block.gtceu.draco_infusion.tooltip.4": "§7The items must be correctly placed as shown in the recipe in the input buses of the Draconic Infusion Array from the perspective of the player facing the controller.",
     "block.gtceu.draco_infusion.tooltip.5": "§8-----------------------------------",
 
     "block.gtceu.mega_abs": "Hellfire Alloy Materializer",
@@ -966,7 +966,7 @@
     
     "block.gtceu.steam_kiln": "Steam Kiln",
     "gtceu.steam_kiln": "Steam Kiln",
-    "block.gtceu.steam_kiln.tooltip.0": "§7A Kiln with busses and steam parallels.",
+    "block.gtceu.steam_kiln.tooltip.0": "§7A Kiln with buses and steam parallels.",
 
     "block.gtceu.rugged_alloyer": "Rugged Alloyer",
     "gtceu.rugged_alloyer": "Rugged Alloyer",

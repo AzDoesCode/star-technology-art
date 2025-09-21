@@ -1222,11 +1222,6 @@
 			id: "18A35D008CA73084"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "49EF150063D65456"
-				item: "kubejs:coin"
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "1B20B3B25785E3AF"

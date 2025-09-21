@@ -423,13 +423,13 @@
 				"0055CE82469F239C"
 			]
 			description: [
-				"The Power Substation is the end game power storage. You might not need it in LuV, but later on you &lwill&r need this. "
+				"The Power Substation is the endgame power storage. You might not need it in LuV, but later on you &lwill&r need this."
 				""
-				"The structure itself does not store power, but the capacitator blocks you can place into the station can give it storage capability."
+				"The structure itself does not store power, but the capacitor blocks you can place into the station can give it storage capability."
 				""
-				"Because of this you can keep upgrading the substation whilst you progress through the pack, up until UHV."
+				"Because of this, you can keep upgrading the substation as you progress through the pack, up until UHV."
 				""
-				"When you reach UHV, you can craft the Ultimate Capacitator, which can store a *small* amount of power."
+				"When you reach UHV, you can craft the Ultimate Capacitor, which can store a *small* amount of power."
 			]
 			id: "5B72F7526494EAEC"
 			rewards: [{
@@ -900,7 +900,7 @@
 		}
 		{
 			dependencies: ["4E546CE15A52D7DD"]
-			description: ["A stronger fiber-based circuit board, made by layering multiple normal ones over eachother."]
+			description: ["A stronger fiber-based circuit board, made by layering multiple normal ones over each other."]
 			hide_dependency_lines: true
 			id: "51C60C25C3C9C770"
 			rewards: [{
@@ -1333,7 +1333,7 @@
 		}
 		{
 			dependencies: ["3FC351F05F2AC743"]
-			description: ["This beautifull machine allows you to compress entire processing lines into one machine."]
+			description: ["This beautiful machine allows you to compress entire processing lines into one machine."]
 			id: "3E1CA9FFB9953F42"
 			rewards: [{
 				count: 2
@@ -1670,11 +1670,6 @@
 			id: "6DD3126E3C45D1E7"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "070200CB8FD600EB"
-				item: "kubejs:coin"
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "5FE3039DA31A92F4"

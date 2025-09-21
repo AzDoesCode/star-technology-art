@@ -470,7 +470,7 @@
 				"063AF9790DA7ABE0"
 			]
 			description: [
-				"Your first superconductor! "
+				"Your first superconductor!"
 				""
 				"Superconductors are lossless, meaning they won't lose power the farther they go. Always use them, when possible."
 			]
@@ -831,7 +831,7 @@
 		{
 			dependencies: ["03ACC7D2577A2C66"]
 			description: [
-				"Barrel transformations from Ex Nihilo have been disabled, and replaced with this beautiful machine! "
+				"Barrel transformations from Ex Nihilo have been disabled, and replaced with this beautiful machine!"
 				""
 				"It can soak, compost, and transform."
 				""
@@ -860,7 +860,7 @@
 				"143BB2B07A083CC0"
 			]
 			description: [
-				"It's your very first multiblock! "
+				"It's your very first multiblock!"
 				""
 				"This bad boy will make you steel, albeit slowly. It isn't possible to automate sadly, but there is a better version on the horizon."
 			]
@@ -1716,7 +1716,7 @@
 				"6C7DB1CB4517B843"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Nickel is a base material used in quite a few alloys. Getting a good amount early on will definitly be beneficial."]
+			description: ["Nickel is a base material used in quite a few alloys. Getting a good amount early on will definitely be beneficial."]
 			id: "0E47ACCDF46E6B1F"
 			rewards: [{
 				id: "0128ACB6E0B8F0AE"
@@ -1956,9 +1956,9 @@
 				"1289465781707205"
 			]
 			description: [
-				"While not required for progression, you'll no longer have to mix and &nTHEN&r smelt. Now it'll be in 1 step."
+				"While not required for progression, you'll no longer have to mix and &nTHEN&r smelt. Now it'll be a single step."
 				""
-				"If you are using steam machines, make sure to check EMI/JEI to see what other you could make use of. They can be quite handy if you dont have &7LV&r machines yet."
+				"If you are using steam machines, make sure to check EMI/JEI to see what other you could make use of. They can be quite handy if you don't have &7LV&r machines yet."
 			]
 			hide_dependent_lines: true
 			id: "483B101A7F71E674"
@@ -2243,7 +2243,7 @@
 				"143BB2B07A083CC0"
 				"3AC92138809F3783"
 			]
-			description: ["A campfire on steriods for you early &nGlass&r and &nWrought Iron&r needs."]
+			description: ["A campfire on steroids for you early &nGlass&r and &nWrought Iron&r needs."]
 			id: "33A6D849B77F93CC"
 			optional: true
 			rewards: [{

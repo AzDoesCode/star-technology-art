@@ -30,35 +30,35 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build())
         .workableCasingRenderer('kubejs:block/casings/naquadah/casing','gtceu:block/multiblock/generator/large_plasma_turbine',false);
 
-    // event.create('nyinsane_plasma_turbine', 'multiblock')
-    //     .rotationState(RotationState.NON_Y_AXIS)
-    //     .recipeType('plasma_generator')
-    //     .generator(true)
-    //     .machine((holder) => new $BoostedPlasmaTurbine(holder, GTValues.UIV))
-    //     .regressWhenWaiting(false)
-    //     .recipeModifiers([$StarTRecipeModifiers.LARGE_TURBINE,$StarTRecipeModifiers.BOOSTED_PLASMA_TURBINE])
-    //     .appearanceBlock(() => Block.getBlock('kubejs:enriched_naquadah_machine_casing'))
-    //     .pattern((definition) => FactoryBlockPattern.start()
-    //         .aisle('         ', 'FCC      ', 'FFCHH  CC', 'FCC      ', '         ')
-    //         .aisle('FCC      ', '  FECCXX ', '  FECEEF ', '  FECCXX ', 'FCC      ')
-    //         .aisle('FFCHH  CC', '  FECEEF ', '  RGGGGL ', '  FECEEF ', 'FFCHH  CC')
-    //         .aisle('FCC      ', '  FECCXX ', '  FECEEF ', '  FECCXX ', 'FCC      ')
-    //         .aisle('         ', 'FCC      ', 'FFCH@  CC', 'FCC      ', '         ')
-    //         .where('@', Predicates.controller(Predicates.blocks(definition.get())))
-    //         .where('H', Predicates.blocks('kubejs:enriched_naquadah_machine_casing') //Nyanium Variant
-    //             .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
-    //             .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setPreviewCount(1))
-    //             .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setPreviewCount(1)))
-    //         .where('F', Predicates.blocks('gtceu:void_frame')) //tbd
-    //         .where('C', Predicates.blocks('kubejs:enriched_naquadah_machine_casing')) //Nyanium Variant
-    //         .where('E', Predicates.blocks('start_core:enriched_naquadah_engine_intake_casing')) //Nyanium Variant
-    //         .where('X', Predicates.blocks('start_core:enriched_naquadah_firebox_casing')) //Nyanium Variant
-    //         .where('G', Predicates.blocks('kubejs:enriched_naquadah_gearbox')) //Nyanium Variant
-    //         .where('L', Predicates.abilities(PartAbility.OUTPUT_LASER))
-    //         .where('R', Predicates.abilities(PartAbility.ROTOR_HOLDER))
-    //         .where(' ', Predicates.any())
-    //         .build())
-    //     .workableCasingRenderer('kubejs:block/casings/naquadah/casing', //Nyanium Variant
-    // 'gtceu:block/multiblock/generator/large_plasma_turbine',false);
+    event.create('nyinsane_plasma_turbine', 'multiblock')
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeType('plasma_generator')
+        .generator(true)
+        .machine((holder) => new $BoostedPlasmaTurbine(holder, GTValues.UIV))
+        .regressWhenWaiting(false)
+        .recipeModifiers([$StarTRecipeModifiers.LARGE_TURBINE,$StarTRecipeModifiers.BOOSTED_PLASMA_TURBINE])
+        .appearanceBlock(() => Block.getBlock('kubejs:nyanium_machine_casing'))
+        .pattern((definition) => FactoryBlockPattern.start()
+            .aisle('         ', 'FCC      ', 'FFCHH  CC', 'FCC      ', '         ')
+            .aisle('FCC      ', '  FECCXX ', '  FECEEF ', '  FECCXX ', 'FCC      ')
+            .aisle('FFCHH  CC', '  FECEEF ', '  RGGGGL ', '  FECEEF ', 'FFCHH  CC')
+            .aisle('FCC      ', '  FECCXX ', '  FECEEF ', '  FECCXX ', 'FCC      ')
+            .aisle('         ', 'FCC      ', 'FFCH@  CC', 'FCC      ', '         ')
+            .where('@', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('H', Predicates.blocks('kubejs:nyanium_machine_casing')
+                .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+                .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setPreviewCount(1))
+                .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setPreviewCount(1)))
+            .where('F', Predicates.blocks('gtceu:draconyallium_frame'))
+            .where('C', Predicates.blocks('kubejs:nyanium_machine_casing'))
+            .where('E', Predicates.blocks('gtceu:engine_intake_casing')) //Nyanium Variant needed
+            .where('X', Predicates.blocks('gtceu:titanium_firebox_casing')) //Nyanium Variant needed
+            .where('G', Predicates.blocks('kubejs:nyanium_gearbox'))
+            .where('L', Predicates.abilities(PartAbility.OUTPUT_LASER))
+            .where('R', Predicates.abilities(PartAbility.ROTOR_HOLDER))
+            .where(' ', Predicates.any())
+            .build())
+        .workableCasingRenderer('kubejs:block/casings/nyanium/casing',
+        'gtceu:block/multiblock/generator/large_plasma_turbine',false);
 
 });

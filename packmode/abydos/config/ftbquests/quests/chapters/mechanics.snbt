@@ -11,7 +11,7 @@
 		{
 			dependencies: ["26E81A8B2EB80A6C"]
 			description: [
-				"Building your first multiblock may seem daunting, but dont fret as theres an easy guide for any multiblock through EMI!"
+				"Building your first multiblock may seem daunting, but don't fret as there's an easy guide for any multiblock through EMI!"
 				""
 				"By looking at the uses on a multiblock controller in EMI, you will be shown everyblock needed with the amount alongside a physical display that you can look at layer by layer to help you build it."
 				""
@@ -30,7 +30,7 @@
 		{
 			dependencies: ["26E81A8B2EB80A6C"]
 			description: [
-				"If you are running low on resources but want to speed up production, you can use one side of an already exsisting multiblock and build a second one off of it!"
+				"If you are running low on resources but want to speed up production, you can use one side of an already existing multiblock and build a second one off of it!"
 				""
 				"You can share almost any blocks in a multiblock as well like coils, and input and output bus/hatches. The item will say if its not allowed to be shared."
 			]
@@ -47,9 +47,9 @@
 		{
 			dependencies: ["7E74A114F4054345"]
 			description: [
-				"Worried your multiblock extruder is going to use the wrong cast? Well theres a feature to stop that!"
+				"Worried your multiblock extruder is going to use the wrong cast? Well there's a feature to stop that!"
 				""
-				"If you enable distinct buses on every input bus on a multiblock then it will seperate the ingredients that's stored in each one."
+				"If you enable distinct buses on every input bus on a multiblock then it will separate the ingredients that's stored in each one."
 				"This means that if you insert a material into the bus with a certain cast, it can only ever use that cast and never any in other buses."
 			]
 			icon: "gtceu:mv_input_bus"
@@ -169,7 +169,7 @@
 		{
 			dependencies: ["14A9381889183318"]
 			description: [
-				"Throughout progression, you may want to check back at older circuit tiers to see if you have gained access to a more efficent recipe."
+				"Throughout progression, you may want to check back at older circuit tiers to see if you have gained access to a more efficient recipe."
 				""
 				"This could be upgrading from basic components to SMD components or advanced SMD components, or gaining access to a new wafer type that can change the entire recipe."
 				""
@@ -187,10 +187,10 @@
 		}
 		{
 			description: [
-				"EMI/JEI has its own intergration into GregTech that allows the user to more easily figure out recipes like,"
+				"EMI/JEI has its own integration into GregTech that allows the user to more easily figure out recipes like,"
 				""
 				"&5-&r The minimum voltage tier of the recipe being on the bottom right"
-				"&5-&r Allowing you to see the speed of the recipe at each voltage tier "
+				"&5-&r Allowing you to see the speed of the recipe at each voltage tier"
 				"&5-&r Showing the speeds for Perfect Overclocking"
 				"&5-&r Having a preview of every multiblock in the pack"
 			]
@@ -250,7 +250,7 @@
 				""
 				"Parallel Hatches work by consuming the maximum amperage of a tier and using that as a determinate for how many recipes it can run at once (given your parallel hatch is big enough)."
 				""
-				"Now a common misconception is that putting 2 4a or 2 16a hatches to get 8a and 32a respectively will do anything. It wont. All that does is give machines larger buffer, &4&lNOT&r greater ability."
+				"Now a common misconception is that putting 2 4a or 2 16a hatches to get 8a and 32a respectively will do anything. It won't. All that does is give machines larger buffer, &4&lNOT&r greater ability."
 				""
 				"&oMore on the &nNext Page"
 				"{@pagebreak}"

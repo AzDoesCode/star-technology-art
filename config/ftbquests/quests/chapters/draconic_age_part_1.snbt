@@ -26,8 +26,8 @@
 		{
 			id: "52EF57467B80EB54"
 			linked_quest: "75C33909E2CD5EC0"
-			x: 1.0d
-			y: -5.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			id: "6EBA3C9601A8DDCC"
@@ -984,7 +984,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["06EC98F6E6AFC2AF"]
@@ -1002,7 +1002,7 @@
 				item: "kubejs:draco_wafer"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -1019,7 +1019,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1039,8 +1039,8 @@
 				item: "start_core:sterile_cleaning_maintenance_hatch"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -6.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -1134,8 +1134,8 @@
 				optional_task: true
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3AE729D3F47E9A2B"]
@@ -1256,7 +1256,7 @@
 				item: "gtceu:mega_abs"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: -6.0d
 		}
 		{
@@ -1657,7 +1657,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -2056,6 +2056,54 @@
 			}]
 			x: -1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5944C4DE27F98FF3"
+				"378FF6C9198001A4"
+			]
+			description: [
+				"stuff"
+				"things"
+				"non-tooltip information"
+				""
+				""
+				""
+				"Expetidally D-17 is great for high durability Turbines"
+			]
+			id: "4A13D4F1B22DBCAF"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6A05D7EFE5CC5E6D"
+				item: "gtceu:multithreaded_component_synthesis_forge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5944C4DE27F98FF3"]
+			hide_dependent_lines: true
+			id: "378FF6C9198001A4"
+			tasks: [{
+				id: "58E407F43C0C612D"
+				item: "gtceu:uhv_stabilization_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C9396E2587051F7"]
+			id: "375EE076393D2858"
+			tasks: [{
+				id: "0D23931ACF5170E1"
+				item: "kubejs:multithread_data_module"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
 		}
 	]
 	title: "{ftbquests.chapter.draconic_age_part_1.title}"

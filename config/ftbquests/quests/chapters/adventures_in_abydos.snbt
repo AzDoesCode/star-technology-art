@@ -18,8 +18,8 @@
 		{
 			id: "220DBF269EDBAC7A"
 			linked_quest: "22B85F7F13C66730"
-			x: -2.5d
-			y: 3.0d
+			x: -5.5d
+			y: 4.0d
 		}
 	]
 	quests: [
@@ -322,6 +322,7 @@
 				"64EA75A8EC94CEEF"
 				"4DD3C38FCD8D704D"
 			]
+			hide_dependent_lines: true
 			id: "4487EDBDEEA92303"
 			rewards: [{
 				id: "0DD3A87454B89D7D"
@@ -431,7 +432,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["07AD6651D0B40E22"]
@@ -2155,6 +2156,7 @@
 		{
 			dependencies: ["0508AE03C730BE6C"]
 			id: "5022ABEA367576E7"
+			shape: "circle"
 			tasks: [
 				{
 					id: "507020635FBF83C5"
@@ -2197,6 +2199,34 @@
 			}]
 			x: -6.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"25583D0BF59E1BC8"
+				"6CB6343BFD09B5C0"
+				"07AD6651D0B40E22"
+			]
+			id: "5DF4501BD2593465"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "19FB82BBC41F8724"
+				item: "gtceu:component_nexus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4487EDBDEEA92303"]
+			id: "6CB6343BFD09B5C0"
+			tasks: [{
+				id: "4E67D31B875E1C4F"
+				item: "gtceu:uhv_stabilization_module"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
 		}
 	]
 	title: "{ftbquests.chapter.adventures_in_abydos.title}"

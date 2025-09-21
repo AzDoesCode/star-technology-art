@@ -489,7 +489,7 @@
 				"10D78E10735CD210"
 				"7FFCAD92772A175F"
 			]
-			description: ["A colorfull multiblock that can inscribe ancient runes upon dense and strong materials."]
+			description: ["A colorful multiblock that can inscribe ancient runes upon dense and strong materials."]
 			hide_dependency_lines: false
 			id: "6D169C5E35C9EF6C"
 			rewards: [{
@@ -1222,11 +1222,6 @@
 			id: "18A35D008CA73084"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "49EF150063D65456"
-				item: "kubejs:coin"
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "1B20B3B25785E3AF"

@@ -1670,11 +1670,6 @@
 			id: "6DD3126E3C45D1E7"
 			invisible: true
 			optional: true
-			rewards: [{
-				id: "070200CB8FD600EB"
-				item: "kubejs:coin"
-				type: "item"
-			}]
 			size: 1.0d
 			tasks: [{
 				id: "5FE3039DA31A92F4"

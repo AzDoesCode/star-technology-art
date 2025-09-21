@@ -1670,7 +1670,7 @@
 				"6D9D31BEE724E7F2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Both Lithium Persulfate Dust and Sodium Persulfate Dust can be additionally required by using the opposing liquid allowing you to recycle the catalyst infinately as long as the respective Lithium/Sodium is available."]
+			description: ["Both Lithium Persulfate Dust and Sodium Persulfate Dust can be additionally required by using the opposing liquid allowing you to recycle the catalyst infinitely as long as the respective Lithium/Sodium is available."]
 			id: "31FE488A7302A0D2"
 			tasks: [{
 				id: "39AAE923E4183A6D"

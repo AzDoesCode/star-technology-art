@@ -373,8 +373,8 @@
 				""
 				"&3Configurable Maintenance Hatch&r: Make your machines faster at the sake of risking more maintenance issues, or make them slower to reduce the chance."
 				""
-				"&4&lSpecial Notes&r: "
-				"Maintenance hatches will always check if they incure maintenance which can take a toll on your game's performance at scale. Auto Maintenance Fixes this concern."
+				"&4&lSpecial Notes&r:"
+				"Maintenance hatches will always check if they incur maintenance which can take a toll on your game's performance at scale. Auto Maintenance Fixes this concern."
 				""
 				"Alternatively the Configurable Maintenance can range from .9x time to 1.1x time. Meaning you can either add/subtract 10% from a recipe time. Reducing long recipe times is very nice. Increasing Generator uptime is also very nice."
 			]
@@ -397,7 +397,7 @@
 					type: "item"
 				}
 			]
-			title: "Maintanence Hatch Variants"
+			title: "Maintenance Hatch Variants"
 			x: -10.5d
 			y: -6.0d
 		}
@@ -481,7 +481,7 @@
 		}
 		{
 			dependencies: ["1B697A89954BA5FE"]
-			description: ["The first upgrade to every circuit component. Is more resource efficent and gives more per craft."]
+			description: ["The first upgrade to every circuit component. Is more resource efficient and gives more per craft."]
 			id: "55D8D982524DA85E"
 			rewards: [{
 				id: "596F793272FE0A6A"
@@ -957,7 +957,7 @@
 			description: [
 				"A very tall multiblock that allows you to distill one fluid into multiple others without having to choose like with the distillery."
 				""
-				"Single block Distilleries can still be used but wont give you all products and can't be overclocked."
+				"Single block Distilleries can still be used but won't give you all products and can't be overclocked."
 			]
 			icon: "gtceu:distillation_tower"
 			id: "170C262792DA7123"
@@ -1164,7 +1164,7 @@
 		{
 			dependencies: ["439D8AE6D3DC41AF"]
 			description: [
-				"Another material that can be used to coat cables, it's the most efficent resource wise."
+				"Another material that can be used to coat cables, it's the most efficient resource wise."
 				""
 				"Should now be easily craftable with oil distillation fully set up."
 			]
@@ -1264,7 +1264,7 @@
 				"2B695762FC4A7686"
 				"170C262792DA7123"
 			]
-			description: ["Distilling each air type will give you access to a variety of diffent chemicals, all of which will be useful in one way or another."]
+			description: ["Distilling each air type will give you access to a variety of different chemicals, all of which will be useful in one way or another."]
 			id: "39FF89B370D09B88"
 			rewards: [{
 				count: 2
@@ -1415,7 +1415,7 @@
 		}
 		{
 			dependencies: ["2231C06CE59E0074"]
-			description: ["Second tier of Boule. Can be used to make new types of chips as well as make older types more efficently."]
+			description: ["Second tier of Boule. Can be used to make new types of chips as well as make older types more efficiently."]
 			id: "6EB85BBD539AEB57"
 			rewards: [{
 				id: "0E4C76EDAE1E68F1"
@@ -1454,7 +1454,7 @@
 				"7AF84C014E136391"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Aquired from Apatite or Monazite processing."]
+			description: ["Acquired from Apatite or Monazite processing."]
 			hide_dependency_lines: true
 			id: "32EF0A93C1C5F429"
 			rewards: [{

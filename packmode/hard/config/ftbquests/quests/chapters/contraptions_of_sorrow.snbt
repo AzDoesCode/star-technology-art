@@ -666,7 +666,7 @@
 		}
 		{
 			dependencies: ["22D524C023C9EF6E"]
-			description: ["With this you can scavange for Flint MUCH easier"]
+			description: ["With this you can scavenge for Flint MUCH easier"]
 			hide_dependent_lines: true
 			id: "24AB0C2B43C66BD3"
 			optional: true

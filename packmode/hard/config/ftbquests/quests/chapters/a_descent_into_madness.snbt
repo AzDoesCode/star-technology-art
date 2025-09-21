@@ -48,8 +48,8 @@
 				"- 1 For Saw"
 				"- 1 for Axe"
 				"- 4 For Crafting Table"
-				"1: Sapling "
-				"- (Save for Later Dont Break)"
+				"1: Sapling"
+				"- (Save for Later Don't Break)"
 			]
 			icon: "minecraft:dead_bush"
 			id: "66B461268D304ADD"
@@ -245,7 +245,7 @@
 				"35A7940BFFC6E33D"
 				"44E7C69C6BC48296"
 			]
-			description: ["Hint: Always keep multiple of a tool on you so you dont need the emergency item"]
+			description: ["Hint: Always keep multiple of a tool on you so you don't need the emergency item"]
 			hide_dependency_lines: true
 			id: "5A4DF6397D7F2B78"
 			tasks: [{
@@ -1208,7 +1208,7 @@
 		}
 		{
 			dependencies: ["3DCE9199510A9223"]
-			description: ["With this you can scavange for Flint easier"]
+			description: ["With this you can scavenge for Flint easier"]
 			id: "0B617DF410FA70C2"
 			optional: true
 			tasks: [{
