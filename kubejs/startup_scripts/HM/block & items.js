@@ -32,8 +32,8 @@ StartupEvents.registry('item', event => {
 	// ================================================================================== //
 
 	['hematite', 'cassiterite', 'chalcopyrite', 'sphalerite', 'pyrite', 'magnetite', 'galena'].forEach(type => {
-		event.create(type)
-			.texture(`kubejs:item/hm/pre-lv/${type}`);
+		event.create(`${type}_crushed_ore_chunk`)
+			.texture(`kubejs:item/hm/pre-lv/${type}_crushed_ore_chunk`);
 	});
 
 	// ================================================================================== //
@@ -78,7 +78,7 @@ StartupEvents.registry('item', event => {
 	['ingot', 'ball', 'raw'].forEach(ceramic => {
 		event.create(`unfired_${ceramic}_ceramic_casting_mold`)
 			.texture(`kubejs:item/hm/pre-lv/unfired_${ceramic}_ceramic_casting_mold`);
-		if (Ceramic !== 'raw')
+		if (ceramic !== 'raw')
 		event.create(`${ceramic}_ceramic_casting_mold`)
 			.texture(`kubejs:item/hm/pre-lv/${ceramic}_ceramic_casting_mold`);
 	});

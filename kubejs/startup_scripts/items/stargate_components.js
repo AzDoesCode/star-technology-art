@@ -2,6 +2,7 @@
 StartupEvents.registry('item', event => {
 
     event.create('crude_stargate_rod')
+        .texture('kubejs:item/gate_items/crude_stargate_rod')
         .rarity('rare');
 
     event.create('stargate_rod')
