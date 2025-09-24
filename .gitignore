@@ -9,7 +9,6 @@
 !packmode/
 !panoramas/
 !scripts/
-!FTBLang/
 
 # Add files in main directory
 !.gitattributes
