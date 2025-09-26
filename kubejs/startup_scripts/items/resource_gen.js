@@ -37,10 +37,11 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/akreyrium/leptonic_akreyrium_catalyst');
 
     //Nether Stars
-    ['fire', 'ice', 'earth', 'lightning'].forEach(type => {
-        event.create(`${type}_infused_shard`)
-            .tooltip(Text.translate(`item.kubejs.${type}_infused_shard.tooltip`))
-            .texture(`kubejs:item/lines/netherstar/${type}_infused_shard`)
+    [{type: 'Fire', color: 'c'}, {type: 'Ice', color: 'b'}, {type: 'Earth', color: '8'}, {type: 'Lightning', color: 'e'}].forEach(shard => {
+        const { type, color } = shard;
+        event.create(`${type.toLowerCase()}_infused_shard`)
+            .tooltip(`§${color}?§e✧§${color}?`)
+            .texture(`kubejs:item/lines/netherstar/${type.toLowerCase()}_infused_shard`)
             .glow(true);
     });
 
@@ -48,20 +49,20 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/lines/netherstar/star_casting_mold');
     
     event.create('impure_nether_star')
-        .tooltip(Text.translate('item.kubejs.impure_nether_star.tooltip'))
+        .tooltip('§e✧-')
         .texture('kubejs:item/lines/netherstar/impure_nether_star');
 
     event.create('nether_star_shard')
-        .tooltip(Text.translate('item.kubejs.nether_star_shard.tooltip'))
+        .tooltip('§e✧')
         .texture('kubejs:item/lines/netherstar/nether_star_shard');
         
     event.create('energized_nether_star_shard')
-        .tooltip(Text.translate('item.kubejs.energized_nether_star_shard.tooltip'))
+        .tooltip('"§e✧+')
         .texture('kubejs:item/lines/netherstar/energized_nether_star_shard')
         .glow(true);
 
     event.create('nether_tempered_shard')
-        .tooltip(Text.translate('item.kubejs.nether_tempered_shard.tooltip'))
+        .tooltip('§e✧++')
         .texture('kubejs:item/lines/netherstar/nether_tempered_shard')
         .glow(true);
     

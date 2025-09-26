@@ -276,23 +276,15 @@
     "item.kubejs.leptonic_akreyrium_catalyst": "Leptonic-Akreyrium Catalyst",
 
     "item.kubejs.fire_infused_shard": "§cFire§r Infused Shard",
-    "item.kubejs.fire_infused_shard.tooltip": "§c?§e✧§c?",
     "item.kubejs.ice_infused_shard": "§bIce§r Infused Shard",
-    "item.kubejs.ice_infused_shard.tooltip": "§b?§e✧§b?",
     "item.kubejs.earth_infused_shard": "§8Earth§r Infused Shard",
-    "item.kubejs.earth_infused_shard.tooltip": "§8?§e✧§8?",
     "item.kubejs.lightning_infused_shard": "§eLightning§r Infused Shard",
-    "item.kubejs.lightning_infused_shard.tooltip": "§e?§e✧§e?",
 
     "item.kubejs.star_casting_mold": "Casting Mold (Star)",
     "item.kubejs.impure_nether_star": "Impure Nether Star",
-    "item.kubejs.impure_nether_star.tooltip": "§e✧-",
     "item.kubejs.nether_star_shard": "Nether Star Shard",
-    "item.kubejs.nether_star_shard.tooltip": "§e✧",
     "item.kubejs.energized_nether_star_shard": "Energized Nether Star Shard",
-    "item.kubejs.energized_nether_star_shard.tooltip": "§e✧+",
     "item.kubejs.nether_tempered_shard": "Nether Tempered Star Shard",
-    "item.kubejs.nether_tempered_shard.tooltip": "§e✧++",
 
     "item.kubejs.ancient_netherite_reinforced_mesh": "Ancient-Netherite Reinforced Mesh",
     "item.kubejs.true_absolute_chorus": "Awakened Chorus Core",

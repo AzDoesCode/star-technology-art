@@ -31,10 +31,21 @@ StartupEvents.registry('item', event => {
 
 	// ================================================================================== //
 
-	['hematite', 'cassiterite', 'chalcopyrite', 'sphalerite', 'pyrite', 'magnetite', 'galena'].forEach(type => {
-		event.create(`${type}_crushed_ore_chunk`)
-            .tooltip(Text.translate(`item.kubejs.${type}_crushed_ore_chunk.tooltip`))
-			.texture(`kubejs:item/hm/pre-lv/${type}_crushed_ore_chunk`);
+	[
+		{type: 'hematite', composition: 'Fe₂O₃'},
+		{type: 'cassiterite', composition: 'SnO₂'},
+		{type: 'chalcopyrite', composition: 'CuFeS₂'},
+		{type: 'sphalerite', composition: 'ZnS'},
+		{type: 'pyrite', composition: 'FeS₂'},
+		{type: 'magnetite', composition: 'Fe₃O₄'},
+		{type: 'galena', composition: 'PbS'}
+	].forEach(ore => {
+		const {type, composition} = ore;
+		let id = `${type}_crushed_ore_chunk`;
+
+		event.create(id)
+			.tooltip(`§e${composition}`)
+			.texture(`kubejs:item/hm/pre-lv/${id}`)
 	});
 
 	// ================================================================================== //
