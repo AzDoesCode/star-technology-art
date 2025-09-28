@@ -840,7 +840,7 @@
 				"1BC9B0DBEB0F9AE5"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Sodalite and Clay electroysis are both great ways to automate this once you have &bMV&r electrolyzers"]
+			description: ["Sodalite and Clay electrolysis are both great ways to automate this once you have &bMV&r electrolyzers"]
 			id: "0C029ABAE1BD9231"
 			rewards: [{
 				count: 3

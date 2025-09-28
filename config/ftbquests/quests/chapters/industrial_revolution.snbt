@@ -378,7 +378,7 @@
 				"4179261E3E8278E0"
 			]
 			dependency_requirement: "one_started"
-			description: ["Cobalt Dust can acquired through either Cobaltite Slude, the Electric Ore Factory, or simply washing Copper Ore."]
+			description: ["Cobalt Dust can acquired through either Cobaltite Sludge, the Electric Ore Factory, or simply washing Copper Ore."]
 			id: "5D3B5EF195A3093B"
 			rewards: [{
 				id: "6EEC913BD06C07C4"
@@ -1701,7 +1701,7 @@
 			id: "352E17B4D7719638"
 			tasks: [{
 				id: "724697297E01E6F0"
-				title: "Go Check out Applied Energistic"
+				title: "Go Check out Applied Energistics"
 				type: "checkmark"
 			}]
 			x: 14.0d
