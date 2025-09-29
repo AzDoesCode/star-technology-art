@@ -218,6 +218,7 @@ ServerEvents.recipes(event => {
             .inputFluids('gtceu:fluix_steel 576')
             .itemOutputs('megacells:mega_item_cell_housing')
             .duration(400)
+            .circuit(1)
             .EUt(2048);
 
     event.remove({id: 'megacells:cells/mega_fluid_cell_housing'});
@@ -226,6 +227,7 @@ ServerEvents.recipes(event => {
             .inputFluids('gtceu:fluix_steel 576')
             .itemOutputs('megacells:mega_fluid_cell_housing')
             .duration(400)
+            .circuit(1)
             .EUt(2048);
 
 });
