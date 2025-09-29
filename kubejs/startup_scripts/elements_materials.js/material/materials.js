@@ -860,7 +860,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
         conductor('zirconium_selenide_diiodide', ['1x zirconium', '1x selenium', '2x iodine'], 0x6600cc, DULL, [8900, 'higher', VA('luv'), 4000], [V('uhv'), 8, 16, false], [spring]);
 
-        compIngotLiquid('zircalloy_4', ['251x zirconium', '3x tin', '2x chromium', '1x iron'], 0xff9999, DULL, [8900, 'higher', VA('luv'), 2000], [gear, small_gear, rotor, round]);
+        compIngotLiquid('zircalloy_4', ['251x zirconium', '3x tin', '2x chromium', '1x iron'], 0xff9999, DULL, [8900, 'higher', VA('luv'), 2000], [gear, small_gear, rotor, round, frame]);
 
         conductor('iron_selenide_over_strontium_titanium_oxide', ['1x iron_selenide', '1x strontium_titanium_oxide'], 0x66ff33, DULL, [10299, 'highest', VA('uv'), 2500], [V('uhv'), 4, 12, false], [fine_wire, bolt_and_screw]);
 
