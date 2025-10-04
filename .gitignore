@@ -9,6 +9,7 @@
 !packmode/
 !panoramas/
 !scripts/
+!compile_data/
 
 # Add files in main directory
 !.gitattributes
