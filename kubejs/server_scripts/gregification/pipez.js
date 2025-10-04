@@ -2,7 +2,7 @@ if (global.packmode !== 'hard'){
     (() => {   
 
 ServerEvents.recipes(event => {
-   const id = global.id;
+    const id = global.id;
     
     event.remove({mod: 'pipez'});
 
@@ -105,6 +105,22 @@ ServerEvents.recipes(event => {
         G: '#forge:glass_panes',
         B: '#minecraft:buttons'
     }).id('start:shaped/filter_destination_tool');
+
+    const tiers = [
+        "basic",
+        "improved",
+        "advanced",
+        "ultimate",
+        // "infinity"
+    ];
+
+    tiers.forEach(tier => {
+        const upgrade = `pipez:${tier}_upgrade`;
+        event.shapeless(
+            Item.of(upgrade),
+            [Item.of(upgrade).ignoreNBT()]
+        ).id(`start:shapeless/pipez_${tier}_upgrade_reset`);
+    });
 
 });
 })()
