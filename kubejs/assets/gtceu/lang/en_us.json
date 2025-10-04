@@ -1173,7 +1173,7 @@
     "material.gtceu.expetidalloy_d_17": "Expetidalloy D-17",
 
     "block.gtceu.multithreaded_component_synthesis_forge": "Multi-threaded Component Synthesis Forge",
-    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.0": "§l§3Multi-threaded Mass Component Assembler",
+    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.0": "§3§lMulti-threaded Mass Component Assembler",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.1": "§7The paragon of known component manufacturing capabilities able to absorb the technical capabilities of attached systems and maximize them to the greatest yield.",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.2": "§8-----------------------------------",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.3": "§dComponent Synthesis",
@@ -1189,7 +1189,7 @@
     "block.gtceu.component_nexus.tooltip.1": "§7Once stabilized this amalgamation of a machine is able to assembly components typically found in assembly lines until now without the need for ordered inputs and instead relying on advanced circuit configurations.",
     "block.gtceu.component_nexus.tooltip.2": "§8-----------------------------------",
     "block.gtceu.component_nexus.tooltip.3": "§9Bulk Component Assembly",
-    "block.gtceu.component_nexus.tooltip.4": "§7The machine runs §dLuV§7 => §3UV§7 components in groupings of 32x but only at 75% of the time it would take to run. In addition to this, the machine runs the recipes with a single 2/2 overclock already applied.",
+    "block.gtceu.component_nexus.tooltip.4": "§7The machine runs §dLuV§7 => §3UV§7 components with a single 2/2 overclock already applied.",
     "block.gtceu.component_nexus.tooltip.5": "§8-----------------------------------",
     "block.gtceu.component_nexus.tooltip.6": "Has §cSubtick Parallels",
     "gtceu.component_nexus": "Component Nexus"

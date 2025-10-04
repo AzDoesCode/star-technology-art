@@ -176,6 +176,13 @@ ServerEvents.recipes(event => {
         .duration(50)
         .EUt(16);
 
+    event.recipes.gtceu.assembler(id('superdense_machine_casing'))
+        .itemInputs('6x gtceu:double_neutronium_plate', 'gtceu:zircalloy_4_frame')
+        .itemOutputs('2x kubejs:superdense_machine_casing')
+        .circuit(6)
+        .duration(50)
+        .EUt(16);
+
     event.recipes.gtceu.compressor(id('reinforced_brimstone_casing'))
         .itemInputs('16x kubejs:brimstone')
         .itemOutputs('kubejs:reinforced_brimstone_casing')

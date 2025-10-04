@@ -98,17 +98,17 @@ ServerEvents.recipes(event => {
     '1x gtceu:neutronium_block', '32x gtceu:silicon_block', '32x gtceu:silicon_block', '1x gtceu:neutronium_block', '2x kubejs:draconic_stem_cells',
     6000,GTValues.VHA[GTValues.UHV]);
 
-    Infusion('draco_ware_casing','2x kubejs:draco_ware_casing','gtceu:dragon_breath 4000','2x gtceu:high_power_casing', 'gtceu:uev_sensor', 
-    '1x #gtceu:circuits/uev', '2x kubejs:draconic_brain_matter_cells','2x kubejs:draconic_brain_matter_cells', '1x #gtceu:circuits/uev', 
-    'gtceu:uev_sensor',800,GTValues.VHA[GTValues.UEV]);
+    Infusion('draco_ware_casing','3x kubejs:draco_ware_casing','gtceu:dragon_breath 5000','3x gtceu:high_power_casing', '1x #gtceu:circuits/uev', 
+    '4x kubejs:draconic_brain_matter_cells','16x gtceu:fine_aurourium_wire','1x #gtceu:circuits/uev','1x gtceu:uev_sensor', '16x gtceu:fine_aurourium_wire', 
+    800,GTValues.VHA[GTValues.UEV]);
 
     Infusion('draco_resilient_fusion_glass','2x kubejs:draco_resilient_fusion_glass','gtceu:dragon_breath 2000','2x gtceu:fusion_glass', 
     '2x kubejs:draconic_scale_cells', '4x gtceu:neutron_reflector', 'gtceu:uhv_field_generator', 'gtceu:uhv_field_generator', 
     '4x gtceu:neutron_reflector', '2x kubejs:draconic_scale_cells',400,GTValues.VHA[GTValues.UEV]);
 
-    Infusion('draco_assembly_grating','2x kubejs:draco_assembly_grating','gtceu:dragon_breath 3000','2x gtceu:assembly_line_grating', 
-    '8x gtceu:void_foil', '8x gtceu:void_foil', '1x gtceu:uev_robot_arm', '1x gtceu:uev_robot_arm', '8x gtceu:void_foil', '8x gtceu:void_foil',
-    600, GTValues.VHA[GTValues.UEV]);
+    Infusion('draco_assembly_grating','3x kubejs:draco_assembly_grating','gtceu:dragon_breath 4000','3x gtceu:assembly_line_grating', 
+    '1x gtceu:uev_electric_motor', '4x gtceu:dragonsteel_rotor', '8x gtceu:void_foil', '1x gtceu:uev_electric_motor', 
+    '1x gtceu:uev_electric_piston', '8x gtceu:void_foil', 600, GTValues.VHA[GTValues.UEV]);
 
     Infusion('dragon_egg','minecraft:dragon_egg','gtceu:draconyallium 1000','32x kubejs:draconic_stem_cells','gtceu:pure_netherite_foil',
     'gtceu:pure_netherite_foil','gtceu:void_plate','gtceu:void_plate','gtceu:dense_naquadria_plate','gtceu:dense_naquadria_plate',
