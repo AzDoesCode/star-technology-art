@@ -265,7 +265,7 @@ ServerEvents.recipes(event => {
 	event.smelting(`kubejs:charcoal_pellet`, `#minecraft:logs_that_burn`).id('kjs:smelting/charcoal_pellet_manual_only').id('start:smelting/charcoal_pellet');
 	event.recipes.create.crushing(['2x kubejs:charcoal_pellet', Item.of('kubejs:charcoal_pellet').withChance(0.5)], 'minecraft:charcoal');
 	event.recipes.create.milling(['gtceu:charcoal_dust'], 'minecraft:charcoal');
-	event.recipes.create.milling(['gtceu:sand'], 'minecraft:gravel');
+	event.recipes.create.milling(['minecraft:sand'], 'minecraft:gravel');
 	event.recipes.create.milling(['exnihilosequentia:dust'], 'minecraft:sand');
 
 	event.remove({ id: 'thermal:rubber_3' });
