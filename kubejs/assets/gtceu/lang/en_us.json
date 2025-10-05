@@ -1183,9 +1183,9 @@
 
     "block.gtceu.multithreaded_component_synthesis_forge": "Multi-threaded Component Synthesis Forge",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.0": "§3§lMulti-threaded Mass Component Assembler",
-    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.1": "§7The paragon of known component manufacturing capabilities able to absorb the techincal capabilites of attached systems and maximize them to the greatest yield.",
+    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.1": "§7The paragon of known component manufacturing capabilities able to absorb the technical capabilities of attached systems and maximize them to the greatest yield.",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.2": "§8-----------------------------------",
-    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.3": "§dComponent Sythesis",
+    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.3": "§dComponent Synthesis",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.4": "§7Components and Component parts are crafted in sets of 64 while their material cost is only 75% of what it would typically be. In addition to this, the machine runs the recipes with a single 4/3 overclock already applied.",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.5": "§8-----------------------------------",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.6": "Has §3Multi-threading§r and §cSubtick Parallels",
