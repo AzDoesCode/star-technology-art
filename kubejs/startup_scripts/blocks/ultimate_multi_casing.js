@@ -90,4 +90,14 @@ StartupEvents.registry('block', event => {
         .tagBlock('minecraft:needs_iron_tool')
         .requiresTool(false)
         .textureAll('kubejs:block/casings/ultimate_multis/advanced_assembly_casing');
+
+    event.create('superdense_machine_casing')
+        .displayName('Superdense Machine Casing')
+        .hardness(5)
+        .resistance(10)
+        .soundType('metal')
+        .tagBlock('mineable/pickaxe')
+        .tagBlock('minecraft:needs_iron_tool')
+        .requiresTool(false)
+        .textureAll('kubejs:block/casings/ultimate_multis/superdense_machine_casing');
 });

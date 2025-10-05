@@ -58,7 +58,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('G', Predicates.blocks('gtceu:assembly_line_casing'))
             .where('H', Predicates.blocks('start_core:advanced_fusion_coil'))
             .where('I', Predicates.blocks('kubejs:draco_resilient_fusion_glass'))
-            .where('J', Predicates.blocks('gtceu:uhv_rotor_holder'))
+            .where('J', Predicates.blocks('gtceu:uev_rotor_holder'))
             .where('K', Predicates.blocks('gtceu:palladium_substation'))
             .where('L', Predicates.blocks('kubejs:draco_ware_casing'))
             .where('M', Predicates.blocks('kubejs:nyanium_pipe_casing'))
