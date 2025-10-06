@@ -1,25 +1,11 @@
 
 StartupEvents.registry('item', event => {
 
-    [
-        { name: 'Diamond', color: '§b' },
-        { name: 'Emerald', color: '§a' },
-        { name: 'Ruby', color: '§4' },
-        { name: 'Sapphire', color: '§9' },
-        { name: 'Quartzite', color: '§7' },
-        { name: 'Topaz', color: '§e' },
-        { name: 'Spessartine', color: '§6' },
-        { name: 'Certus_Quartz', color: '§7' },
-        { name: 'Green_Sapphire', color: '§a' },
-        { name: 'Blue_Topaz', color: '§3' },
-        { name: 'Apatite', color: '§b' },
-        { name: 'Monazite', color: '§2' },
-        { name: 'Realgar', color: '§c' }
+    ['diamond', 'emerald', 'ruby', 'sapphire', 'green_sapphire', 'quartzite', 'topaz', 'blue_topaz',
+        'spessartine', 'certus_quartz', 'apatite', 'monazite', 'realgar'
     ].forEach(geode => {
-        const {name, color} = geode;
-        event.create(`${name.toLowerCase()}_geode`)
-            .displayName(`${color}${name.replace(/_/, ' ')}§r Geode`)
-            .texture(`kubejs:item/resource_gen/geodes/cracked_${name.toLowerCase()}_geode`)
-            .tooltip(`§7A seemingly ordinary rock which hides a beautiful ${color}${name.toLowerCase().replace(/_/, ' ')}§7 inside`);
+        event.create(`${geode}_geode`)
+            .tooltip(Text.translate(`item.kubejs.${geode}_geode.tooltip`))
+            .texture(`kubejs:item/resource_gen/geodes/cracked_${geode}_geode`)
     });
 });

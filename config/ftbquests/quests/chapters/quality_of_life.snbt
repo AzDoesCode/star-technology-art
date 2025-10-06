@@ -9,13 +9,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Easier to build"]
+			description: ["{ftbquests.chapter.quality_of_life.quest1.description1}"]
 			icon: "effortlessbuilding:reach_upgrade1"
 			id: "3754DD882E5E6E37"
 			shape: "rsquare"
 			tasks: [{
 				id: "6BAA2573B24B0BD7"
-				title: "Effortless Building"
+				title: "{ftbquests.chapter.quality_of_life.quest1.task_7758054486941830103.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -23,7 +23,7 @@
 		}
 		{
 			dependencies: ["64F15C7160BF5CBB"]
-			description: ["Teleportation?"]
+			description: ["{ftbquests.chapter.quality_of_life.quest2.description1}"]
 			icon: "travelanchors:travel_anchor"
 			id: "2092BC62D0ABB53F"
 			shape: "rsquare"
@@ -39,12 +39,12 @@
 					type: "item"
 				}
 			]
-			title: "Travel Anchors and Travel Staff"
+			title: "{ftbquests.chapter.quality_of_life.quest2.title}"
 			x: 2.0d
 			y: 2.5d
 		}
 		{
-			description: ["I can store a LOT of a few items"]
+			description: ["{ftbquests.chapter.quality_of_life.quest3.description1}"]
 			icon: "functionalstorage:oak_1"
 			id: "5F17F1158F33BF30"
 			shape: "rsquare"
@@ -57,16 +57,16 @@
 						value: "functionalstorage:drawer"
 					}
 				}
-				title: "Any #functionalstorage:drawer"
+				title: "{ftbquests.chapter.quality_of_life.quest3.task_9006224665851597652.title}"
 				type: "item"
 			}]
-			title: "Functional Storage"
+			title: "{ftbquests.chapter.quality_of_life.quest3.title}"
 			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["64F15C7160BF5CBB"]
-			description: ["Vrooom, vacuums up all your items"]
+			description: ["{ftbquests.chapter.quality_of_life.quest4.description1}"]
 			id: "2D522E868DFD339A"
 			shape: "rsquare"
 			tasks: [{
@@ -74,12 +74,12 @@
 				item: "itemcollectors:basic_collector"
 				type: "item"
 			}]
-			title: "Item Collectors"
+			title: "{ftbquests.chapter.quality_of_life.quest4.title}"
 			x: 4.0d
 			y: -2.5d
 		}
 		{
-			description: ["A good way to increase your personal inventory"]
+			description: ["{ftbquests.chapter.quality_of_life.quest5.description1}"]
 			id: "069CEEF34F469ADE"
 			shape: "rsquare"
 			tasks: [{
@@ -91,12 +91,12 @@
 				}
 				type: "item"
 			}]
-			title: "Backpacks"
+			title: "{ftbquests.chapter.quality_of_life.quest5.title}"
 			x: 0.5d
 			y: 2.0d
 		}
 		{
-			description: ["More Building"]
+			description: ["{ftbquests.chapter.quality_of_life.quest6.description1}"]
 			id: "7403111E2D8E1EDB"
 			shape: "rsquare"
 			tasks: [{
@@ -104,51 +104,51 @@
 				item: "xtonesreworked:xtone_tile"
 				type: "item"
 			}]
-			title: "Xtones"
+			title: "{ftbquests.chapter.quality_of_life.quest6.title}"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
-			description: ["More Building"]
+			description: ["{ftbquests.chapter.quality_of_life.quest7.description1}"]
 			icon: "architects_palette:abyssaline"
 			id: "5D369315B632436F"
 			shape: "rsquare"
 			tasks: [{
 				id: "633549F4F9B8A804"
-				title: "Architect's Palette"
+				title: "{ftbquests.chapter.quality_of_life.quest7.task_7148701300031006724.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 4.0d
 		}
 		{
-			description: ["More Building"]
+			description: ["{ftbquests.chapter.quality_of_life.quest8.description1}"]
 			icon: "dustrial_decor:industrial_iron_block"
 			id: "064FA34CC2599EBE"
 			shape: "rsquare"
 			tasks: [{
 				id: "7A657F38412F3CBC"
-				title: "'Dustrial Decor"
+				title: "{ftbquests.chapter.quality_of_life.quest8.task_8819595324863495356.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 3.5d
 		}
 		{
-			description: ["More Building"]
+			description: ["{ftbquests.chapter.quality_of_life.quest9.description1}"]
 			icon: "fantasyfurniture:nordic/bed_single"
 			id: "043100DC9FEC89E7"
 			shape: "rsquare"
 			tasks: [{
 				id: "7DB860B42FC87155"
-				title: "Fantasy Furniture"
+				title: "{ftbquests.chapter.quality_of_life.quest9.task_9059096977467797845.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
 			y: 3.5d
 		}
 		{
-			description: ["Write that down"]
+			description: ["{ftbquests.chapter.quality_of_life.quest10.description1}"]
 			id: "402F4F6E8631D2CB"
 			shape: "rsquare"
 			tasks: [{
@@ -160,21 +160,21 @@
 			y: 1.5d
 		}
 		{
-			description: ["Transmit energy, items, and fluids across vast distances"]
+			description: ["{ftbquests.chapter.quality_of_life.quest11.description1}"]
 			id: "3232A7A69C2905D9"
 			shape: "rsquare"
-			subtitle: "Easy Power Transfer"
+			subtitle: "{ftbquests.chapter.quality_of_life.quest11.subtitle}"
 			tasks: [{
 				id: "792BCDE083DD56CF"
 				item: "laserio:laser_node"
 				type: "item"
 			}]
-			title: "LaserIO"
+			title: "{ftbquests.chapter.quality_of_life.quest11.title}"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
-			description: ["More Building"]
+			description: ["{ftbquests.chapter.quality_of_life.quest12.description1}"]
 			id: "0A8700DFAE371A36"
 			shape: "rsquare"
 			tasks: [{
@@ -186,12 +186,12 @@
 				}
 				type: "item"
 			}]
-			title: "Rechiseled"
+			title: "{ftbquests.chapter.quality_of_life.quest12.title}"
 			x: 3.0d
 			y: 4.0d
 		}
 		{
-			description: ["Early systems to reduce micro-crafting"]
+			description: ["{ftbquests.chapter.quality_of_life.quest13.description1}"]
 			id: "6E45F559B61A2CC4"
 			shape: "rsquare"
 			tasks: [{
@@ -204,7 +204,7 @@
 		}
 		{
 			dependencies: ["7EC83EEF3F7A89B8"]
-			description: ["I can FLY, the shop has these"]
+			description: ["{ftbquests.chapter.quality_of_life.quest14.description1}"]
 			id: "6DEDF965FFD12B7B"
 			shape: "rsquare"
 			tasks: [{
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["73931EAA3EC5C9A9"]
-			description: ["Transmit items and fluids across vast distances"]
+			description: ["{ftbquests.chapter.quality_of_life.quest15.description1}"]
 			id: "48D2144395562A62"
 			shape: "rsquare"
 			tasks: [
@@ -294,16 +294,16 @@
 				}
 				{
 					id: "672B1393B2C370E5"
-					title: "Embrace the Komaru"
+					title: "{ftbquests.chapter.quality_of_life.quest16.task_7434057134985408741.title}"
 					type: "checkmark"
 				}
 			]
-			title: "Komaru Cat"
+			title: "{ftbquests.chapter.quality_of_life.quest16.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
-			description: ["Easy to use transportation but your TPS may not be as nice"]
+			description: ["{ftbquests.chapter.quality_of_life.quest17.description1}"]
 			icon: "pipez:item_pipe"
 			id: "5DEBB63E9EE8A6B0"
 			shape: "rsquare"
@@ -333,7 +333,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["A great way to interface with your storage prior to AE2"]
+			description: ["{ftbquests.chapter.quality_of_life.quest18.description1}"]
 			icon: "toms_storage:ts.wireless_terminal"
 			id: "5E87737A633D46AA"
 			shape: "rsquare"
@@ -354,12 +354,12 @@
 					type: "item"
 				}
 			]
-			title: "Tom's Simple Storage Mod"
+			title: "{ftbquests.chapter.quality_of_life.quest18.title}"
 			x: 6.0d
 			y: 2.5d
 		}
 		{
-			description: ["From being a fake player to wirelessly sorting your base it can do a LOT"]
+			description: ["{ftbquests.chapter.quality_of_life.quest19.description1}"]
 			id: "6F7DBE1A83CBAE01"
 			shape: "square"
 			tasks: [{
@@ -371,7 +371,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["This tool can both help you do more and MOST notably build multiblock for you by shift right clicking a controller with the blocks in your inventory."]
+			description: ["{ftbquests.chapter.quality_of_life.quest20.description1}"]
 			id: "2AB07DDCE44FA5D4"
 			tasks: [{
 				id: "4CECC98B96F59492"
@@ -396,7 +396,7 @@
 					type: "item"
 				}
 			]
-			title: "Create: Hypertubes"
+			title: "{ftbquests.chapter.quality_of_life.quest21.title}"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -468,12 +468,12 @@
 						]
 					}
 				}
-				title: "Redstone Gates"
+				title: "{ftbquests.chapter.quality_of_life.quest24.task_453715546454935747.title}"
 				type: "item"
 			}]
 			x: 5.5d
 			y: -1.5d
 		}
 	]
-	title: "Quality Of Life"
+	title: "{ftbquests.chapter.quality_of_life.title}"
 }

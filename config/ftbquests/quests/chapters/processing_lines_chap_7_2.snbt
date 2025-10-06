@@ -657,7 +657,7 @@
 				item: "gtceu:poly_34_ethylenedioxythiophene_polystyrene_sulfate_bucket"
 				type: "item"
 			}]
-			title: "PEDOT:PSS"
+			title: "{ftbquests.chapter.processing_lines_chap_7_2.quest33.title}"
 			x: 2.0d
 			y: -4.5d
 		}
@@ -1040,7 +1040,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "1F8B168C07797665"
-				title: "Abyss Harvesting"
+				title: "{ftbquests.chapter.processing_lines_chap_7_2.quest55.task_2272935227615180389.title}"
 				type: "checkmark"
 			}]
 			x: -10.5d
@@ -2249,7 +2249,7 @@
 		}
 		{
 			dependencies: ["01AF9486EA6DA792"]
-			description: ["The medium used to grow life."]
+			description: ["{ftbquests.chapter.processing_lines_chap_7_2.quest119.description1}"]
 			icon: {
 				Count: 1
 				id: "gtceu:sterilized_growth_medium_bucket"
@@ -2284,7 +2284,7 @@
 		}
 		{
 			dependencies: ["2F87FC1D5BB43220"]
-			description: ["Liquid Echoes from sources unknown."]
+			description: ["{ftbquests.chapter.processing_lines_chap_7_2.quest120.description1}"]
 			icon: {
 				Count: 1
 				id: "gtceu:echo_r_bucket"
@@ -2308,7 +2308,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Echo Fluid"
+			title: "{ftbquests.chapter.processing_lines_chap_7_2.quest120.title}"
 			x: 10.0d
 			y: 1.0d
 		}
@@ -2334,8 +2334,8 @@
 		{
 			dependencies: ["09B55AFE7C06EC82"]
 			description: [
-				"On servers there is an issue where attached processing lines show &l'&rRequires Cleanroom&l'&r but should show &l'&rRequires &5True Abyss&r&l'&r. Keep in mind those recipes will &o&cnot&r work in cleanroom and require "
-				"{ \"text\": \"this machine.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"09B55AFE7C06EC82\" } }"
+				"{ftbquests.chapter.processing_lines_chap_7_2.quest122.description1}"
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.processing_lines_chap_7_2.quest122.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"09B55AFE7C06EC82\"}}]"
 			]
 			hide_dependent_lines: true
 			icon: "architects_palette:chiseled_abyssaline_bricks"
@@ -2344,7 +2344,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5817B648D618FC03"
-				title: "&4&lWarning"
+				title: "{ftbquests.chapter.processing_lines_chap_7_2.quest122.task_6347742623747865603.title}"
 				type: "checkmark"
 			}]
 			x: 13.5d
@@ -2389,7 +2389,7 @@
 				item: "kubejs:draconic_scale_cells"
 				type: "item"
 			}]
-			title: "Cheaper Draconic Scale Cells"
+			title: "{ftbquests.chapter.processing_lines_chap_7_2.quest125.title}"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -2405,7 +2405,7 @@
 				item: "gtceu:dragon_breath_bucket"
 				type: "item"
 			}]
-			title: "Cheaper Dragon Breath"
+			title: "{ftbquests.chapter.processing_lines_chap_7_2.quest126.title}"
 			x: 16.5d
 			y: 0.5d
 		}
@@ -2421,10 +2421,10 @@
 				item: "kubejs:draconic_stem_cells"
 				type: "item"
 			}]
-			title: "Cheaper Draconic Stem Cells"
+			title: "{ftbquests.chapter.processing_lines_chap_7_2.quest127.title}"
 			x: 18.5d
 			y: 5.5d
 		}
 	]
-	title: "Processing Lines (Chap 7.2)"
+	title: "{ftbquests.chapter.processing_lines_chap_7_2.title}"
 }

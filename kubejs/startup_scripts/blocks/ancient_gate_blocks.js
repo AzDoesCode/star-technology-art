@@ -2,7 +2,6 @@
 StartupEvents.registry('block', event => {
 
     event.create('ancient_stargate_ring_block')
-        .displayName('Ancient Stargate Ring Block')
         .hardness(5)
         .resistance(10)
         .lightLevel(0)
@@ -18,7 +17,6 @@ StartupEvents.registry('block', event => {
         .texture('south', 'kubejs:block/ancient_stargate_block_ring');
 
     event.create('ancient_stargate_base_block')
-        .displayName('Ancient Stargate Base Block')
         .hardness(5)
         .resistance(10)
         .lightLevel(0)
@@ -34,7 +32,6 @@ StartupEvents.registry('block', event => {
         .texture('north', 'kubejs:block/ancient_stargate_block_base');
 
     event.create('ancient_stargate_chevron_block')
-        .displayName('Ancient Stargate Chevron Block')
         .hardness(5)
         .resistance(10)
         .lightLevel(0)

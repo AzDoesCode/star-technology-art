@@ -25,7 +25,7 @@
 	quests: [
 		{
 			dependencies: ["1FB502D770A4A59B"]
-			description: ["I hope the sand doesn't get in your machines."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest1.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -41,10 +41,10 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "One step closer to home..."
+			subtitle: "{ftbquests.chapter.adventures_in_abydos.quest1.subtitle}"
 			tasks: [{
 				id: "015668E3D80CF755"
-				title: "A new world!"
+				title: "{ftbquests.chapter.adventures_in_abydos.quest1.task_96379769826637653.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -58,7 +58,7 @@
 				"3DF4C45A9424D4D1"
 				"490C3ED5E2E7C000"
 			]
-			description: ["A small computer that can regulate mechanisms."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest2.description1}"]
 			id: "4DD3C38FCD8D704D"
 			rewards: [{
 				id: "0FA7D7BA54BC6792"
@@ -79,7 +79,7 @@
 				"73D0DC357821B395"
 				"4E761937069F4A8D"
 			]
-			description: ["A mechanism that can create rotation with large amounts of force."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest3.description1}"]
 			id: "06F8BF8FB54B3BEE"
 			rewards: [{
 				id: "6F4F9E0DD0FF5BD4"
@@ -102,7 +102,7 @@
 				"120E7C97781B59E9"
 				"19834448E1EA758C"
 			]
-			description: ["A mechanism that can do precise movements with directives."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest4.description1}"]
 			id: "0A321FE2FB18EA8B"
 			rewards: [{
 				id: "3F1880871D2A1F70"
@@ -123,7 +123,7 @@
 				"73D0DC357821B395"
 				"05B9D0B5977E3F05"
 			]
-			description: ["A valve that can measure the tiniest amounts of fluid and accurately dose them."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest5.description1}"]
 			id: "05EEBCD256194C78"
 			rewards: [{
 				id: "15E0AA677E224833"
@@ -145,7 +145,7 @@
 				"73D0DC357821B395"
 				"0D4EFA300817A74D"
 			]
-			description: ["A magnetic field controller."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest6.description1}"]
 			id: "6D7188F8CA92DAAF"
 			rewards: [{
 				id: "0F419A2561844A0E"
@@ -167,7 +167,7 @@
 				"00B6B1AFD9AB29C3"
 				"120E7C97781B59E9"
 			]
-			description: ["A sturdy core that can precisely regulate its inner working environment."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest7.description1}"]
 			id: "77E6700262CDB4E0"
 			rewards: [{
 				id: "577AB092403F0B3D"
@@ -189,7 +189,7 @@
 				"1D259520871C3A28"
 				"120E7C97781B59E9"
 			]
-			description: ["A sturdy plating that can resist wear and tear from high stress machinery."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest8.description1}"]
 			id: "433B94A266536D86"
 			rewards: [{
 				id: "2C0891BA24962E56"
@@ -212,7 +212,7 @@
 				"490C3ED5E2E7C000"
 				"7F8ADE8B1AFE2807"
 			]
-			description: ["A controller that can precisely regulate energy transfer."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest9.description1}"]
 			id: "7BBEB3C2DADBAD8B"
 			rewards: [{
 				id: "43BD55C54E2A6076"
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["37E3EF96EDE85C86"]
-			description: ["The core component for crafting all components for &4UHV&r."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest10.description1}"]
 			id: "6110BA7B3E84F06F"
 			rewards: [{
 				id: "61B75FB189A66E73"
@@ -398,7 +398,7 @@
 				"179A15014A5716B5"
 				"7AC55BA8BDD0F3D2"
 			]
-			description: ["A new machine that can find treasures among the rubble."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest19.description1}"]
 			id: "1A8F645AC1B30411"
 			rewards: [{
 				count: 2
@@ -413,13 +413,13 @@
 				item: "gtceu:cyclonic_sifter"
 				type: "item"
 			}]
-			title: "1st &4&oUltimate&r Multiblock"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest19.title}"
 			x: -4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7AC55BA8BDD0F3D2"]
-			description: ["This machine mixes a liquid with 2 catalysts to put it in a more activated form."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest20.description1}"]
 			id: "5368269646BC0F27"
 			rewards: [{
 				id: "3E1E31EFB499CF8F"
@@ -436,7 +436,7 @@
 		}
 		{
 			dependencies: ["07AD6651D0B40E22"]
-			description: ["With these 2 machines you can massively increase the amount of Akreyrium you produce."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest21.description1}"]
 			hide_dependent_lines: true
 			id: "7F203254ACDF8C88"
 			optional: true
@@ -457,13 +457,13 @@
 					type: "item"
 				}
 			]
-			title: "More &4&oUltimate&r Multiblocks"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest21.title}"
 			x: -0.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5368269646BC0F27"]
-			description: ["A weird fluid, that has some interesting properties making it necessary for more advanced machines."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest22.description1}"]
 			icon: {
 				Count: 1
 				id: "gtceu:utopian_akreyrium_bucket"
@@ -490,13 +490,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "Utopian Akreyrium"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest22.title}"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["305974D431F17AF0"]
-			description: ["By inputting a bacteria you are able to breed then so they multiply and get mutated copies so you can try to find the exact rates you are looking for. Higher mutability means more variance in its output."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest23.description1}"]
 			id: "6356F875511B2610"
 			rewards: [{
 				id: "6115048882C1189D"
@@ -517,7 +517,7 @@
 		}
 		{
 			dependencies: ["305974D431F17AF0"]
-			description: ["This is how you can extract the bacteria to get the resources you desire"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest24.description1}"]
 			id: "47DF7968E9B98C65"
 			rewards: [{
 				id: "217E675CB4B89D49"
@@ -539,11 +539,11 @@
 		{
 			dependencies: ["6F05FAE3F5AAC357"]
 			description: [
-				"This machine can do 3 things."
-				"1. Reactivate the Dormant Bacteria to a usable form"
-				"2. Mutate bacteria so that it may have a new affinity"
-				"3. Mutate bacteria so that it may be a new type"
-				"With all of this and the breeder (more information there) you should be able to get the exact type of bacteria you desire."
+				"{ftbquests.chapter.adventures_in_abydos.quest25.description1}"
+				"{ftbquests.chapter.adventures_in_abydos.quest25.description2}"
+				"{ftbquests.chapter.adventures_in_abydos.quest25.description3}"
+				"{ftbquests.chapter.adventures_in_abydos.quest25.description4}"
+				"{ftbquests.chapter.adventures_in_abydos.quest25.description5}"
 			]
 			id: "7F72F9E28713D965"
 			rewards: [{
@@ -569,8 +569,8 @@
 		{
 			dependencies: ["493DD013C818BB7B"]
 			description: [
-				"Go Explore the Scattered Temples of Abydos to find the things you are searching for."
-				"You might even find a &ltalisman&r powerful enough to stop the sands of Abydos from eroding you..."
+				"{ftbquests.chapter.adventures_in_abydos.quest26.description1}"
+				"{ftbquests.chapter.adventures_in_abydos.quest26.description2}"
 			]
 			id: "3479CEBD73550718"
 			rewards: [{
@@ -582,7 +582,7 @@
 				icon: "sgjourney:golden_idol"
 				id: "53D64E8D434ECA9C"
 				structure: "sgjourney:goauld_temple/desert_pyramid/desert_pyramid"
-				title: "Scattered Temples"
+				title: "{ftbquests.chapter.adventures_in_abydos.quest26.task_6041102318790691484.title}"
 				type: "structure"
 			}]
 			x: -0.5d
@@ -590,7 +590,7 @@
 		}
 		{
 			dependencies: ["3479CEBD73550718"]
-			description: ["A bacteria that is in a dormant state. Why was this stored with treasures?"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest27.description1}"]
 			id: "6F05FAE3F5AAC357"
 			rewards: [{
 				id: "1C5C5256EB429800"
@@ -606,13 +606,13 @@
 				}
 				type: "item"
 			}]
-			title: "Otherworldly Biology"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest27.title}"
 			x: -0.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7F72F9E28713D965"]
-			description: ["Awoken Bacteria. These come in all kinds of types and seem to produce some familiar liquids."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest28.description1}"]
 			id: "305974D431F17AF0"
 			rewards: [{
 				id: "0707F4889D91098E"
@@ -651,13 +651,13 @@
 					type: "item"
 				}
 			]
-			title: "Bacterial Colonies"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest28.title}"
 			x: 1.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3479CEBD73550718"]
-			description: ["Find all the fragments to uncover hidden knowledge"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest29.description1}"]
 			id: "5744150A5658FE4D"
 			rewards: [{
 				id: "615C650D39461500"
@@ -696,13 +696,13 @@
 					type: "item"
 				}
 			]
-			title: "Runic Tablet Fragments"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest29.title}"
 			x: 1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5744150A5658FE4D"]
-			description: ["Soon more advanced technology is unveiled"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest30.description1}"]
 			id: "146F88E5C1119649"
 			rewards: [{
 				id: "2DDF7ACB3920B1DA"
@@ -722,7 +722,7 @@
 				"4D04123F036F181E"
 				"1BE69DB2DFDC35C8"
 			]
-			description: ["A new Stellarium alloy mixed with materials not normally found on your home isle."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest31.description1}"]
 			id: "30C974448C57F0EC"
 			rewards: [{
 				id: "470268845820F4F7"
@@ -740,9 +740,9 @@
 		{
 			dependencies: ["30C974448C57F0EC"]
 			description: [
-				"The &2UEV&r superconductor, can hold 256 amps in a 1x wire."
+				"{ftbquests.chapter.adventures_in_abydos.quest32.description1}"
 				""
-				"This is the &l&nFINAL&r superconductor of this type."
+				"{ftbquests.chapter.adventures_in_abydos.quest32.description2}"
 			]
 			id: "1C0B16612DBBE8CA"
 			rewards: [{
@@ -765,9 +765,9 @@
 				"25583D0BF59E1BC8"
 			]
 			description: [
-				"A Fusion Reactor that can do parallels. Long gone are the days of excessive Fusion spam, now all you need to do is figure out how to efficiently wallshare these."
+				"{ftbquests.chapter.adventures_in_abydos.quest33.description1}"
 				""
-				"Auxiliary Fusion Reactors are special in that they can parallel using &6Absolute &3Parallel&r hatches. (Placed on the interior side of the controller)"
+				"{ftbquests.chapter.adventures_in_abydos.quest33.description2}"
 			]
 			id: "6C8C6EA426060065"
 			rewards: [{
@@ -792,7 +792,7 @@
 		}
 		{
 			dependencies: ["7AC55BA8BDD0F3D2"]
-			description: ["This beauty can harvest colossal amounts of air at once, and then also automatically distill it. Without a doubt, this multiblock is a must for getting to Ancient Gate."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest34.description1}"]
 			id: "2659B3AA9108BC43"
 			rewards: [{
 				id: "518D145AEA79CC76"
@@ -809,7 +809,7 @@
 		}
 		{
 			dependencies: ["3540AE6C940F985B"]
-			description: ["A computer that can read data from a Draconic Coordinate Core."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest35.description1}"]
 			id: "34585406B4A18F41"
 			rewards: [{
 				count: 2
@@ -833,9 +833,9 @@
 				"5DADD2204991B4D5"
 			]
 			description: [
-				"The core of an Ancient Stargate."
+				"{ftbquests.chapter.adventures_in_abydos.quest36.description1}"
 				""
-				"This can accurately detect and use Chevrons to lock on planets far beyond Abydos."
+				"{ftbquests.chapter.adventures_in_abydos.quest36.description2}"
 			]
 			id: "6F9793149DE81FCC"
 			rewards: [{
@@ -864,9 +864,9 @@
 				"78117340F3D4549A"
 			]
 			description: [
-				"And here we go again, more Ring Blocks"
+				"{ftbquests.chapter.adventures_in_abydos.quest37.description1}"
 				""
-				"Though this time, much stronger"
+				"{ftbquests.chapter.adventures_in_abydos.quest37.description2}"
 			]
 			id: "5DADD2204991B4D5"
 			rewards: [{
@@ -893,7 +893,7 @@
 				"5DADD2204991B4D5"
 				"425A865B6B617DEC"
 			]
-			description: ["These Chevrons can lock in coordinates with far more precision then the previous generation."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest38.description1}"]
 			id: "63E36421AE07BC42"
 			rewards: [{
 				id: "1E1781F6129AF097"
@@ -916,7 +916,7 @@
 		}
 		{
 			dependencies: ["442233119AED645F"]
-			description: ["A Chevron that can hold data for more advanced destinations."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest39.description1}"]
 			id: "425A865B6B617DEC"
 			rewards: [{
 				count: 2
@@ -936,7 +936,7 @@
 		}
 		{
 			dependencies: ["379D69A44FC5B2F2"]
-			description: ["So this is what makes the Gates Beyond Comprehension...."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest40.description1}"]
 			id: "64F0BB858EEB7913"
 			rewards: [{
 				count: 2
@@ -963,7 +963,7 @@
 				"21188AF95E6D5030"
 				"5FAD11260BC2F305"
 			]
-			description: ["A core with the ability to find the smallest and largest traces of planets all over the Galaxy"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest41.description1}"]
 			id: "3540AE6C940F985B"
 			rewards: [{
 				id: "4C923D283D3BE0EA"
@@ -980,7 +980,7 @@
 		}
 		{
 			dependencies: ["2D064F759D13FE4B"]
-			description: ["The path to the hellfires of the Nether, inscribed on a piece of whispering gemstone."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest42.description1}"]
 			id: "29DAE5F27A1D4115"
 			rewards: [{
 				id: "361187FB10BF0C39"
@@ -997,7 +997,7 @@
 		}
 		{
 			dependencies: ["2D064F759D13FE4B"]
-			description: ["The path to the shattered void of the End, inscribed on a piece of whispering gemstone."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest43.description1}"]
 			id: "14479FB9FCF478D6"
 			rewards: [{
 				id: "2EFAEEDC5007A402"
@@ -1020,11 +1020,11 @@
 				"5DADD2204991B4D5"
 			]
 			description: [
-				"The gateway to the cold and lifeless abyss, and the burning fires of hell."
+				"{ftbquests.chapter.adventures_in_abydos.quest44.description1}"
 				""
 				""
 				""
-				"&oJust a recommendation, but don't take any valuable items with you the first time."
+				"{ftbquests.chapter.adventures_in_abydos.quest44.description2}"
 			]
 			icon: {
 				Count: 1
@@ -1118,19 +1118,19 @@
 					type: "item"
 				}
 			]
-			title: "The Ancient Gate"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest44.title}"
 			x: 11.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["47DF7968E9B98C65"]
-			description: ["Mutate and Breed Bacteria to fit your needs and help you gather all the hydrocarbons you could need."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest45.description1}"]
 			icon: "gtceu:ethylbenzene_bucket"
 			id: "2F91771A1872EB4E"
 			optional: true
 			tasks: [{
 				id: "78C1C4C6A34B9E8B"
-				title: "Cheaper HydroCarbons"
+				title: "{ftbquests.chapter.adventures_in_abydos.quest45.task_8701452312478719627.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -1142,7 +1142,7 @@
 				"4A0AD203617FEF0E"
 				"7F203254ACDF8C88"
 			]
-			description: ["A core that can detect the smallest amounts of matter inside the vast nothingness of space."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest46.description1}"]
 			id: "5FAD11260BC2F305"
 			rewards: [{
 				id: "0433F422BDFFAF25"
@@ -1163,7 +1163,7 @@
 				"4A0AD203617FEF0E"
 				"7F203254ACDF8C88"
 			]
-			description: ["A core that can feel the immense energy of burning flames all across the galaxy."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest47.description1}"]
 			id: "21188AF95E6D5030"
 			rewards: [{
 				id: "4AE809F68AD3D5B3"
@@ -1183,7 +1183,7 @@
 				"5022ABEA367576E7"
 				"3DF4C45A9424D4D1"
 			]
-			description: ["This data disk can store so much data that you could put all human DNA in it."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest48.description1}"]
 			id: "43DAD4B63603BFC3"
 			rewards: [{
 				id: "2D07335EE60C7099"
@@ -1209,7 +1209,7 @@
 				"3ECCE739DE8F5F2C"
 				"3C99D83398AFC31C"
 			]
-			description: ["The new tier of coils in Abydos, so get ready to replace your old ones."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest49.description1}"]
 			id: "4D04123F036F181E"
 			rewards: [{
 				count: 2
@@ -1232,7 +1232,7 @@
 				"5BA69EDC3C223B2C"
 				"22B85F7F13C66730"
 			]
-			description: ["Another tier of PIC Wafers, used for some incredible Abydos technology."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest50.description1}"]
 			id: "7AC55BA8BDD0F3D2"
 			rewards: [{
 				id: "7B8476986ACF57ED"
@@ -1251,7 +1251,7 @@
 					type: "item"
 				}
 			]
-			title: "UEPIC Chips"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest50.title}"
 			x: -4.5d
 			y: 5.0d
 		}
@@ -1260,7 +1260,7 @@
 				"2C354B0735DF8023"
 				"3C3E585C933C9515"
 			]
-			description: ["Runes engraved on blocks to allow for them to exert power on placed blocks."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest51.description1}"]
 			id: "379D69A44FC5B2F2"
 			rewards: [{
 				id: "06D88EE9C7DC14A5"
@@ -1284,7 +1284,7 @@
 					type: "item"
 				}
 			]
-			title: "Runic Engraved Casings"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest51.title}"
 			x: 5.5d
 			y: -5.0d
 		}
@@ -1293,7 +1293,7 @@
 				"2C354B0735DF8023"
 				"3C3E585C933C9515"
 			]
-			description: ["Multi-layered runes, carrying the power of all that went into crafting them."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest52.description1}"]
 			id: "5FCA8ED151CEB5C1"
 			rewards: [{
 				id: "7FDA3D0E34F6806E"
@@ -1316,7 +1316,7 @@
 					type: "item"
 				}
 			]
-			title: "Multi-Engraved Runic Plating"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest52.title}"
 			x: 7.5d
 			y: -3.0d
 		}
@@ -1325,7 +1325,7 @@
 				"146F88E5C1119649"
 				"624480A1E62B52EF"
 			]
-			description: ["A machine that can engrave runes on top of each other using lost Abydos technology."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest53.description1}"]
 			id: "2C354B0735DF8023"
 			rewards: [{
 				count: 2
@@ -1353,7 +1353,7 @@
 				"4D5EEE7D7EC1FAFA"
 				"6D573ACD05D0EF96"
 			]
-			description: ["Even more runes."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest54.description1}"]
 			id: "3C3E585C933C9515"
 			rewards: [{
 				id: "187EF22FCDECD230"
@@ -1377,7 +1377,7 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Engraved Runes"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest54.title}"
 			x: 6.5d
 			y: -4.0d
 		}
@@ -1386,7 +1386,7 @@
 				"1E47910C2F2112E1"
 				"3212A3351DAD4492"
 			]
-			description: ["An array of Chevrons that can store more complex data."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest55.description1}"]
 			hide_dependency_lines: true
 			id: "442233119AED645F"
 			rewards: [{
@@ -1408,7 +1408,7 @@
 		}
 		{
 			dependencies: ["493DD013C818BB7B"]
-			description: ["You can drill this up just like Oil."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest56.description1}"]
 			icon: {
 				Count: 1
 				id: "gtceu:gritty_akreyrium_bucket"
@@ -1436,13 +1436,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "Gritty Akreyrium"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest56.title}"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["07AD6651D0B40E22"]
-			description: ["A passive Heat Sink with actual good cooling."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest57.description1}"]
 			id: "6E40FC247C876DB2"
 			optional: true
 			rewards: [{
@@ -1455,7 +1455,7 @@
 				item: "start_core:hpca_nanofluidic_heat_sink_component"
 				type: "item"
 			}]
-			title: "Better Research Heat Sink"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest57.title}"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -1465,7 +1465,7 @@
 			optional: true
 			tasks: [{
 				id: "6A826ED481004E31"
-				title: "Positioner"
+				title: "{ftbquests.chapter.adventures_in_abydos.quest58.task_7674818573969149489.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1477,7 +1477,7 @@
 				"30C974448C57F0EC"
 				"3212A3351DAD4492"
 			]
-			description: ["The Maker of Gates applauds you and bestows upon you their recognition."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest59.description1}"]
 			hide_dependency_lines: true
 			id: "624480A1E62B52EF"
 			rewards: [{
@@ -1495,7 +1495,7 @@
 		}
 		{
 			dependencies: ["25583D0BF59E1BC8"]
-			description: ["Ok now these rates are getting insane"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest60.description1}"]
 			hide_dependency_lines: true
 			id: "320ADA7E07856560"
 			rewards: [{
@@ -1503,7 +1503,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "1024x Parallel Hatch"
+			subtitle: "{ftbquests.chapter.adventures_in_abydos.quest60.subtitle}"
 			tasks: [{
 				id: "03A50D522C002B0C"
 				item: "start_core:uhv_parallel_hatch"
@@ -1518,9 +1518,9 @@
 				"7AC55BA8BDD0F3D2"
 			]
 			description: [
-				"Remember how regular &3Parallel&r hatches are complex and care about maxing out amperage and your overclocks. Ya forget all of that it's just that many more of a recipe at once."
+				"{ftbquests.chapter.adventures_in_abydos.quest61.description1}"
 				""
-				"(Only goes on special machines, does &4NOT&r replace your normal parallel hatch)"
+				"{ftbquests.chapter.adventures_in_abydos.quest61.description2}"
 			]
 			id: "230A202BB7D02C1A"
 			rewards: [{
@@ -1528,7 +1528,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "4x Absolute Parallel Hatch"
+			subtitle: "{ftbquests.chapter.adventures_in_abydos.quest61.subtitle}"
 			tasks: [{
 				id: "59E8F04BD1D95FD9"
 				item: "start_core:uhv_absolute_parallel_hatch"
@@ -1540,16 +1540,16 @@
 		{
 			dependencies: ["2659B3AA9108BC43"]
 			description: [
-				"By using the exotic gas collector you can do all of Air Distillation in 1 step."
+				"{ftbquests.chapter.adventures_in_abydos.quest62.description1}"
 				""
-				"Furthermore you are able to collect airs from exotic dimensions."
+				"{ftbquests.chapter.adventures_in_abydos.quest62.description2}"
 			]
 			icon: "gtceu:radon_bucket"
 			id: "6849929CF7E4477F"
 			optional: true
 			tasks: [{
 				id: "2635BED4229F491B"
-				title: "Cheaper Gasses"
+				title: "{ftbquests.chapter.adventures_in_abydos.quest62.task_2753316565530134811.title}"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -1561,7 +1561,7 @@
 				"5FCA8ED151CEB5C1"
 				"2F26A144D29B00A5"
 			]
-			description: ["Scans indicate that the Nether is an inhospitable dimension due to intensive radioactive decay. This armor will help mitigate the effects. The Nether inhabitants might be hiding a &ltalisman&r capable of nullifying the effects of radiation..."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest63.description1}"]
 			hide_dependent_lines: true
 			id: "59B0F5DB2C1E96DC"
 			rewards: [{
@@ -1615,7 +1615,7 @@
 					type: "item"
 				}
 			]
-			title: "Runic Infused Hazmat Armor"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest63.title}"
 			x: 6.5d
 			y: -2.0d
 		}
@@ -1624,12 +1624,12 @@
 				"05E824087CE7825D"
 				"493DD013C818BB7B"
 			]
-			description: ["More information present in the Processing Lines (4,5,6) Chapter"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest64.description1}"]
 			icon: "gtceu:abydos_zapolite_rich_magma_bucket"
 			id: "5BD0047E69D79476"
 			tasks: [{
 				id: "630CDF3A4731333F"
-				title: "Magma Processing"
+				title: "{ftbquests.chapter.adventures_in_abydos.quest64.task_7137324950870897471.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -1640,7 +1640,7 @@
 				"707C2E9BA62A60C5"
 				"5C39B74171CC21F9"
 			]
-			description: ["These Magmas need to a little more to break down."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest65.description1}"]
 			id: "05E824087CE7825D"
 			shape: "gear"
 			size: 1.5d
@@ -1658,11 +1658,11 @@
 				"43DAD4B63603BFC3"
 			]
 			description: [
-				"A shard of the &5&l&o&mAbyss&r"
+				"{ftbquests.chapter.adventures_in_abydos.quest66.description1}"
 				""
-				"Forged from echoes of a void and altered stars"
+				"{ftbquests.chapter.adventures_in_abydos.quest66.description2}"
 				""
-				"It must be at the heart of something strong"
+				"{ftbquests.chapter.adventures_in_abydos.quest66.description3}"
 			]
 			id: "63AD0F905F2A262B"
 			shape: "gear"
@@ -1681,11 +1681,11 @@
 				"43DAD4B63603BFC3"
 			]
 			description: [
-				"A shard of the &4&l&o&mInferno&r"
+				"{ftbquests.chapter.adventures_in_abydos.quest67.description1}"
 				""
-				"Forged from blinding flames and altered stars"
+				"{ftbquests.chapter.adventures_in_abydos.quest67.description2}"
 				""
-				"It must be at the heart of something strong"
+				"{ftbquests.chapter.adventures_in_abydos.quest67.description3}"
 			]
 			id: "5BA6FB8F852C2629"
 			shape: "gear"
@@ -1703,7 +1703,7 @@
 				"07AD6651D0B40E22"
 				"43DAD4B63603BFC3"
 			]
-			description: ["Used to contain powers just within comprehension."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest68.description1}"]
 			hide_dependency_lines: true
 			id: "4A0AD203617FEF0E"
 			tasks: [{
@@ -1717,9 +1717,9 @@
 		{
 			dependencies: ["509F0DE97411C0CD"]
 			description: [
-				"A refined Stargate Rod, infused with the power of the &5&o&lAbyss&r. Refined over and over."
+				"{ftbquests.chapter.adventures_in_abydos.quest69.description1}"
 				""
-				"Alone it is able to rip tears in the fabric of the endless void."
+				"{ftbquests.chapter.adventures_in_abydos.quest69.description2}"
 			]
 			hide_dependent_lines: true
 			id: "29A86F882D68239F"
@@ -1734,9 +1734,9 @@
 		{
 			dependencies: ["5829828FB6290587"]
 			description: [
-				"A refined Stargate Rod, infused with the power of the &4&o&lInferno&r. Refined over and over."
+				"{ftbquests.chapter.adventures_in_abydos.quest70.description1}"
 				""
-				"Alone it holds enough power to burn through the fabric of space"
+				"{ftbquests.chapter.adventures_in_abydos.quest70.description2}"
 			]
 			hide_dependent_lines: true
 			id: "78117340F3D4549A"
@@ -1750,7 +1750,7 @@
 		}
 		{
 			dependencies: ["63AD0F905F2A262B"]
-			description: ["A Stargate Rod infused with the power of the &5&oAbyss&r, though not yet refined"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest71.description1}"]
 			id: "509F0DE97411C0CD"
 			tasks: [{
 				id: "4B87905BEBE00F09"
@@ -1762,7 +1762,7 @@
 		}
 		{
 			dependencies: ["5BA6FB8F852C2629"]
-			description: ["A Stargate Rod infused with the power of the &4&oInferno&r, though not yet refined"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest72.description1}"]
 			id: "5829828FB6290587"
 			tasks: [{
 				id: "4543736298C247BE"
@@ -1778,9 +1778,9 @@
 				"0DA1386616FF7222"
 			]
 			description: [
-				"Have you ever wanted to process millions of items at once?"
+				"{ftbquests.chapter.adventures_in_abydos.quest73.description1}"
 				""
-				"Well now you can."
+				"{ftbquests.chapter.adventures_in_abydos.quest73.description2}"
 			]
 			id: "13118B7518370623"
 			tasks: [{
@@ -1793,7 +1793,7 @@
 		}
 		{
 			dependencies: ["630F50E03EC3D144"]
-			description: ["Gravi-Stars &o&lCollapsed&r with even greater intensity."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest74.description1}"]
 			id: "4D5EEE7D7EC1FAFA"
 			rewards: [{
 				id: "370282BF6FAD644A"
@@ -1817,7 +1817,7 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Singularities"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest74.title}"
 			x: 8.5d
 			y: -4.0d
 		}
@@ -1827,12 +1827,12 @@
 				"25583D0BF59E1BC8"
 			]
 			description: [
-				"Have you ever thought that wires were a little... excessive? Well, now they aren't needed."
+				"{ftbquests.chapter.adventures_in_abydos.quest75.description1}"
 				""
-				"If you love using Converters, bad luck, after &aUEV&r that no longer becomes an as direct solution."
+				"{ftbquests.chapter.adventures_in_abydos.quest75.description2}"
 				""
 				""
-				"{ \"text\": \"Read more about how wireless power works here\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F63F0E239737E38\" } }"
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.adventures_in_abydos.quest75.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F63F0E239737E38\"}}]"
 			]
 			id: "141911C5DD68CD2A"
 			rewards: [{
@@ -1851,11 +1851,11 @@
 		{
 			dependencies: ["141911C5DD68CD2A"]
 			description: [
-				"&lWireless Power&r Adds the Following for &3UV&f and &4Higher&f:&r"
+				"{ftbquests.chapter.adventures_in_abydos.quest76.description1}"
 				""
-				"- Covers: Let your single blocks run from anywhere in the Dream Link's range (Beware of Overvolting)"
+				"{ftbquests.chapter.adventures_in_abydos.quest76.description2}"
 				""
-				"- Hatches: All your regular hatches and the brand new addition of 64a Hatches"
+				"{ftbquests.chapter.adventures_in_abydos.quest76.description3}"
 			]
 			id: "659690E81B3E3AE7"
 			rewards: [{
@@ -1940,16 +1940,16 @@
 					type: "item"
 				}
 			]
-			title: "Wireless Covers and Hatches"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest76.title}"
 			x: 1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["652809D17FCE8B11"]
 			description: [
-				"Ruined Component Parts can be found as loot in various structures in Abydos."
+				"{ftbquests.chapter.adventures_in_abydos.quest77.description1}"
 				""
-				"By finding these ancient parts of technology and researching them, you can discover how to advance into &4UHV&r technology."
+				"{ftbquests.chapter.adventures_in_abydos.quest77.description2}"
 			]
 			id: "077F46BD75F325FD"
 			tasks: [
@@ -1994,13 +1994,13 @@
 					type: "item"
 				}
 			]
-			title: "Ruined Component Parts"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest77.title}"
 			x: -3.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["652809D17FCE8B11"]
-			description: ["A way to bypass the needs of armor, a blessing of sorts."]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest78.description1}"]
 			id: "7FBEF894C1FC4CCF"
 			tasks: [{
 				id: "16690ECAFD8AF4A4"
@@ -2023,7 +2023,7 @@
 				icon: "sgjourney:sandstone_cartouche"
 				id: "7B142445383BC74F"
 				structure: "sgjourney:cartouche/abydos_cartouche"
-				title: "Buried Tombs"
+				title: "{ftbquests.chapter.adventures_in_abydos.quest79.task_8868753445914134351.title}"
 				type: "structure"
 			}]
 			x: -2.5d
@@ -2031,7 +2031,7 @@
 		}
 		{
 			dependencies: ["3479CEBD73550718"]
-			description: ["Not much use on their own but they may hold the secret to stronger things"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest80.description1}"]
 			hide_dependency_lines: true
 			id: "2F26A144D29B00A5"
 			tasks: [
@@ -2080,13 +2080,13 @@
 					type: "item"
 				}
 			]
-			title: "Ancient Armors"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest80.title}"
 			x: 5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5BD0047E69D79476"]
-			description: ["Amalgamations of the various byproducts you get from Magma Processing"]
+			description: ["{ftbquests.chapter.adventures_in_abydos.quest81.description1}"]
 			hide_dependent_lines: true
 			id: "3BFB8DA58BED12D1"
 			tasks: [
@@ -2106,7 +2106,7 @@
 					type: "item"
 				}
 			]
-			title: "Abydos Alloys"
+			title: "{ftbquests.chapter.adventures_in_abydos.quest81.title}"
 			x: -6.5d
 			y: 1.0d
 		}
@@ -2116,7 +2116,7 @@
 				"5A91EE93457C617E"
 			]
 			id: "25583D0BF59E1BC8"
-			subtitle: "First UEV Circuit"
+			subtitle: "{ftbquests.chapter.adventures_in_abydos.quest82.subtitle}"
 			tasks: [{
 				id: "0F71C952D6EC490A"
 				item: "kubejs:runic_wetware_processor_mainframe"
@@ -2128,7 +2128,7 @@
 		{
 			dependencies: ["4F994F04EF1710B9"]
 			id: "67E52B5738FC7398"
-			subtitle: "Second UHV Circuit"
+			subtitle: "{ftbquests.chapter.adventures_in_abydos.quest83.subtitle}"
 			tasks: [{
 				id: "0AB6135CF248B2E9"
 				item: "kubejs:runic_wetware_processor_computer"
@@ -2144,7 +2144,7 @@
 				"1F79E45EF7810DFF"
 			]
 			id: "4F994F04EF1710B9"
-			subtitle: "Third UV Circuit"
+			subtitle: "{ftbquests.chapter.adventures_in_abydos.quest84.subtitle}"
 			tasks: [{
 				id: "6D1079B819FF51A6"
 				item: "kubejs:runic_wetware_processor_assembly"
@@ -2187,9 +2187,9 @@
 		{
 			dependencies: ["1BE69DB2DFDC35C8"]
 			description: [
-				"A super strong neutron absorber."
+				"{ftbquests.chapter.adventures_in_abydos.quest87.description1}"
 				""
-				"&7&oRemember that EBFs gain heat for every tier above &bMV&7 meaning Tritanium Coils can handle it [&c11400K&7 at UV]."
+				"{ftbquests.chapter.adventures_in_abydos.quest87.description2}"
 			]
 			id: "3C99D83398AFC31C"
 			tasks: [{
@@ -2229,5 +2229,5 @@
 			y: 6.0d
 		}
 	]
-	title: "Adventures in Abydos"
+	title: "{ftbquests.chapter.adventures_in_abydos.title}"
 }

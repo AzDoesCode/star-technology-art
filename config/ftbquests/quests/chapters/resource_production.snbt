@@ -127,7 +127,7 @@
 					type: "item"
 				}
 			]
-			title: "Dirt Sieving"
+			title: "{ftbquests.chapter.resource_production.quest1.title}"
 			x: -9.5d
 			y: -9.5d
 		}
@@ -185,7 +185,7 @@
 					type: "item"
 				}
 			]
-			title: "Rooted Dirt Sieving"
+			title: "{ftbquests.chapter.resource_production.quest2.title}"
 			x: -9.0d
 			y: -10.5d
 		}
@@ -249,7 +249,7 @@
 					type: "item"
 				}
 			]
-			title: "Waterlogged Dust Sieving"
+			title: "{ftbquests.chapter.resource_production.quest3.title}"
 			x: -6.5d
 			y: -12.0d
 		}
@@ -304,7 +304,7 @@
 					type: "item"
 				}
 			]
-			title: "Dust Sieving"
+			title: "{ftbquests.chapter.resource_production.quest4.title}"
 			x: -5.0d
 			y: -8.0d
 		}
@@ -368,7 +368,7 @@
 					type: "item"
 				}
 			]
-			title: "Sand Sieving"
+			title: "{ftbquests.chapter.resource_production.quest5.title}"
 			x: -4.5d
 			y: -9.0d
 		}
@@ -459,7 +459,7 @@
 					type: "item"
 				}
 			]
-			title: "Waterlogged Sand Sieving"
+			title: "{ftbquests.chapter.resource_production.quest6.title}"
 			x: -7.5d
 			y: -12.0d
 		}
@@ -523,7 +523,7 @@
 					type: "item"
 				}
 			]
-			title: "Gravel Sieving"
+			title: "{ftbquests.chapter.resource_production.quest7.title}"
 			x: -4.5d
 			y: -10.0d
 		}
@@ -560,7 +560,7 @@
 					type: "item"
 				}
 			]
-			title: "Crushed Blackstone Sieving"
+			title: "{ftbquests.chapter.resource_production.quest8.title}"
 			x: -5.0d
 			y: -11.0d
 		}
@@ -878,7 +878,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Rare Ore Residue"
+			title: "{ftbquests.chapter.resource_production.quest33.title}"
 			x: 6.0d
 			y: -8.5d
 		}
@@ -903,7 +903,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Raw Ore Slurry"
+			title: "{ftbquests.chapter.resource_production.quest34.title}"
 			x: 6.0d
 			y: -6.5d
 		}
@@ -1005,7 +1005,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Mixed Mineral Residue"
+			title: "{ftbquests.chapter.resource_production.quest41.title}"
 			x: 8.5d
 			y: -6.5d
 		}
@@ -1033,7 +1033,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Molten Ore Mixture"
+			title: "{ftbquests.chapter.resource_production.quest42.title}"
 			x: 6.0d
 			y: -2.5d
 		}
@@ -1068,7 +1068,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Oxygenous Mineral Mixture"
+			title: "{ftbquests.chapter.resource_production.quest44.title}"
 			x: 10.5d
 			y: -5.0d
 		}
@@ -1092,7 +1092,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Sulfuric Mineral Mixture"
+			title: "{ftbquests.chapter.resource_production.quest45.title}"
 			x: 10.5d
 			y: -8.0d
 		}
@@ -1572,23 +1572,23 @@
 		{
 			dependencies: ["74749B089D50329C"]
 			description: [
-				"With an &5EV&r Mixer you can recycle those extra ores for some more &7Molten Ore Mixture&r, with an &9IV&r Mixer you can start looping that &8Metal Mixture&r that you get."
+				"{ftbquests.chapter.resource_production.quest89.description1}"
 				""
-				"A Large Mixer is Recommended for the Job."
+				"{ftbquests.chapter.resource_production.quest89.description2}"
 				""
-				"{ \"text\": \"Large Mixer\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"113B1C2BA5D4CB7C\" } }"
-				"or"
-				"{ \"text\": \"Large Mixing Vessel\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66BF04FC2C167FDF\" } }"
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.resource_production.quest89.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"113B1C2BA5D4CB7C\"}}]"
+				"{ftbquests.chapter.resource_production.quest89.description4}"
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.resource_production.quest89.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"66BF04FC2C167FDF\"}}]"
 			]
 			icon: "gtceu:ev_mixer"
 			id: "39CF5BCF84727BB3"
 			optional: true
 			tasks: [{
 				id: "00230717870973D6"
-				title: "Easier Molten Ore Mixture"
+				title: "{ftbquests.chapter.resource_production.quest89.task_9859421816058838.title}"
 				type: "checkmark"
 			}]
-			title: "Easier Molten Ore Mixture"
+			title: "{ftbquests.chapter.resource_production.quest89.title}"
 			x: 5.0d
 			y: -4.0d
 		}
@@ -1598,7 +1598,7 @@
 			optional: true
 			tasks: [{
 				id: "78581BF782B594DE"
-				title: "Positioner"
+				title: "{ftbquests.chapter.resource_production.quest90.task_8671711832365700318.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1614,7 +1614,7 @@
 			id: "748EC87C28C4CC56"
 			tasks: [{
 				id: "7D01C9B5B1A9671B"
-				title: "Overworld Drilling"
+				title: "{ftbquests.chapter.resource_production.quest91.task_9007702511924635419.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -1630,7 +1630,7 @@
 			id: "69CCC4E36528A4FC"
 			tasks: [{
 				id: "7BB21D8C5FFD8D04"
-				title: "Abydos Drilling"
+				title: "{ftbquests.chapter.resource_production.quest92.task_8913219101262712068.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -1660,7 +1660,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Abydos Titanite-rich Magma"
+			title: "{ftbquests.chapter.resource_production.quest93.title}"
 			x: 5.5d
 			y: 8.5d
 		}
@@ -1688,7 +1688,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Abydos Zapolite-rich Magma"
+			title: "{ftbquests.chapter.resource_production.quest94.title}"
 			x: 6.5d
 			y: 8.5d
 		}
@@ -1716,7 +1716,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Gritty Akreyrium"
+			title: "{ftbquests.chapter.resource_production.quest95.title}"
 			x: 7.5d
 			y: 8.5d
 		}
@@ -1736,7 +1736,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Brackish Water"
+			title: "{ftbquests.chapter.resource_production.quest96.title}"
 			x: 5.5d
 			y: 6.0d
 		}
@@ -1751,7 +1751,7 @@
 				id: "5650CB9FACAD6C04"
 				type: "checkmark"
 			}]
-			title: "Processing Lines (Chap 4,5,6)"
+			title: "{ftbquests.chapter.resource_production.quest97.title}"
 			x: 6.5d
 			y: 10.0d
 		}
@@ -1779,7 +1779,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Sulfuric Heavy Fuel"
+			title: "{ftbquests.chapter.resource_production.quest98.title}"
 			x: 2.0d
 			y: 4.5d
 		}
@@ -1807,7 +1807,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Sulfuric Light Fuel"
+			title: "{ftbquests.chapter.resource_production.quest99.title}"
 			x: 2.0d
 			y: 5.5d
 		}
@@ -1835,7 +1835,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Sulfuric Naphtha"
+			title: "{ftbquests.chapter.resource_production.quest100.title}"
 			x: 2.0d
 			y: 6.5d
 		}
@@ -1863,7 +1863,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Sulfuric Gas"
+			title: "{ftbquests.chapter.resource_production.quest101.title}"
 			x: 2.0d
 			y: 7.5d
 		}
@@ -1892,7 +1892,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Heavy Fuel"
+			title: "{ftbquests.chapter.resource_production.quest102.title}"
 			x: 0.75d
 			y: 4.5d
 		}
@@ -1921,7 +1921,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Light Fuel"
+			title: "{ftbquests.chapter.resource_production.quest103.title}"
 			x: 0.75d
 			y: 5.5d
 		}
@@ -1950,7 +1950,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Naphtha"
+			title: "{ftbquests.chapter.resource_production.quest104.title}"
 			x: 0.75d
 			y: 6.5d
 		}
@@ -1979,7 +1979,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Refinery Gas"
+			title: "{ftbquests.chapter.resource_production.quest105.title}"
 			x: 0.75d
 			y: 7.5d
 		}
@@ -1991,12 +1991,12 @@
 				"081AEA0310BAA2B6"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Inject Fuels with Steam"]
+			description: ["{ftbquests.chapter.resource_production.quest106.description1}"]
 			id: "51A0E48B2D04465E"
 			optional: true
 			tasks: [{
 				id: "05812E734700834C"
-				title: "Steam Cracking"
+				title: "{ftbquests.chapter.resource_production.quest106.task_396649314832646988.title}"
 				type: "checkmark"
 			}]
 			x: -0.75d
@@ -2010,12 +2010,12 @@
 				"081AEA0310BAA2B6"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Inject Fuels with Hydrogen"]
+			description: ["{ftbquests.chapter.resource_production.quest107.description1}"]
 			id: "3BD1916DC5208255"
 			optional: true
 			tasks: [{
 				id: "4EAE7F0A6A9B2515"
-				title: "Hydro Cracking"
+				title: "{ftbquests.chapter.resource_production.quest107.task_5669608663620986133.title}"
 				type: "checkmark"
 			}]
 			x: -0.75d
@@ -2073,11 +2073,11 @@
 				}
 				{
 					id: "1E34BEB843A3DEF0"
-					title: "Oil Drilling"
+					title: "{ftbquests.chapter.resource_production.quest108.task_2176574218544865008.title}"
 					type: "checkmark"
 				}
 			]
-			title: "Oil Production"
+			title: "{ftbquests.chapter.resource_production.quest108.title}"
 			x: 3.5d
 			y: 6.0d
 		}
@@ -2093,7 +2093,7 @@
 			tasks: [
 				{
 					id: "47AD76957C921187"
-					title: "Pyrolysis Oil"
+					title: "{ftbquests.chapter.resource_production.quest109.task_5164914732075979143.title}"
 					type: "checkmark"
 				}
 				{
@@ -2122,7 +2122,7 @@
 			tasks: [
 				{
 					id: "2BB44FF79D0E0217"
-					title: "Wood Products"
+					title: "{ftbquests.chapter.resource_production.quest110.task_3149229964349276695.title}"
 					type: "checkmark"
 				}
 				{
@@ -2177,7 +2177,7 @@
 			tasks: [
 				{
 					id: "7271F0DBB6EE9F6C"
-					title: "Coal Products"
+					title: "{ftbquests.chapter.resource_production.quest111.task_8246637219149684588.title}"
 					type: "checkmark"
 				}
 				{
@@ -2222,7 +2222,7 @@
 			tasks: [
 				{
 					id: "7D308DD9058E03F1"
-					title: "Bio Products"
+					title: "{ftbquests.chapter.resource_production.quest112.task_9020866016863716337.title}"
 					type: "checkmark"
 				}
 				{
@@ -2387,7 +2387,7 @@
 			id: "4E6158880F47AACC"
 			tasks: [{
 				id: "18FD48B4E6F632C6"
-				title: "Nether Drilling"
+				title: "{ftbquests.chapter.resource_production.quest114.task_1800675367824274118.title}"
 				type: "checkmark"
 			}]
 			x: 8.5d
@@ -2421,13 +2421,13 @@
 				"30AB8331D0B80859"
 				"2FF64174BEF10D64"
 			]
-			description: ["{ \"text\": \"Here\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3EA66E80E1F54265\" } }"]
+			description: ["[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.resource_production.quest117.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3EA66E80E1F54265\"}}]"]
 			id: "4D7583FF99404C6D"
 			tasks: [{
 				id: "7BDD424C5B7480B1"
 				type: "checkmark"
 			}]
-			title: "Processing Lines (Chap 7.1)"
+			title: "{ftbquests.chapter.resource_production.quest117.title}"
 			x: 8.5d
 			y: 7.5d
 		}
@@ -2520,5 +2520,5 @@
 			y: -5.0d
 		}
 	]
-	title: "Resource Production"
+	title: "{ftbquests.chapter.resource_production.title}"
 }

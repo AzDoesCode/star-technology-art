@@ -2,27 +2,23 @@
 StartupEvents.registry('item', event => {
 
     event.create('coordinate_crystal')
-        .displayName('Blank Dimensional Coordinate Crystal')
         .rarity('rare')
-        .tooltip('If you are lucky you may find §l§uHome')
+        .tooltip(Text.translate('item.kubejs.blank_dimensional_coordinate_crystal.tooltip'))
         .texture('kubejs:item/coordinate_crystals/blank_coordinate_crystal');
 
     event.create('abydos_coordinate_crystal')
-        .displayName('Abydos Inscribed Coordinate Crystal')
         .rarity('epic')
-        .tooltip('The §eAncient Sands')
+        .tooltip(Text.translate('item.kubejs.abydos_coordinate_crystal.tooltip'))
         .texture('kubejs:item/coordinate_crystals/abydos_coordinate_crystal');
         
     event.create('nether_coordinate_crystal')
-        .displayName('Nether Inscribed Coordinate Crystal')
         .rarity('epic')
-        .tooltip('The §4Burning Hells')
+        .tooltip(Text.translate('item.kubejs.nether_coordinate_crystal.tooltip'))
         .texture('kubejs:item/coordinate_crystals/nether_coordinate_crystal');
 
     event.create('end_coordinate_crystal')
-        .displayName('End Inscribed Coordinate Crystal')
         .rarity('epic')
-        .tooltip('The §5Draconic Void')
+        .tooltip(Text.translate('item.kubejs.end_coordinate_crystal.tooltip'))
         .texture('kubejs:item/coordinate_crystals/end_coordinate_crystal');
 
     /*event.create('lantea_coordinate_crystal')

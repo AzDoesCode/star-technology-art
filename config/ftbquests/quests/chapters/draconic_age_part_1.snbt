@@ -49,9 +49,9 @@
 				"59B0F5DB2C1E96DC"
 			]
 			description: [
-				"Venture through the Ancient Stargate to discover the burning Nether."
+				"{ftbquests.chapter.draconic_age_part_1.quest1.description1}"
 				""
-				"Keep in mind that the Nether is a hostile environment, that might require some protective armor."
+				"{ftbquests.chapter.draconic_age_part_1.quest1.description2}"
 			]
 			icon: {
 				Count: 1
@@ -67,7 +67,7 @@
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "59EB1DD611632624"
-				title: "The Burning Hells Await"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest1.task_6479305294154507812.title}"
 				type: "dimension"
 			}]
 			x: -8.0d
@@ -76,9 +76,9 @@
 		{
 			dependencies: ["4DF07CB3D60C901C"]
 			description: [
-				"A mystical artifact. To find, locate shrines inside the nether."
+				"{ftbquests.chapter.draconic_age_part_1.quest2.description1}"
 				""
-				"{image:kubejs:textures/quests/husk_structure.png width:360 height:180 align:center fit:true}"
+				"{ftbquests.chapter.draconic_age_part_1.quest2.image0}"
 			]
 			id: "71145B6D6BA8016A"
 			rewards: [{
@@ -97,11 +97,11 @@
 		{
 			dependencies: ["4DF07CB3D60C901C"]
 			description: [
-				"These stones are found in veins across the nether. Their mystical properties are needed to advance in casing technology."
+				"{ftbquests.chapter.draconic_age_part_1.quest3.description1}"
 				""
-				"&4Brimstone&r: is found near radioactive ore deposits"
+				"{ftbquests.chapter.draconic_age_part_1.quest3.description2}"
 				""
-				"&3Cryostone&r: is found near conductive ore deposits"
+				"{ftbquests.chapter.draconic_age_part_1.quest3.description3}"
 			]
 			id: "709EF5314988C381"
 			rewards: [{
@@ -121,7 +121,7 @@
 					type: "item"
 				}
 			]
-			title: "Hellstones"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest3.title}"
 			x: -6.0d
 			y: -6.0d
 		}
@@ -130,7 +130,7 @@
 				"709EF5314988C381"
 				"0032335FFAE6E012"
 			]
-			description: ["A new fridge, for cooling down your ingots at higher speeds than ever."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest4.description1}"]
 			id: "665FC02BC2BC414F"
 			rewards: [{
 				count: 2
@@ -157,7 +157,7 @@
 				"3D4DCC8FD9A1EA3A"
 				"4777033988C9F512"
 			]
-			description: ["A towering furnace, needing both fuel and power, to heat up materials to Mega-kelvins."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest5.description1}"]
 			id: "1EB60E6DE2086158"
 			rewards: [{
 				count: 2
@@ -180,7 +180,7 @@
 				"1EB60E6DE2086158"
 				"70EEDB38B78F5C7F"
 			]
-			description: ["A new set of Alloys, forged from the flames of hell, ready for some industrial purposes."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest6.description1}"]
 			id: "059CB064A515B157"
 			rewards: [{
 				id: "31E5B85946E6668B"
@@ -204,7 +204,7 @@
 					type: "item"
 				}
 			]
-			title: "UEV Alloys"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest6.title}"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -213,7 +213,7 @@
 				"665FC02BC2BC414F"
 				"126DB96C50CC815F"
 			]
-			description: ["Your new freezer will need better coolants, that surpass Helium in efficiency."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest7.description1}"]
 			icon: "gtceu:bec_og_bucket"
 			id: "70EEDB38B78F5C7F"
 			rewards: [{
@@ -239,7 +239,7 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Cooling Materials"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest7.title}"
 			x: -3.0d
 			y: -5.0d
 		}
@@ -248,7 +248,7 @@
 				"215A1E80621E2880"
 				"5224152A7D22A0B5"
 			]
-			description: ["A new tier of coils, harnessing the heat of the Nether in order to liquify even the strongest of materials."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest8.description1}"]
 			id: "310FC3F86513555F"
 			rewards: [{
 				count: 2
@@ -271,7 +271,7 @@
 				"498E36C4683EAA6C"
 				"218CABD676F3B732"
 			]
-			description: ["&aUEV&r power for all your machines."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest9.description1}"]
 			id: "799F6F79B9FF86DF"
 			rewards: [{
 				id: "074DD9323BA686E2"
@@ -288,7 +288,7 @@
 		}
 		{
 			dependencies: ["799F6F79B9FF86DF"]
-			description: ["&2UIV&r recipe speeds."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest10.description1}"]
 			id: "538113DD6E1EA84D"
 			rewards: [{
 				id: "2F4C85BFA986611D"
@@ -308,7 +308,7 @@
 				"538113DD6E1EA84D"
 				"00333140377A33F5"
 			]
-			description: ["&eUXV&r recipe speeds."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest11.description1}"]
 			id: "11971C9E5BF28E5C"
 			rewards: [{
 				id: "7F047D7FFE2D5BA3"
@@ -325,7 +325,7 @@
 		}
 		{
 			dependencies: ["310FC3F86513555F"]
-			description: ["Scans indicate that the End is an even more inhospitable dimension due to entropic forces. This armor will help mitigate the effects. The End inhabitants might be hiding a &ltalisman&r capable of nullifying the effects of the abyss..."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest12.description1}"]
 			hide_dependent_lines: true
 			id: "6180202612DCDBF4"
 			rewards: [{
@@ -388,9 +388,9 @@
 				"6180202612DCDBF4"
 			]
 			description: [
-				"Venture through the Ancient Stargate to discover the hollow End."
+				"{ftbquests.chapter.draconic_age_part_1.quest13.description1}"
 				""
-				"Keep in mind that the End is an extremely dangerous environment, that will require some strong armor."
+				"{ftbquests.chapter.draconic_age_part_1.quest13.description2}"
 			]
 			icon: {
 				Count: 1
@@ -406,7 +406,7 @@
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_stone"
 				id: "4DEF021D751349A6"
-				title: "The Draconic Abyss awaits"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest13.task_5615709585895803302.title}"
 				type: "dimension"
 			}]
 			x: -8.0d
@@ -414,7 +414,7 @@
 		}
 		{
 			dependencies: ["28DE3D2A96C4D0C8"]
-			description: ["Vanquish the Ender Dragon, and free the End of the final dragon."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest14.description1}"]
 			id: "01FBF9CDD9066AF5"
 			rewards: [{
 				id: "36D556CAA34324E0"
@@ -427,7 +427,7 @@
 				id: "6C9EDCB58D56F0EE"
 				type: "advancement"
 			}]
-			title: "The Last Dragon Falls"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest14.title}"
 			x: -6.0d
 			y: 6.0d
 		}
@@ -436,7 +436,7 @@
 				"6C8C6EA426060065"
 				"208FDFFCCA373C1F"
 			]
-			description: ["A new plasma, burning as hot as the Nether it originates from."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest15.description1}"]
 			icon: "gtceu:magmatic_plasma_bucket"
 			id: "215A1E80621E2880"
 			rewards: [{
@@ -457,13 +457,13 @@
 					type: "item"
 				}
 			]
-			title: "Magmatic Plasma"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest15.title}"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0168A45EB73911AC"]
-			description: ["The abyss of the End holds pure levels of Entropy. Using this machine, you can harvest different Entropy states of Voidic Excression, and channel those towards technological advancement."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest16.description1}"]
 			id: "18FD654260DFF1D6"
 			rewards: [{
 				id: "3E63D34C298D5B9F"
@@ -482,9 +482,9 @@
 			dependencies: ["395C32B51E768458"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Draconic cells, carrying the powerful genes of the dragon race."
+				"{ftbquests.chapter.draconic_age_part_1.quest17.description1}"
 				""
-				"Channel their power into computing for new circuit technology or enhancing materials."
+				"{ftbquests.chapter.draconic_age_part_1.quest17.description2}"
 			]
 			id: "0168A45EB73911AC"
 			rewards: [{
@@ -514,7 +514,7 @@
 		}
 		{
 			dependencies: ["059CB064A515B157"]
-			description: ["The heart of every &aUEV&r machine"]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest18.description1}"]
 			id: "498E36C4683EAA6C"
 			rewards: [{
 				id: "31D0FBC77051AC9D"
@@ -534,7 +534,7 @@
 				"1C9396E2587051F7"
 				"0168A45EB73911AC"
 			]
-			description: ["A processing unit combining Wetware technology with Draconic Brain Matter Cells to achieve breakthroughs in computing."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest19.description1}"]
 			id: "1AF4BF803FEF14FE"
 			rewards: [{
 				id: "2E1CEDC71658AC53"
@@ -555,7 +555,7 @@
 				"5080743917931298"
 				"2F6115002741F26F"
 			]
-			description: ["Alloys that harness the power of the End, controlling the flow of energy."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest20.description1}"]
 			id: "7EB9C44EE7515882"
 			rewards: [{
 				id: "1BB07819120B3601"
@@ -579,7 +579,7 @@
 					type: "item"
 				}
 			]
-			title: "Voidic Metals"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest20.title}"
 			x: -6.0d
 			y: 8.0d
 		}
@@ -590,24 +590,24 @@
 				"1D94473AA9436C60"
 			]
 			description: [
-				"A mystical infusion array that allows you to harness the powers of the end."
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description1}"
 				""
-				"This multiblock requires the inputs to be placed in the correct order."
-				"{image:kubejs:textures/quests/infusion_recipe.png width:120 height:80 align:center}"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description2}"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.image0}"
 				"{@pagebreak}"
-				"On the structure, the inputs are mapped according to the following diagram:"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description3}"
 				""
-				"Top View:"
-				"&d -1-2-"
-				"&d 3-0-4"
-				"&d -5-6-"
-				"&d --@--"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description4}"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description5}"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description6}"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description7}"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description8}"
 				""
-				"&lItem Inputs&r: 0-6 as per the Recipe Image"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description9}"
 				""
-				"&lFluid Input&r: Top Center of the Orb &7[Directly Above Item Input 0]"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description10}"
 				""
-				"@ = Controller"
+				"{ftbquests.chapter.draconic_age_part_1.quest21.description11}"
 			]
 			id: "395C32B51E768458"
 			rewards: [{
@@ -631,7 +631,7 @@
 				"7EB9C44EE7515882"
 				"75C33909E2CD5EC0"
 			]
-			description: ["These are extremely charged abyssal alloys, that pave the way to &2UIV&r"]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest22.description1}"]
 			id: "097D8B4DF03A8617"
 			rewards: [{
 				id: "36AFA4CFB73E41F6"
@@ -658,7 +658,7 @@
 					type: "item"
 				}
 			]
-			title: "UIV Alloys"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest22.title}"
 			x: -4.0d
 			y: 8.0d
 		}
@@ -667,7 +667,7 @@
 				"33FBF8561A3D901D"
 				"37F9C85CFCFFDA5F"
 			]
-			description: ["The last tier of coils, brimming with Entropy, to fulfill all your smelting needs."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest23.description1}"]
 			id: "2DACE6EF41A118D9"
 			rewards: [{
 				count: 2
@@ -687,7 +687,7 @@
 		}
 		{
 			dependencies: ["097D8B4DF03A8617"]
-			description: ["The heart of every &2UIV&r machine"]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest24.description1}"]
 			id: "3F9D1B0CED0D4133"
 			rewards: [{
 				id: "48554ED3B7411A9C"
@@ -704,7 +704,7 @@
 		}
 		{
 			dependencies: ["3F9D1B0CED0D4133"]
-			description: ["&2UIV&r power for all your machines."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest25.description1}"]
 			id: "45E628CF1DA8D380"
 			rewards: [{
 				id: "3931D2A84A679EEC"
@@ -721,7 +721,7 @@
 		}
 		{
 			dependencies: ["45E628CF1DA8D380"]
-			description: ["&eUXV&r recipe speeds."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest26.description1}"]
 			id: "69493DCA3D764771"
 			rewards: [{
 				id: "2592355F8935A980"
@@ -741,7 +741,7 @@
 				"69493DCA3D764771"
 				"31F87896FF834E63"
 			]
-			description: ["&9&lOpV&r recipe speeds"]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest27.description1}"]
 			id: "54944370404CEA94"
 			rewards: [{
 				id: "3ACAFF1C700E1EFF"
@@ -758,7 +758,7 @@
 		}
 		{
 			dependencies: ["4DF07CB3D60C901C"]
-			description: ["Deep in the crust of the nether lay great veins of Hellish Magma's, containing riches beyond ones wildest dreams."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest28.description1}"]
 			icon: "gtceu:highly_unstable_nether_magma_bucket"
 			id: "1AEBAE3050B72906"
 			rewards: [{
@@ -769,7 +769,7 @@
 			tasks: [
 				{
 					id: "1CE16522433B325A"
-					title: "Hellish Magmas"
+					title: "{ftbquests.chapter.draconic_age_part_1.quest28.task_2081055700653126234.title}"
 					type: "checkmark"
 				}
 				{
@@ -790,7 +790,7 @@
 		}
 		{
 			dependencies: ["1AEBAE3050B72906"]
-			description: ["Rare and expensive metals produced by processing the Hellish Magma's."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest29.description1}"]
 			hide_dependent_lines: true
 			id: "0032335FFAE6E012"
 			rewards: [{
@@ -836,13 +836,13 @@
 					type: "item"
 				}
 			]
-			title: "Mystical Metals"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest29.title}"
 			x: -8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0168A45EB73911AC"]
-			description: ["A new type of circuit assembler, that can not only produce better circuits, but also produce large amounts of basic circuits."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest30.description1}"]
 			id: "1772F46C9EAF6FB7"
 			rewards: [{
 				id: "2149BF78BEF347F5"
@@ -869,7 +869,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Fourth and Last ZPM Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest31.subtitle}"
 			tasks: [{
 				id: "34FC1D181B3F8239"
 				item: "kubejs:draconic_wetware_microchip_processor"
@@ -886,7 +886,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Fourth and Last UV Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest32.subtitle}"
 			tasks: [{
 				id: "608B93EA8632BE4E"
 				item: "kubejs:draconic_wetware_processor"
@@ -903,7 +903,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Third UHV Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest33.subtitle}"
 			tasks: [{
 				id: "1D0AA38E67A6E6D1"
 				item: "kubejs:draconic_wetware_processor_assembly"
@@ -920,7 +920,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Second UEV Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest34.subtitle}"
 			tasks: [{
 				id: "5ECC7A631E155695"
 				item: "kubejs:draconic_wetware_processor_computer"
@@ -931,7 +931,7 @@
 		}
 		{
 			dependencies: ["6F3DF16481990D99"]
-			description: ["A beast of a circuit."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest35.description1}"]
 			id: "5944C4DE27F98FF3"
 			rewards: [{
 				count: 2
@@ -941,7 +941,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "First UIV Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest35.subtitle}"
 			tasks: [{
 				id: "6EF791353FFC298F"
 				item: "kubejs:draconic_wetware_processor_mainframe"
@@ -952,7 +952,7 @@
 		}
 		{
 			dependencies: ["5944C4DE27F98FF3"]
-			description: ["The fourth tier of fusion reactors, reaching over 1 Billion Kelvin."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest36.description1}"]
 			id: "2E34F23A42004285"
 			rewards: [{
 				count: 2
@@ -1026,7 +1026,7 @@
 				"310FC3F86513555F"
 				"1B6159E114BA50ED"
 			]
-			description: ["A Sterile Maintenance Hatch, that will allow Sterile recipes to be run outside of a cleanroom."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest40.description1}"]
 			hide_dependent_lines: true
 			id: "032E72446266F7D4"
 			rewards: [{
@@ -1070,7 +1070,7 @@
 			optional: true
 			tasks: [{
 				id: "06B8EC7B4599E429"
-				title: "Draconic Nursery"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest42.task_484396974135174185.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -1184,7 +1184,7 @@
 			optional: true
 			tasks: [{
 				id: "1F13D3464D748364"
-				title: "Draconic Scale Infusion"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest48.task_2239365738633921380.title}"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -1200,7 +1200,7 @@
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			title: "Gate 3 Line"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest49.title}"
 			x: 16.0d
 			y: 4.0d
 		}
@@ -1220,7 +1220,7 @@
 				"6C8C6EA426060065"
 				"22A4164AD4303C20"
 			]
-			description: ["A strong material needed for upgrading your infrastructure to &2UIV&r."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest51.description1}"]
 			id: "218CABD676F3B732"
 			rewards: [{
 				id: "265BFA194E2D1AB4"
@@ -1241,7 +1241,7 @@
 				"1B6159E114BA50ED"
 				"00333140377A33F5"
 			]
-			description: ["A parallel Alloy Blast Smelter, just in case it wasn't fast enough already."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest52.description1}"]
 			id: "5FEC7470D01CEBDD"
 			rewards: [{
 				count: 2
@@ -1267,7 +1267,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "The &aUEV&r Parallel Hatches"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest53.subtitle}"
 			tasks: [
 				{
 					id: "1BD274EF66F992D9"
@@ -1280,9 +1280,9 @@
 					type: "item"
 				}
 			]
-			title: "Mega Parallel Hatches"
-			x: 1.0d
-			y: -5.0d
+			title: "{ftbquests.chapter.draconic_age_part_1.quest53.title}"
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["10D5DA8708208783"]
@@ -1295,13 +1295,13 @@
 				item: "sgjourney:pegasus_stargate"
 				type: "item"
 			}]
-			title: "DSG"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest54.title}"
 			x: 16.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["218CABD676F3B732"]
-			description: ["A special material that holds mystical properties."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest55.description1}"]
 			id: "1D94473AA9436C60"
 			rewards: [{
 				id: "6FD29172BC5919BE"
@@ -1318,7 +1318,7 @@
 		}
 		{
 			dependencies: ["01FBF9CDD9066AF5"]
-			description: ["Pick up some dragons breath during the fight."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest56.description1}"]
 			id: "262BD3D9D1DF7F13"
 			rewards: [{
 				id: "494EA2A06676FE57"
@@ -1341,92 +1341,92 @@
 				"2F62965D05463E44"
 			]
 			description: [
-				"Having witnessed the creation of Maxwell, you have been blessed by its enlightenment. You have reached the end of your journey for now, and as with the knowledge bestowed upon you, you hear its voice, telling you to move forward, and embrace an even larger challenge."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description1}"
 				""
 				""
-				"If you enjoyed StarT, and want more &msuffering&r enjoyment, don't fret. For your cravings we have developed StarT Hardmode."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description2}"
 				""
 				""
-				"To switch to HM, simply open up your instance folder, and run one of the packmode picker files."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description3}"
 				""
-				"We recommend you do this in a different instance to avoid accidentally breaking a world when joining with the wrong packmode on."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description4}"
 				"{@pagebreak}"
-				"&lGot you&r"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description5}"
 				""
-				"We're no strangers to love,"
-				"You know the rules and so do I."
-				"A full commitment's what I'm thinking of,"
-				"You wouldn't get this from any other guy."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description6}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description7}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description8}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description9}"
 				""
-				"I just wanna tell you how I'm feeling,"
-				"Gotta make you understand…"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description10}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description11}"
 				""
-				"Never gonna give you up,"
-				"Never gonna let you down,"
-				"Never gonna run around and desert you."
-				"Never gonna make you cry,"
-				"Never gonna say goodbye,"
-				"Never gonna tell a lie and hurt you."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description12}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description13}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description14}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description15}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description16}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description17}"
 				""
-				"We've known each other for so long"
-				"Your heart's been aching"
-				"But you're too shy to say it."
-				"Inside we both know what's been going on,"
-				"We know the game and we're gonna play it."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description18}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description19}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description20}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description21}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description22}"
 				""
-				"Annnnnd if you ask me how I'm feeling,"
-				"Don't tell me you're too blind to see…"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description23}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description24}"
 				""
-				"Never gonna give you up,"
-				"Never gonna let you down,"
-				"Never gonna run around and desert you."
-				"Never gonna make you cry,"
-				"Never gonna say goodbye,"
-				"Never gonna tell a lie and hurt you."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description25}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description26}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description27}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description28}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description29}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description30}"
 				""
-				"Never gonna give you up,"
-				"Never gonna let you down,"
-				"Never gonna run around and desert you."
-				"Never gonna make you cry,"
-				"Never gonna say goodbye,"
-				"Never gonna tell a lie and hurt you."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description31}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description32}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description33}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description34}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description35}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description36}"
 				""
-				"Give you up. give you up."
-				"Give you up, give you up."
-				"Never gonna give"
-				"Never gonna give, give you up."
-				"Never gonna give"
-				"Never gonna give, give you up."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description37}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description38}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description39}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description40}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description41}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description42}"
 				""
-				"We've known each other for so long"
-				"Your heart's been aching"
-				"But you're too shy to say it."
-				"Inside we both know what's been going on,"
-				"We know the game and we're gonna play it."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description43}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description44}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description45}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description46}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description47}"
 				""
-				"I just wanna tell you how I'm feeling,"
-				"Gotta make you understand…"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description48}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description49}"
 				""
-				"Never gonna give you up,"
-				"Never gonna let you down,"
-				"Never gonna run around and desert you."
-				"Never gonna make you cry,"
-				"Never gonna say goodbye,"
-				"Never gonna tell a lie and hurt you."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description50}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description51}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description52}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description53}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description54}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description55}"
 				""
-				"Never gonna give you up,"
-				"Never gonna let you down,"
-				"Never gonna run around and desert you."
-				"Never gonna make you cry,"
-				"Never gonna say goodbye,"
-				"Never gonna tell a lie and hurt you."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description56}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description57}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description58}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description59}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description60}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description61}"
 				""
-				"Never gonna give you up,"
-				"Never gonna let you down,"
-				"Never gonna run around and desert you."
-				"Never gonna make you cry,"
-				"Never gonna say goodbye,"
-				"Never gonna tell a lie and hurt you."
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description62}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description63}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description64}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description65}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description66}"
+				"{ftbquests.chapter.draconic_age_part_1.quest57.description67}"
 			]
 			id: "3BB8848F84026B45"
 			rewards: [{
@@ -1437,7 +1437,7 @@
 			}]
 			shape: "none"
 			size: 2.0d
-			subtitle: "Cat"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest57.subtitle}"
 			tasks: [{
 				id: "184862475E5F6DB3"
 				item: "placeablemaxwell:maxwell"
@@ -1449,31 +1449,31 @@
 		{
 			dependencies: ["3BB8848F84026B45"]
 			description: [
-				"Thank you for playing through this pack to its current state. A lot of time has been put in so that it was a unique and enjoyable experience. You are invited to come show off your accomplishment on our discord where we would love to hear what you thoughts about the pack."
+				"{ftbquests.chapter.draconic_age_part_1.quest58.description1}"
 				""
-				"Know why there is content that exist past this point it is in development and will be available in the next major release &l&9Theta&r&r"
+				"{ftbquests.chapter.draconic_age_part_1.quest58.description2}"
 				""
-				"The content past this point is still in development, and will be available in the next major release, &l&9Theta&r&r."
+				"{ftbquests.chapter.draconic_age_part_1.quest58.description3}"
 				""
 				""
-				"-&oStarT Dev Team&r"
+				"{ftbquests.chapter.draconic_age_part_1.quest58.description4}"
 			]
 			id: "46982CD51A50CD07"
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "Congratulations, for now this is the end of the content, though, if you join the discord you can often see what comes next."
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest58.subtitle}"
 			tasks: [{
 				id: "5163F1D911C227BB"
-				title: "Thanks"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest58.task_5864797054374651835.title}"
 				type: "checkmark"
 			}]
-			title: "You have completed the &5&lEta&r Version of &6Star Technology&r"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest58.title}"
 			x: 9.525d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2DACE6EF41A118D9"]
-			description: ["A legendary feline, as energized as the flames from inferno."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest59.description1}"]
 			hide_dependency_lines: true
 			id: "0B475E2385B478C0"
 			rewards: [{
@@ -1483,7 +1483,7 @@
 			}]
 			shape: "none"
 			size: 1.25d
-			subtitle: "Cat"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest59.subtitle}"
 			tasks: [{
 				id: "29314FA6BB5D9A2A"
 				item: "placeablemaxwell:vasilisa"
@@ -1494,7 +1494,7 @@
 		}
 		{
 			dependencies: ["2DACE6EF41A118D9"]
-			description: ["A legendary feline, as eternal as the endless abyss."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest60.description1}"]
 			hide_dependency_lines: true
 			id: "53E595EAB1C90884"
 			rewards: [{
@@ -1504,7 +1504,7 @@
 			}]
 			shape: "none"
 			size: 1.25d
-			subtitle: "Cat"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest60.subtitle}"
 			tasks: [{
 				id: "1738781A05EE828F"
 				item: "placeablemaxwell:valenok"
@@ -1516,7 +1516,7 @@
 		{
 			dependencies: ["2DACE6EF41A118D9"]
 			dependency_requirement: "one_started"
-			description: ["A legendary feline, combining the heat and cold from two dimensions."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest61.description1}"]
 			hide_dependency_lines: true
 			id: "61C534992FB17066"
 			rewards: [{
@@ -1526,7 +1526,7 @@
 			}]
 			shape: "none"
 			size: 1.25d
-			subtitle: "Cat"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest61.subtitle}"
 			tasks: [{
 				id: "4646C0AA2053021D"
 				item: "placeablemaxwell:mars"
@@ -1537,7 +1537,7 @@
 		}
 		{
 			dependencies: ["01FBF9CDD9066AF5"]
-			description: ["Need some more breath? Respawn the dragon."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest62.description1}"]
 			id: "7EACF5C37C73E6B9"
 			tasks: [
 				{
@@ -1553,13 +1553,13 @@
 					type: "item"
 				}
 			]
-			title: "Dragon Fight Repeats"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest62.title}"
 			x: -5.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["28DE3D2A96C4D0C8"]
-			description: ["Find an end city, and loot it."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest63.description1}"]
 			id: "64780055536CEEF3"
 			rewards: [{
 				id: "25078307CEF39E7F"
@@ -1570,7 +1570,7 @@
 				icon: "minecraft:purpur_pillar"
 				id: "238739D7E00CDAE2"
 				structure: "minecraft:end_city"
-				title: "Cities of The Abyss"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest63.task_2560078512523107042.title}"
 				type: "structure"
 			}]
 			x: -8.0d
@@ -1581,12 +1581,12 @@
 				"0168A45EB73911AC"
 				"032E72446266F7D4"
 			]
-			description: ["Now that you have Draconic Cells, you can start looping dragon's breath."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest64.description1}"]
 			icon: "minecraft:dragon_breath"
 			id: "46DD931FCA5AF574"
 			tasks: [{
 				id: "10E4C7905079E82E"
-				title: "Dragon Breath Looping"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest64.task_1217317221936261166.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -1599,9 +1599,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You have been granted protection in this place allowing you to forgo armor needs."
+				"{ftbquests.chapter.draconic_age_part_1.quest65.description1}"
 				""
-				"Alternatively you can craft this after acquiring the appropriate materials."
+				"{ftbquests.chapter.draconic_age_part_1.quest65.description2}"
 			]
 			id: "7C65EDBD752F898D"
 			rewards: [{
@@ -1624,9 +1624,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You have been granted protection in this place allowing you to forgo armor needs."
+				"{ftbquests.chapter.draconic_age_part_1.quest66.description1}"
 				""
-				"Alternatively you can craft this after acquiring the appropriate means."
+				"{ftbquests.chapter.draconic_age_part_1.quest66.description2}"
 			]
 			id: "4397DEEDB7C52BAC"
 			rewards: [{
@@ -1644,7 +1644,7 @@
 		}
 		{
 			dependencies: ["5944C4DE27F98FF3"]
-			description: ["A wireless node with even larger area of impact."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest67.description1}"]
 			id: "0DFAD40205E5D899"
 			rewards: [{
 				id: "6C05E0C359C06382"
@@ -1686,7 +1686,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "First UXV Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest69.subtitle}"
 			tasks: [{
 				id: "6046733B28E6F322"
 				item: "kubejs:awakened_draconic_wetware_processor_mainframe"
@@ -1703,7 +1703,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Second UIV Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest70.subtitle}"
 			tasks: [{
 				id: "0E34320F90BA0A53"
 				item: "kubejs:awakened_draconic_wetware_processor_computer"
@@ -1723,7 +1723,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "Third UEV Circuit"
+			subtitle: "{ftbquests.chapter.draconic_age_part_1.quest71.subtitle}"
 			tasks: [{
 				id: "29F972DC18F645E4"
 				item: "kubejs:awakened_draconic_wetware_processor_assembly"
@@ -1780,7 +1780,7 @@
 			optional: true
 			tasks: [{
 				id: "70B6C065BA6E04DF"
-				title: "BPA Core"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest74.task_8121890521161270495.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -1791,7 +1791,7 @@
 				"78777C3EE2DA5D0F"
 				"2D064F759D13FE4B"
 			]
-			description: ["The start of your wildest dreams, a dragon based circuit board."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest75.description1}"]
 			id: "1C9396E2587051F7"
 			rewards: [{
 				id: "170A7AD04A8BFCA6"
@@ -1944,7 +1944,7 @@
 					type: "item"
 				}
 			]
-			title: "Super Heavy Atomic Elements"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest80.title}"
 			x: -7.0d
 			y: -1.0d
 		}
@@ -1983,7 +1983,7 @@
 		}
 		{
 			dependencies: ["4DF07CB3D60C901C"]
-			description: ["Find the Blackened Castles and Loot Them."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest83.description1}"]
 			id: "68970C6696FA90E6"
 			rewards: [{
 				id: "49A048AE15AAE4F1"
@@ -1994,7 +1994,7 @@
 				icon: "minecraft:chiseled_polished_blackstone"
 				id: "618C5C0D5013A3A9"
 				structure: "minecraft:bastion_remnant"
-				title: "Fiery Castles"
+				title: "{ftbquests.chapter.draconic_age_part_1.quest83.task_7029094330666296233.title}"
 				type: "structure"
 			}]
 			x: -8.0d
@@ -2002,7 +2002,7 @@
 		}
 		{
 			dependencies: ["1B6159E114BA50ED"]
-			description: ["A new set of SMD's infused with the ancient essence of the ender dragons."]
+			description: ["{ftbquests.chapter.draconic_age_part_1.quest84.description1}"]
 			id: "61E082759BC89A1E"
 			rewards: [{
 				id: "1460A867F3CE58DC"
@@ -2036,7 +2036,7 @@
 					type: "item"
 				}
 			]
-			title: "Draconic QMDs"
+			title: "{ftbquests.chapter.draconic_age_part_1.quest84.title}"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -2106,5 +2106,5 @@
 			y: 5.0d
 		}
 	]
-	title: "Draconic Empires"
+	title: "{ftbquests.chapter.draconic_age_part_1.title}"
 }

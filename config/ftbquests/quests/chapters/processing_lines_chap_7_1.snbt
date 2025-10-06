@@ -245,7 +245,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Enriched &d&oMystical&r Fluids"
+			title: "{ftbquests.chapter.processing_lines_chap_7_1.quest14.title}"
 			x: -7.5d
 			y: -4.5d
 		}
@@ -795,7 +795,7 @@
 					type: "item"
 				}
 			]
-			title: "Titanium Ingot"
+			title: "{ftbquests.chapter.processing_lines_chap_7_1.quest50.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -944,7 +944,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "55FB41FCEAAE689F"
-				title: "Nether Drilling"
+				title: "{ftbquests.chapter.processing_lines_chap_7_1.quest60.task_6195618266903111839.title}"
 				type: "checkmark"
 			}]
 			x: -12.0d
@@ -3720,5 +3720,5 @@
 			y: 9.0d
 		}
 	]
-	title: "Processing Lines (Chap 7.1)"
+	title: "{ftbquests.chapter.processing_lines_chap_7_1.title}"
 }

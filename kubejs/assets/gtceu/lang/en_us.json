@@ -1170,6 +1170,15 @@
     "material.gtceu.liquefied_nutrient_paste": "Liquefied Nutrient Paste",
     "material.gtceu.biostimulating_mixture": "Biostimulating Mixture",
 
+    "block.gtceu.perfect_oc_subtick.tooltip.1": "Has §6Perfect Overclock§r and §cSubtick Parallels",
+    "block.gtceu.subtick.tooltip.1": "Has §cSubtick Parallels",
+    "block.gtceu.subtick_coil_parallel.tooltip.1": "Has §cSubtick Parallels§r and §bCoil Parallels§r",
+
+    "block.gtceu.macerators.tooltip.1": "§7Macerators only produce byproducts shown in JEI at HV or higher",
+
+    "block.gtceu.ulv_fluid_input.tooltip.1": "Fluid Input for Primitive Multiblocks",
+    "block.gtceu.ulv_fluid_input.tooltip.2": "§9Fluid Capacity:§r 2,000 mB",
+
     "material.gtceu.expetidalloy_d_17": "Expetidalloy D-17",
 
     "block.gtceu.multithreaded_component_synthesis_forge": "Multi-threaded Component Synthesis Forge",

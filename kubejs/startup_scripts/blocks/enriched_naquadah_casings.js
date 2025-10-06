@@ -1,9 +1,8 @@
 
 StartupEvents.registry('block', event => {
 
-    function naq_casing(id, name, texture){
+    function naq_casing(id, texture){
         event.create(id)
-            .displayName(name)
             .hardness(5)
             .resistance(10)
             .lightLevel(0)
@@ -14,8 +13,8 @@ StartupEvents.registry('block', event => {
             .textureAll(`kubejs:block/casings/naquadah/${texture}`);
         };
 
-    naq_casing('enriched_naquadah_machine_casing', 'Enriched Naquadah Casing', 'casing');
-    naq_casing('enriched_naquadah_pipe_casing', 'Enriched Naquadah Pipe Casing', 'pipe_casing');
-    naq_casing('enriched_naquadah_gearbox', 'Enriched Naquadah Gearbox Casing', 'gearbox');
+    naq_casing('enriched_naquadah_machine_casing', 'casing');
+    naq_casing('enriched_naquadah_pipe_casing', 'pipe_casing');
+    naq_casing('enriched_naquadah_gearbox', 'gearbox');
 
 });

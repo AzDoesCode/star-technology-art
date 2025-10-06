@@ -10,13 +10,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Star Technology is one of the first GregTech Modern packs! Embark on a journey to create many stargates, simulate microuniverses and develop technology!"]
+			description: ["{ftbquests.chapter.welcome.quest1.description1}"]
 			icon: "gtceu:creative_energy"
 			id: "7168A2D5D4EE14E9"
 			size: 5.0d
 			tasks: [{
 				id: "40AC940F2E8BD9BD"
-				title: "Welcome!"
+				title: "{ftbquests.chapter.welcome.quest1.task_4660262507347958205.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -24,18 +24,18 @@
 		}
 		{
 			description: [
-				"Red screens flash and alarms are going off. Everyone in the room is evacuating. The experiment is a failure. There is little time before this building will explode. But you notice something... the gate ... is opening! You stare in awe and think: \"Yes! My theories were right and I figured out what was the problem!\". You don't notice the others calling out to you to run. But it was too late. A failure is still a failure and the gate engulfs everything in the room."
+				"{ftbquests.chapter.welcome.quest2.description1}"
 				""
-				"You wake up stranded on a floating island in an alternate dimension. The only things you have is a tree and some dirt around it. But you are not discouraged. As the world's greatest scientist you can use these materials to develop technology at faster rate than anyone. You can try once again interdimensional travel. For that you will have to make from almost nothing everything, to develop up to draconic and even star technology. You &oWILL&r succeed. You &oWILL&r return home."
+				"{ftbquests.chapter.welcome.quest2.description2}"
 				""
-				"  &lWelcome to Star Technology.&r"
+				"{ftbquests.chapter.welcome.quest2.description3}"
 			]
 			icon: "effortlessbuilding:building_techniques_book"
 			id: "0873486517E58FE4"
 			size: 3.0d
 			tasks: [{
 				id: "5C150CA08542BEFA"
-				title: "Lore"
+				title: "{ftbquests.chapter.welcome.quest2.task_6635223509570338554.title}"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -43,39 +43,39 @@
 		}
 		{
 			description: [
-				"&cALPHA 1&r (Initial Release): Gameplay is in a working state. Theoretically it should be able to reach UHV. Done an initial gregification of some mods. No end game content yet."
-				"&cALPHA 1 HOTFIX 1&r: fixed nickel being gated behind LV"
-				"&cALPHA 1 HOTFIX 2&r: Updated some mods and added red alloy dust recipe"
+				"{ftbquests.chapter.welcome.quest3.description1}"
+				"{ftbquests.chapter.welcome.quest3.description2}"
+				"{ftbquests.chapter.welcome.quest3.description3}"
 				"{@pagebreak}"
-				"&cALPHA 2:&r Fixed some recipes. Rearranged and changed some quests. Fixed missing lang names of custom recipe types. Added the tree greenhouse multiblock. Added the primitive alloy smelter. Added the kinetic ore factory. Added some mods like thermal dynamics, thermal systeamics, and simply lights. Overhauled the early game."
-				"&cALPHA 2 HOTFIX 1:&r Added the missing steam dynamo recipe. Fixed the structure of the Tree Green House. Modified the structure of quests."
+				"{ftbquests.chapter.welcome.quest3.description4}"
+				"{ftbquests.chapter.welcome.quest3.description5}"
 				"{@pagebreak}"
-				"&cALPHA 3:&r Added the Large Barrel multiblock. Added some quests. Added graphite, fluiduct, windowed fluiduct, servo attachment and turbo servo attachment recipes. Changed crushed blackstone recipe from forge hammer to macerator."
-				"&cALPHA 3 HOTFIX 1:&rFixed missing gravel recipe in forge hammer. Changed sieving gem recipes from gem to crushed ore."
+				"{ftbquests.chapter.welcome.quest3.description6}"
+				"{ftbquests.chapter.welcome.quest3.description7}"
 				"{@pagebreak}"
-				"&cBeta 1:&r Added the following mods: Travel Anchors, Functional Storage, Item Collectors, Carry On. Made dynamos, arc upgrade, mic upgrade and components cheaper.  Buffed the Tree Greenhouse. Slightly nerfed the Extreme Reactors recipes."
-				"&9Stargate 1 content&r: Added 6 new multiblocks. Added recipes related to the first stargate. Added appropriate quests."
+				"{ftbquests.chapter.welcome.quest3.description8}"
+				"{ftbquests.chapter.welcome.quest3.description9}"
 				"{@pagebreak}"
-				"&cBeta 2&r: Updated Forge version. Added the following mods: Architect's Palette, 'Dustrial Decor, Simple Discord RPC. Fixed Electrico-Kinetic Ore Factory. Fixed some langs. Added quests chapter Quality of Life."
-				"&cBeta 2 HOTFIX 1:&r Removed Simple Discord RPC. Fixed soul infused ingots. Made slight modifications to Quality of Life Chapter. Buffed dynamo energy generation. Made dynamo upgrades even cheaper. Added a new panorama."
-				"&cBeta 2 HOTFIX 2:&r Re-added vanadium magnetite to sieving"
+				"{ftbquests.chapter.welcome.quest3.description10}"
+				"{ftbquests.chapter.welcome.quest3.description11}"
+				"{ftbquests.chapter.welcome.quest3.description12}"
 				"{@pagebreak}"
-				"&cBeta 3:&r Fixed some typos in quests. Added new quests. Tweaked the color of some casings. Tweaked lumium color. Fixed soul infused ingots recipe in Primitive Alloy Smelter. Added alloy smelter recipe for soul infused ingots. Fixed lithium perchlorate recipe. Fixed saltpeter essence burning in cryptand recipe. Fixed not being able to place blocks in Kinetic Ore Factory's area. Limited colossal chests to 5x5x5. Made nether/end agglomeratio recipes take less time. Fixed Electrico-Kinetic Ore Factory infaltion issue. removed shapeless recipe for bronze and brass. Added magnetite to sieving and ore factories. Increased duration of slime spores production in Large barrel. Modified dynamo upgrades. Added new multiblock Large Stone Barrel for lava, obsidian and pebble production. Fixed netherite sieve upgrade taking HV circuits instead of IV circuits. Added crushed diamond and emerald ore to sieving. Modified create goggle recipes."
-				"Added the following mods: Jet Boots, Pipez, Create New Age, Ender Chests, Ender Tanks, Iris and Oculus Flywheel Compat, NuclearCraft: Neoteric, Daily Dad, Forgiving Void, CraftPresence, Embeddium++."
-				"Removed the following mods: Thermal Dynamics, Automobility, Create Slice 'n' Dice, Create Armory, Ender Storage, Extreme Reactors, Let Sleeping Dogs Lie, Modern UI, Packaged Auto, PackagedExCrafting, Ensorcellation, Corpse."
-				"Updated the following mods: Curios API, Cyclops Core, Embeddium, FTB Quests, GTCEu Modern, Jade, Kotlin for Forge, ModernFix, Mystical Agriculture, Not Enough Crashes, Supermartijn642's Core Lib, Thermal Extra."
-				"&cBeta 3 HOTFIX1:&r Fixed broken charges recipes. Fixed unreasonable RPMs for the Electrico-Kinetic Ore Factory. Added a way to convert NuclearCraft plutonium239 and plutonium241 to their GregTech material. Removed coke to graphite recipe. Buffed chance for nether star essence in its recipe. Changed emerald and diamond crushed ore from string mesh to flint mesh."
-				"&cBeta 3 HOTFIX 2:&r Changed carbon brushes recipe from coke to charcoal. Added Create Diesel Generators to fix the impossibility to make a proper create steam engine. Added recipe for create belts from rubber. Reduced durations of several thermal augments. Added press recipes for some materials. Changed ender pouch recipe from leather to carbon fiber plates."
-				"&cBeta 3 HOTFIX 3:&r Added the mod Load My F***ing Tags. Fixed several recipes using double plates. Fixed NuclearCraft fuel recipes. Fixed some mystical agriculture recipes. Fixed stirling dynamo recipe."
+				"{ftbquests.chapter.welcome.quest3.description13}"
+				"{ftbquests.chapter.welcome.quest3.description14}"
+				"{ftbquests.chapter.welcome.quest3.description15}"
+				"{ftbquests.chapter.welcome.quest3.description16}"
+				"{ftbquests.chapter.welcome.quest3.description17}"
+				"{ftbquests.chapter.welcome.quest3.description18}"
+				"{ftbquests.chapter.welcome.quest3.description19}"
 				"{@pagebreak}"
-				"&l&bChangelogs after beta 3 are available on the official discord server.&r&r"
+				"{ftbquests.chapter.welcome.quest3.description20}"
 			]
 			icon: "minecraft:writable_book"
 			id: "7389DA5CB69998BC"
 			size: 3.0d
 			tasks: [{
 				id: "44A22BC4153F3FD6"
-				title: "Developer Log"
+				title: "{ftbquests.chapter.welcome.quest3.task_4945563461976276950.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -83,36 +83,36 @@
 		}
 		{
 			description: [
-				"We have an official discord server:"
-				"&o&bhttps://discord.com/invite/startechnology&r"
+				"{ftbquests.chapter.welcome.quest4.description1}"
+				"{ftbquests.chapter.welcome.quest4.description2}"
 				""
-				"In here you can ask for help, report issues and make suggestions."
+				"{ftbquests.chapter.welcome.quest4.description3}"
 				""
-				"We are lucky to have a large active community, who are always willing to help, and create some insanely helpful guides."
+				"{ftbquests.chapter.welcome.quest4.description4}"
 				""
-				"This questbook keeps most information at a surface level, and serves more so as an introduction to all that StarT has to offer than a comprehensive and detailed guide of all systems."
+				"{ftbquests.chapter.welcome.quest4.description5}"
 				""
-				"For those things, we heavily recommend you check out the #guides channel in the discord."
+				"{ftbquests.chapter.welcome.quest4.description6}"
 			]
 			icon: "kubejs:coin"
 			id: "0B677BF5FCD2884F"
 			size: 2.0d
 			tasks: [{
 				id: "7CDB90799C05C11A"
-				title: "Official Discord Server!"
+				title: "{ftbquests.chapter.welcome.quest4.task_8996943532585763098.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: -3.0d
 		}
 		{
-			description: ["Server files are available on CurseForge!"]
+			description: ["{ftbquests.chapter.welcome.quest5.description1}"]
 			icon: "kubejs:draconic_wetware_processor_mainframe"
 			id: "00C537F19FBE1A6E"
 			size: 2.0d
 			tasks: [{
 				id: "657AC8F72A9732C5"
-				title: "Server Files"
+				title: "{ftbquests.chapter.welcome.quest5.task_7312377908886450885.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -120,7 +120,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
+			description: ["{ftbquests.chapter.welcome.quest6.description1}"]
 			icon: "ae2:controller"
 			id: "01D554315C80E32A"
 			optional: true
@@ -135,13 +135,13 @@
 				id: "393E31B11D51498A"
 				type: "checkmark"
 			}]
-			title: "Turn on AE2 Channels"
+			title: "{ftbquests.chapter.welcome.quest6.title}"
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
+			description: ["{ftbquests.chapter.welcome.quest7.description1}"]
 			icon: "ae2:controller"
 			id: "1D223731850769CF"
 			optional: true
@@ -156,13 +156,13 @@
 				id: "3CAB0FFD4B992B4C"
 				type: "checkmark"
 			}]
-			title: "Turn on AE2 Channels x2"
+			title: "{ftbquests.chapter.welcome.quest7.title}"
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
+			description: ["{ftbquests.chapter.welcome.quest8.description1}"]
 			icon: "ae2:controller"
 			id: "650968485BE86ECC"
 			optional: true
@@ -177,13 +177,13 @@
 				id: "0163CFF55BAB86F4"
 				type: "checkmark"
 			}]
-			title: "Turn on AE2 Channels x3"
+			title: "{ftbquests.chapter.welcome.quest8.title}"
 			x: 5.0d
 			y: 4.0d
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
+			description: ["{ftbquests.chapter.welcome.quest9.description1}"]
 			icon: "ae2:controller"
 			id: "2EE5068AEA2B2F0C"
 			optional: true
@@ -198,13 +198,13 @@
 				id: "4BC87C6C2733C4F9"
 				type: "checkmark"
 			}]
-			title: "Turn on AE2 Channels x4"
+			title: "{ftbquests.chapter.welcome.quest9.title}"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			can_repeat: true
-			description: ["This works if cheats are enabled. If you don't have them enabled, temporarily enable them before claiming this quest."]
+			description: ["{ftbquests.chapter.welcome.quest10.description1}"]
 			icon: "ae2:controller"
 			id: "3CCF44ACC8A78039"
 			optional: true
@@ -219,7 +219,7 @@
 				id: "55AA30056411A62E"
 				type: "checkmark"
 			}]
-			title: "Turn off AE2 Channels"
+			title: "{ftbquests.chapter.welcome.quest10.title}"
 			x: -2.5d
 			y: 4.0d
 		}
@@ -229,12 +229,12 @@
 			optional: true
 			tasks: [{
 				id: "2A47E38B1F508C78"
-				title: "positioner"
+				title: "{ftbquests.chapter.welcome.quest11.task_3046653859604761720.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 0.0d
 		}
 	]
-	title: "Welcome"
+	title: "{ftbquests.chapter.welcome.title}"
 }

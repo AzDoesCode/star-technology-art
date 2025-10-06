@@ -17,7 +17,7 @@
 	quests: [
 		{
 			dependencies: ["4C5DBB94345FF33B"]
-			description: ["Sentience in a circuit."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest1.description1}"]
 			id: "707C2E9BA62A60C5"
 			rewards: [{
 				count: 2
@@ -27,7 +27,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "First UHV Circuit"
+			subtitle: "{ftbquests.chapter.preparing_for_dimensional_travel.quest1.subtitle}"
 			tasks: [{
 				id: "7D57266E37ABED15"
 				item: "gtceu:wetware_processor_mainframe"
@@ -41,7 +41,7 @@
 				"707C2E9BA62A60C5"
 				"02606EBF230281A3"
 			]
-			description: ["A Fusion Reactor that you will need a lot of."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest2.description1}"]
 			id: "314B6ABE72E4A438"
 			rewards: [{
 				count: 2
@@ -62,9 +62,9 @@
 		{
 			dependencies: ["314B6ABE72E4A438"]
 			description: [
-				"The core material for &4UHV&r."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest3.description1}"
 				""
-				"You will need gigantic amounts of this."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest3.description2}"
 			]
 			id: "5BDA17962F4630EB"
 			rewards: [{
@@ -85,7 +85,7 @@
 		}
 		{
 			dependencies: ["5BDA17962F4630EB"]
-			description: ["A material used for crafting a pair of machines that you could only dream of, up until now that is."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest4.description1}"]
 			id: "3ECCE739DE8F5F2C"
 			rewards: [{
 				id: "3DA5E57A968DB4AE"
@@ -107,9 +107,9 @@
 				"444598F0FA4D23BC"
 			]
 			description: [
-				"The heart of every &4UHV&r machine"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest5.description1}"
 				""
-				"Not that you will be making a ton of those."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest5.description2}"
 			]
 			id: "5C39B74171CC21F9"
 			rewards: [{
@@ -132,7 +132,7 @@
 				"4F6B1F4261874B65"
 				"783865A56909D3C7"
 			]
-			description: ["&4UHV&r power for all your machines."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest6.description1}"]
 			id: "11D51899B980082B"
 			rewards: [{
 				id: "2E474FF058F620B3"
@@ -149,7 +149,7 @@
 		}
 		{
 			dependencies: ["11D51899B980082B"]
-			description: ["&aUEV&r recipe speeds."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest7.description1}"]
 			id: "44B43694312BAAC8"
 			rewards: [{
 				id: "439C3636390FF949"
@@ -169,7 +169,7 @@
 				"44B43694312BAAC8"
 				"0C19C040CA121E3B"
 			]
-			description: ["This hatch gives you access to &2UIV&r recipe speeds, but is locked behind Abydos."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest8.description1}"]
 			id: "581B9922CC4B457F"
 			rewards: [{
 				id: "354EE1013EA404DB"
@@ -189,14 +189,14 @@
 				"7FFCAD92772A175F"
 				"707C2E9BA62A60C5"
 			]
-			description: ["A Parallel Hatch that will elevate your processing power to a whole new level."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest9.description1}"]
 			id: "27E656FA93E2A1F4"
 			rewards: [{
 				id: "2FC0A2A1510D510B"
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			subtitle: "256x Parallel Hatch"
+			subtitle: "{ftbquests.chapter.preparing_for_dimensional_travel.quest9.subtitle}"
 			tasks: [{
 				id: "24F1943A992D624E"
 				item: "gtceu:uv_parallel_hatch"
@@ -207,7 +207,7 @@
 		}
 		{
 			dependencies: ["1AC8CBF01196D1F3"]
-			description: ["More efficient circuit recipes."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest10.description1}"]
 			id: "3FE0B664F2D15942"
 			rewards: [{
 				id: "01E1C3C603E976E8"
@@ -224,7 +224,7 @@
 		}
 		{
 			dependencies: ["0F7A1EA1AB52F795"]
-			description: ["New Wafers, which can even more perfectly emulate the previous tiers."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest11.description1}"]
 			id: "1AC8CBF01196D1F3"
 			rewards: [{
 				count: 2
@@ -244,7 +244,7 @@
 		}
 		{
 			dependencies: ["5BDA17962F4630EB"]
-			description: ["A new type of Boule, opening up a whole new world of possibilities."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest12.description1}"]
 			id: "0F7A1EA1AB52F795"
 			rewards: [{
 				id: "42D6FB3B7E75DE20"
@@ -264,7 +264,7 @@
 				"239A0034C8425661"
 				"5BDA17962F4630EB"
 			]
-			description: ["So this is raw.. nothing?"]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest13.description1}"]
 			id: "0889A97E22C484CC"
 			rewards: [{
 				id: "515734ACECDB08A0"
@@ -281,7 +281,7 @@
 		}
 		{
 			dependencies: ["5BA69EDC3C223B2C"]
-			description: ["This thing can get &6&oREAL HOT"]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest14.description1}"]
 			id: "60ECE277341A9408"
 			rewards: [{
 				id: "23F129E3F9D9FFE1"
@@ -302,7 +302,7 @@
 				"60ECE277341A9408"
 				"0889A97E22C484CC"
 			]
-			description: ["So this is... pure nothingness? How does that even work?"]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest15.description1}"]
 			id: "7A5734E3CF682EBA"
 			rewards: [{
 				count: 2
@@ -325,7 +325,7 @@
 				"5BA69EDC3C223B2C"
 				"7A5734E3CF682EBA"
 			]
-			description: ["This machine can roll up layers and layers of alternating foils and compress them to make Crude Stargate Rods."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest16.description1}"]
 			id: "027C5CE3CFCB5649"
 			rewards: [{
 				id: "32443F1B809654D6"
@@ -347,7 +347,7 @@
 				"7FB86A5B9F6F6F35"
 				"7FFCAD92772A175F"
 			]
-			description: ["Untempered and Unstable. Soon it will be ready to do something unimaginable."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest17.description1}"]
 			id: "5E9936C099FF589C"
 			rewards: [{
 				id: "05AE9E61C946D871"
@@ -364,7 +364,7 @@
 		}
 		{
 			dependencies: ["2F87FC1D5BB43220"]
-			description: ["Liquid Echoes from sources unknown."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest18.description1}"]
 			icon: {
 				Count: 1
 				id: "gtceu:echo_r_bucket"
@@ -387,13 +387,13 @@
 					type: "item"
 				}
 			]
-			title: "Echo Fluid"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest18.title}"
 			x: 2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["182D948925141764"]
-			description: ["An alloy of two very expensive elements."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest19.description1}"]
 			id: "1C515302A357B1B8"
 			rewards: [{
 				id: "7DDE8773170387CB"
@@ -411,7 +411,7 @@
 		}
 		{
 			dependencies: ["1C515302A357B1B8"]
-			description: ["A powder, that, when you listen carefully, produces weird sounds."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest20.description1}"]
 			id: "5C3AF136913CF8BE"
 			rewards: [{
 				id: "4AC09D2CB06E6B4B"
@@ -428,7 +428,7 @@
 		}
 		{
 			dependencies: ["5C3AF136913CF8BE"]
-			description: ["A special kind of gem, that resonates extensively."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest21.description1}"]
 			id: "3B85A08B2E08C6FC"
 			rewards: [{
 				id: "31146EC2D33D4B75"
@@ -449,7 +449,7 @@
 				"52B553FDB34B1475"
 				"253AECE450920D99"
 			]
-			description: ["A machine used to generate wave patterns. The core for some special casings that will allow you to do amazing things."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest22.description1}"]
 			id: "75F0388FAB52E0B3"
 			rewards: [{
 				count: 2
@@ -469,7 +469,7 @@
 		}
 		{
 			dependencies: ["75F0388FAB52E0B3"]
-			description: ["A casing to pay homage to an early contributor of the pack, keeping it going."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest23.description1}"]
 			id: "10D78E10735CD210"
 			rewards: [{
 				id: "3A14DEA6D1AA0502"
@@ -489,7 +489,7 @@
 				"10D78E10735CD210"
 				"7FFCAD92772A175F"
 			]
-			description: ["A colorful multiblock that can inscribe ancient runes upon dense and strong materials."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest24.description1}"]
 			hide_dependency_lines: false
 			id: "6D169C5E35C9EF6C"
 			rewards: [{
@@ -510,7 +510,7 @@
 		}
 		{
 			dependencies: ["52B553FDB34B1475"]
-			description: ["The secondary &3UV&r superconductor, can hold 128 amps in a 1x cable."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest25.description1}"]
 			id: "622066696CCF9754"
 			rewards: [{
 				id: "17C57D476BB71F90"
@@ -528,9 +528,9 @@
 		{
 			dependencies: ["678B90BF2ACE2BBA"]
 			description: [
-				"A material said to make you hear the song of the universe."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest26.description1}"
 				""
-				"Your Second &3UV&r Superconductor"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest26.description2}"
 			]
 			id: "52B553FDB34B1475"
 			rewards: [{
@@ -554,9 +554,9 @@
 				"7FD0034E639F3B2D"
 			]
 			description: [
-				"A reinforced form of Neutronium, capable of carrying extreme amounts of energy, and resisting the force of tears in space."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest27.description1}"
 				""
-				"Your &4UHV&r Superconductor"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest27.description2}"
 			]
 			id: "253AECE450920D99"
 			rewards: [{
@@ -574,7 +574,7 @@
 		}
 		{
 			dependencies: ["253AECE450920D99"]
-			description: ["&4UHV&r superconductor, can hold 192 amps in a 1x cable."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest28.description1}"]
 			id: "55102B0E5D0238E1"
 			rewards: [{
 				id: "664E3AF7B9872F12"
@@ -594,7 +594,7 @@
 				"5E9936C099FF589C"
 				"59711F987DE95924"
 			]
-			description: ["These are finished Stargate Rods, capable of resisting pressure so intense it could, for example, hold open a crack between dimensions."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest29.description1}"]
 			id: "3792C5D89B1301A0"
 			rewards: [
 				{
@@ -610,7 +610,7 @@
 					icon: "kubejs:stargate_rod"
 					id: "7ECEC393EDED498B"
 					silent: true
-					title: "Bonk"
+					title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest29.reward_9137455734100674955.title}"
 					type: "command"
 				}
 			]
@@ -629,7 +629,7 @@
 				"7FFCAD92772A175F"
 				"3792C5D89B1301A0"
 			]
-			description: ["A powerful and large multiblock that can assemble parts of a Stargate."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest30.description1}"]
 			id: "1004D6D7636E0321"
 			rewards: [{
 				count: 2
@@ -653,7 +653,7 @@
 				"1102670352911334"
 				"6D573ACD05D0EF96"
 			]
-			description: ["Infuse Plates with singularities for powerful Runes."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest31.description1}"]
 			id: "0508AE03C730BE6C"
 			rewards: [{
 				id: "2B9821F0ED86771C"
@@ -672,13 +672,13 @@
 					type: "item"
 				}
 			]
-			title: "Engraved Runes"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest31.title}"
 			x: 4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["60ECE277341A9408"]
-			description: ["A machine used to pressure cook the materials of a stargate into their complete forms."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest32.description1}"]
 			id: "59711F987DE95924"
 			rewards: [{
 				id: "1B33E52F7FEAD5E8"
@@ -695,7 +695,7 @@
 		}
 		{
 			dependencies: ["5BDA17962F4630EB"]
-			description: ["A Quantum Star that has been artificially made more dense, to the point it starts exerting its own gravitational force."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest33.description1}"]
 			hide_dependent_lines: true
 			id: "7FFCAD92772A175F"
 			rewards: [{
@@ -717,7 +717,7 @@
 				"5C7A92625D07C55D"
 				"433E2BCC63E779AF"
 			]
-			description: ["A machine with terrifying potential, that can slash open a rift in the cosmos to connect to a counterpart with just their coordinates and an &l&4IMMENSE&r amount of power."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest34.description1}"]
 			icon: "sgjourney:classic_stargate"
 			id: "2EDE996312B1C69E"
 			rewards: [{
@@ -728,7 +728,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Making the Classic Stargate"
+			subtitle: "{ftbquests.chapter.preparing_for_dimensional_travel.quest34.subtitle}"
 			tasks: [
 				{
 					id: "3794D8CD2FFF022C"
@@ -758,7 +758,7 @@
 					type: "item"
 				}
 			]
-			title: "This is what you have been waiting for"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest34.title}"
 			x: 6.0d
 			y: -8.0d
 		}
@@ -767,7 +767,7 @@
 				"664F435508073B8E"
 				"66D2FB63E81E03AB"
 			]
-			description: ["A computer capable of triangulating planet locations in real time, and opening a path to one."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest35.description1}"]
 			id: "43B5477B959B2736"
 			rewards: [{
 				count: 2
@@ -787,7 +787,7 @@
 		}
 		{
 			dependencies: ["56D5872D2C33A9CC"]
-			description: ["The path to the sands of Abydos, inscribed on a piece of whispering gemstone."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest36.description1}"]
 			id: "66D2FB63E81E03AB"
 			rewards: [{
 				id: "37AFE192D0BE0925"
@@ -805,7 +805,7 @@
 		}
 		{
 			dependencies: ["7A38469EAAABEAAE"]
-			description: ["A machine that sends signals into deep space in the hopes of inscribing the location of found dimensions and cosmic bodies onto coordinate crystals."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest37.description1}"]
 			id: "56D5872D2C33A9CC"
 			rewards: [{
 				count: 2
@@ -825,7 +825,7 @@
 		}
 		{
 			dependencies: ["2F87FC1D5BB43220"]
-			description: ["A blank slate, that with careful processing and some luck could be inscribed with coordinates to different realms."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest38.description1}"]
 			hide_dependency_lines: true
 			id: "7A38469EAAABEAAE"
 			rewards: [{
@@ -844,7 +844,7 @@
 		}
 		{
 			dependencies: ["707C2E9BA62A60C5"]
-			description: ["A VERY strong computer"]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest39.description1}"]
 			id: "664F435508073B8E"
 			rewards: [{
 				id: "5170CA1F3DC88A00"
@@ -862,7 +862,7 @@
 		}
 		{
 			dependencies: ["707C2E9BA62A60C5"]
-			description: ["A parallel EBF. Nothing needs to be said, just get it right now."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest40.description1}"]
 			id: "2EE4C6540FE3D4CF"
 			optional: true
 			rewards: [{
@@ -885,12 +885,12 @@
 				"5FB0649F878A32D5"
 			]
 			description: [
-				"Visit the sands that hide the remnants of an ancient race of beings, long since gone."
-				"The sands of Abydos are &ounwelcoming&r."
-				"{ \"text\": \"Maybe this will protect you...\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AA4CC44DE1C8E1E\" } }"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest41.description1}"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest41.description2}"
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.preparing_for_dimensional_travel.quest41.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6AA4CC44DE1C8E1E\"}}]"
 				""
-				"To enter encode the crystals into the Gate."
-				"&o&8Right Click Gate Block with Associated Crystal for Dimension"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest41.description4}"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest41.description5}"
 			]
 			icon: "minecraft:sand"
 			id: "1FB502D770A4A59B"
@@ -905,16 +905,16 @@
 				dimension: "sgjourney:abydos"
 				icon: "minecraft:suspicious_sand"
 				id: "57F00393CAEA3780"
-				title: "A New Realm Awaits"
+				title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest41.task_6336568609009710976.title}"
 				type: "dimension"
 			}]
-			title: "To Abydos"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest41.title}"
 			x: 9.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["707C2E9BA62A60C5"]
-			description: ["It seems components are getting a little complex now."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest42.description1}"]
 			id: "73D0DC357821B395"
 			rewards: [{
 				count: 2
@@ -937,7 +937,7 @@
 				"0508AE03C730BE6C"
 				"1004D6D7636E0321"
 			]
-			description: ["An extremely dense and resistant block, that can resist the force of rifts in space."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest43.description1}"]
 			id: "70D35B4C1D6A143D"
 			rewards: [{
 				id: "3B90C26F72F5A63B"
@@ -959,7 +959,7 @@
 				"70D35B4C1D6A143D"
 				"1E47910C2F2112E1"
 			]
-			description: ["A sturdy frame for Chevrons, allowing them to be used in powerful machines."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest44.description1}"]
 			id: "433E2BCC63E779AF"
 			rewards: [{
 				id: "3D4753FAE4D98706"
@@ -981,7 +981,7 @@
 				"70D35B4C1D6A143D"
 				"43B5477B959B2736"
 			]
-			description: ["A computer integrated into a Ring Block that can communicate with Chevrons to achieve a miracle."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest45.description1}"]
 			id: "5C7A92625D07C55D"
 			rewards: [{
 				id: "398ACC54F4F42715"
@@ -1000,7 +1000,7 @@
 		}
 		{
 			dependencies: ["2D713622FA2D6FCA"]
-			description: ["A Stargate Chevron, that can hold a coordinate rune inside it."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest46.description1}"]
 			id: "1E47910C2F2112E1"
 			rewards: [{
 				count: 2
@@ -1021,11 +1021,11 @@
 		{
 			dependencies: ["2EDE996312B1C69E"]
 			description: [
-				"Attach the Interface to the DHD. Additionally the DHD needs to be in the general area to type in the desired coordinates and link to the Gate."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest47.description1}"
 				""
-				"&7Yes, you can terminal the helper to build it for you if you so want, but... why?&r"
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest47.description2}"
 				""
-				"Once built, interact &8(R-Click)&r with the base block to see it come together."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest47.description3}"
 			]
 			id: "653AD979AE4D0581"
 			optional: true
@@ -1035,13 +1035,13 @@
 				optional_task: true
 				type: "item"
 			}]
-			title: "Stargate Forming Help"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest47.title}"
 			x: 3.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["1C515302A357B1B8"]
-			description: ["Gems of Netherite and Naquadah, an astronomical expense."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest48.description1}"]
 			id: "2D713622FA2D6FCA"
 			rewards: [{
 				id: "1C8DB8447086E212"
@@ -1058,7 +1058,7 @@
 		}
 		{
 			dependencies: ["3FC351F05F2AC743"]
-			description: ["A colorful multiblock used for precise laser cutting to make some incredibly exotic materials."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest49.description1}"]
 			id: "1C81273869C0EC9F"
 			rewards: [{
 				id: "32925D70150DF477"
@@ -1079,7 +1079,7 @@
 				"182D948925141764"
 				"5BDA17962F4630EB"
 			]
-			description: ["An alloy that haunts Beta players in their dreams. Depending on how serious you take your infrastructure, it might haunt you as well."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest50.description1}"]
 			hide_dependency_lines: true
 			id: "4DE40B37D609B921"
 			rewards: [{
@@ -1105,7 +1105,7 @@
 				"3B69844600AD5430"
 				"783BDF78D6C56815"
 			]
-			description: ["Who decided to mix and match radioactive elements?"]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest51.description1}"]
 			id: "4F6B1F4261874B65"
 			rewards: [{
 				id: "4CF383A332D3E16B"
@@ -1128,7 +1128,7 @@
 		{
 			can_repeat: true
 			dependencies: ["2EDE996312B1C69E"]
-			description: ["How did you break /spawn AND /home????????"]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest52.description1}"]
 			icon: "minecraft:red_bed"
 			id: "481D42E3473FDCED"
 			optional: true
@@ -1139,12 +1139,12 @@
 				icon: "minecraft:grass_block"
 				id: "21A225E597A188CD"
 				silent: true
-				title: "To the overworld"
+				title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest52.reward_2423541217500432589.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "10FD7D062F28C45C"
-				title: "So You Got Stuck"
+				title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest52.task_1224272139229119580.title}"
 				type: "checkmark"
 			}]
 			x: 0.5d
@@ -1155,7 +1155,7 @@
 				"35829E28221CB70E"
 				"074A6D7A3072E11F"
 			]
-			description: ["A new Soldering Alloy, because the old one really doesn't cut it anymore."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest53.description1}"]
 			id: "783865A56909D3C7"
 			shape: "circle"
 			tasks: [{
@@ -1175,7 +1175,7 @@
 				"630F50E03EC3D144"
 				"7FFCAD92772A175F"
 			]
-			description: ["Gravi-Stars &l&oCollapsed&r upon themselves enabling cross-dimensional travel."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest54.description1}"]
 			id: "1102670352911334"
 			rewards: [{
 				id: "256ED95E87DEA426"
@@ -1194,13 +1194,13 @@
 					type: "item"
 				}
 			]
-			title: "Singularities"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest54.title}"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["52B553FDB34B1475"]
-			description: ["This multiblock performs two major functions: compressing materials into super dense infusions and collapsing gravi-stars into singularities."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest55.description1}"]
 			id: "630F50E03EC3D144"
 			rewards: [{
 				count: 2
@@ -1225,7 +1225,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "1B20B3B25785E3AF"
-				title: "positioner"
+				title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest56.task_1954759816832738223.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -1233,7 +1233,7 @@
 		}
 		{
 			dependencies: ["2EDE996312B1C69E"]
-			description: ["Right-click the bottom part of the stargate (works for any) with a mallet to reset its power NBT data to fix the issue. Make sure to let it charge up for a bit before you go dialing."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest57.description1}"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1245,7 +1245,7 @@
 			optional: true
 			tasks: [{
 				id: "205A758A70420DB8"
-				title: "\"&cNo Power&r\" ?"
+				title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest57.task_2331304994566966712.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -1254,9 +1254,9 @@
 		{
 			dependencies: ["66D2FB63E81E03AB"]
 			description: [
-				"The hidden knowledge is ripe to be absorbed (read JEI), though would recommend making a copy first."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest58.description1}"
 				""
-				"Without the knowledge you may never find a way home and surely can't pass through the gates..."
+				"{ftbquests.chapter.preparing_for_dimensional_travel.quest58.description2}"
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -1269,10 +1269,10 @@
 			id: "5FB0649F878A32D5"
 			tasks: [{
 				id: "154528EA5CC03F6C"
-				title: "Absorb the Crystal's Power"
+				title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest58.task_1532676235233083244.title}"
 				type: "checkmark"
 			}]
-			title: "&o&9Absorbing Hidden Knowledge"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest58.title}"
 			x: 10.0d
 			y: -3.5d
 		}
@@ -1281,7 +1281,7 @@
 				"11D51899B980082B"
 				"60ECE277341A9408"
 			]
-			description: ["Even stronger and more condensed &o&dNether Stars&r even more capable of manipulating the fabric of space."]
+			description: ["{ftbquests.chapter.preparing_for_dimensional_travel.quest59.description1}"]
 			hide_dependency_lines: true
 			icon: "gtceu:nether_star_concentrate_bucket"
 			id: "7FB86A5B9F6F6F35"
@@ -1302,10 +1302,10 @@
 					type: "checkmark"
 				}
 			]
-			title: "Nether Star Concentrate"
+			title: "{ftbquests.chapter.preparing_for_dimensional_travel.quest59.title}"
 			x: -2.0d
 			y: -5.5d
 		}
 	]
-	title: "Making the Classic Stargate"
+	title: "{ftbquests.chapter.preparing_for_dimensional_travel.title}"
 }

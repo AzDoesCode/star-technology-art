@@ -35,7 +35,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Bronze"
+			title: "{ftbquests.chapter.shop.quest1.title}"
 			x: -5.0d
 			y: -3.5d
 		}
@@ -57,7 +57,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Gravel"
+			title: "{ftbquests.chapter.shop.quest2.title}"
 			x: -5.0d
 			y: -2.0d
 		}
@@ -78,7 +78,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Wood"
+			title: "{ftbquests.chapter.shop.quest3.title}"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -133,7 +133,7 @@
 				item: { Count: 8, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Bus/Hatch Pack"
+			title: "{ftbquests.chapter.shop.quest4.title}"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -179,7 +179,7 @@
 				item: { Count: 64, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Jet Boots"
+			title: "{ftbquests.chapter.shop.quest5.title}"
 			x: -3.5d
 			y: -5.5d
 		}
@@ -228,7 +228,7 @@
 				item: { Count: 12, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Basic Circuit Components"
+			title: "{ftbquests.chapter.shop.quest6.title}"
 			x: -3.5d
 			y: -4.0d
 		}
@@ -251,7 +251,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Wafers"
+			title: "{ftbquests.chapter.shop.quest7.title}"
 			x: -3.5d
 			y: -2.5d
 		}
@@ -285,7 +285,7 @@
 				item: { Count: 32, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Magnet"
+			title: "{ftbquests.chapter.shop.quest8.title}"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -320,7 +320,7 @@
 				item: { Count: 16, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Flux Networks Connectors Pack"
+			title: "{ftbquests.chapter.shop.quest9.title}"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -343,7 +343,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Steel"
+			title: "{ftbquests.chapter.shop.quest10.title}"
 			x: -6.0d
 			y: 0.5d
 		}
@@ -366,7 +366,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Aluminium"
+			title: "{ftbquests.chapter.shop.quest11.title}"
 			x: -4.5d
 			y: 0.5d
 		}
@@ -389,7 +389,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Stainless Steel"
+			title: "{ftbquests.chapter.shop.quest12.title}"
 			x: -3.0d
 			y: 0.5d
 		}
@@ -412,7 +412,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Titanium"
+			title: "{ftbquests.chapter.shop.quest13.title}"
 			x: -1.5d
 			y: 0.5d
 		}
@@ -435,7 +435,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Tungsten Steel"
+			title: "{ftbquests.chapter.shop.quest14.title}"
 			x: 0.0d
 			y: 0.5d
 		}
@@ -458,7 +458,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Rhodium Plated Palladium"
+			title: "{ftbquests.chapter.shop.quest15.title}"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -481,7 +481,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Naquadah Alloy"
+			title: "{ftbquests.chapter.shop.quest16.title}"
 			x: 3.0d
 			y: 0.5d
 		}
@@ -504,7 +504,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Darmstadtium"
+			title: "{ftbquests.chapter.shop.quest17.title}"
 			x: 4.5d
 			y: 0.5d
 		}
@@ -527,7 +527,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Neutronium"
+			title: "{ftbquests.chapter.shop.quest18.title}"
 			x: 6.0d
 			y: 0.5d
 		}
@@ -550,7 +550,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "LV Circuits"
+			title: "{ftbquests.chapter.shop.quest19.title}"
 			x: -6.0d
 			y: -0.5d
 		}
@@ -573,7 +573,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "MV Circuits"
+			title: "{ftbquests.chapter.shop.quest20.title}"
 			x: -4.5d
 			y: -0.5d
 		}
@@ -596,7 +596,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "HV Circuits"
+			title: "{ftbquests.chapter.shop.quest21.title}"
 			x: -3.0d
 			y: -0.5d
 		}
@@ -619,7 +619,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "EV Circuits"
+			title: "{ftbquests.chapter.shop.quest22.title}"
 			x: -1.5d
 			y: -0.5d
 		}
@@ -642,7 +642,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "IV Circuits"
+			title: "{ftbquests.chapter.shop.quest23.title}"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -665,7 +665,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "LuV Circuits"
+			title: "{ftbquests.chapter.shop.quest24.title}"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -688,7 +688,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "ZPM Circuits"
+			title: "{ftbquests.chapter.shop.quest25.title}"
 			x: 3.0d
 			y: -0.5d
 		}
@@ -711,7 +711,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "UV Circuits"
+			title: "{ftbquests.chapter.shop.quest26.title}"
 			x: 4.5d
 			y: -0.5d
 		}
@@ -733,7 +733,7 @@
 				item: { Count: 4, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "UHV Circuits"
+			title: "{ftbquests.chapter.shop.quest27.title}"
 			x: 6.0d
 			y: -0.5d
 		}
@@ -782,7 +782,7 @@
 					type: "item"
 				}
 			]
-			title: "Enchant your String Mesh with Fortune"
+			title: "{ftbquests.chapter.shop.quest28.title}"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -831,7 +831,7 @@
 					type: "item"
 				}
 			]
-			title: "Enchant your String Mesh with Efficiency"
+			title: "{ftbquests.chapter.shop.quest29.title}"
 			x: -1.5d
 			y: 2.0d
 		}
@@ -899,7 +899,7 @@
 					type: "item"
 				}
 			]
-			title: "Enchant your Fortune String Mesh with Efficiency"
+			title: "{ftbquests.chapter.shop.quest30.title}"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -967,7 +967,7 @@
 					type: "item"
 				}
 			]
-			title: "Enchant your Efficiency String Mesh with Fortune"
+			title: "{ftbquests.chapter.shop.quest31.title}"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -1013,7 +1013,7 @@
 					type: "item"
 				}
 			]
-			title: "Enchant your String Mesh with Fortune and Efficiency"
+			title: "{ftbquests.chapter.shop.quest32.title}"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -1035,7 +1035,7 @@
 				item: { Count: 2, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Charcoal"
+			title: "{ftbquests.chapter.shop.quest33.title}"
 			x: 5.0d
 			y: -3.5d
 		}
@@ -1155,7 +1155,7 @@
 				item: { Count: 2, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Starting Gear"
+			title: "{ftbquests.chapter.shop.quest34.title}"
 			x: 3.5d
 			y: -2.5d
 		}
@@ -1337,7 +1337,7 @@
 				item: { Count: 2, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Tool Pack"
+			title: "{ftbquests.chapter.shop.quest35.title}"
 			x: 3.5d
 			y: -4.0d
 		}
@@ -1388,7 +1388,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Teleportation+"
+			title: "{ftbquests.chapter.shop.quest36.title}"
 			x: 3.5d
 			y: -5.5d
 		}
@@ -1402,16 +1402,16 @@
 				command: "/gamerule doDaylightCycle false"
 				icon: "ae2:singularity"
 				id: "3EB38A984CAA9456"
-				title: "Disable the Daylight Cycle"
+				title: "{ftbquests.chapter.shop.quest37.reward_4518107237908649046.title}"
 				type: "command"
 			}]
 			shape: "octagon"
 			tasks: [{
 				id: "67D11D234889008C"
-				title: "Disable Daylight Cycle"
+				title: "{ftbquests.chapter.shop.quest37.task_7480792493417103500.title}"
 				type: "checkmark"
 			}]
-			title: "Disable the Daylight Cycle"
+			title: "{ftbquests.chapter.shop.quest37.title}"
 			x: -3.5d
 			y: 3.0d
 		}
@@ -1425,16 +1425,16 @@
 				command: "/gamerule doWeatherCycle false"
 				icon: "ae2:singularity"
 				id: "5AE2822D8BC289FE"
-				title: "Disable the Weather Cycle"
+				title: "{ftbquests.chapter.shop.quest38.reward_6548939940280044030.title}"
 				type: "command"
 			}]
 			shape: "octagon"
 			tasks: [{
 				id: "379C24585F64F8CA"
-				title: "Disable Weather Cycle"
+				title: "{ftbquests.chapter.shop.quest38.task_4007117730429073610.title}"
 				type: "checkmark"
 			}]
-			title: "Disable the Weather Cycle"
+			title: "{ftbquests.chapter.shop.quest38.title}"
 			x: 3.5d
 			y: 3.0d
 		}
@@ -1448,16 +1448,16 @@
 				command: "/gamerule doDaylightCycle true"
 				icon: "ae2:singularity"
 				id: "4FB40FA2C1F1AE47"
-				title: "Enable the Daylight Cycle"
+				title: "{ftbquests.chapter.shop.quest39.reward_5743232616517185095.title}"
 				type: "command"
 			}]
 			shape: "octagon"
 			tasks: [{
 				id: "3B840D173C0A7E28"
-				title: "Enable the Daylight Cycle"
+				title: "{ftbquests.chapter.shop.quest39.task_4288567138606284328.title}"
 				type: "checkmark"
 			}]
-			title: "Enable the Daylight Cycle"
+			title: "{ftbquests.chapter.shop.quest39.title}"
 			x: -4.5d
 			y: 3.0d
 		}
@@ -1472,7 +1472,7 @@
 				item: { Count: 16, id: "kubejs:coin" }
 				type: "item"
 			}]
-			title: "Changing Daylight Cycle"
+			title: "{ftbquests.chapter.shop.quest40.title}"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -1487,7 +1487,7 @@
 				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Changing Weather Cycle"
+			title: "{ftbquests.chapter.shop.quest41.title}"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -1501,16 +1501,16 @@
 				command: "/gamerule doWeatherCycle true"
 				icon: "ae2:singularity"
 				id: "095C9F5A75C8759E"
-				title: "Disable the Weather Cycle"
+				title: "{ftbquests.chapter.shop.quest42.reward_674589255070676382.title}"
 				type: "command"
 			}]
 			shape: "octagon"
 			tasks: [{
 				id: "443D011EE22F18B7"
-				title: "Enable Weather Cycle"
+				title: "{ftbquests.chapter.shop.quest42.task_4917087600313833655.title}"
 				type: "checkmark"
 			}]
-			title: "Enable the Weather Cycle"
+			title: "{ftbquests.chapter.shop.quest42.title}"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -1544,10 +1544,10 @@
 					type: "item"
 				}
 			]
-			title: "Dragon Breath"
+			title: "{ftbquests.chapter.shop.quest43.title}"
 			x: 0.0d
 			y: 4.0249999999999995d
 		}
 	]
-	title: "Shop"
+	title: "{ftbquests.chapter.shop.title}"
 }

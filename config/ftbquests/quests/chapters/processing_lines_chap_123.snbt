@@ -45,7 +45,7 @@
 					type: "item"
 				}
 			]
-			title: "Sulfur Dioxide"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest1.title}"
 			x: 1.0d
 			y: 10.0d
 		}
@@ -57,7 +57,7 @@
 			tasks: [
 				{
 					id: "3BC73684BC154A06"
-					title: "Sulfur Trioxide"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest2.task_4307471512322263558.title}"
 					type: "checkmark"
 				}
 				{
@@ -72,7 +72,7 @@
 		}
 		{
 			dependencies: ["7F22CD2F778802BE"]
-			description: ["Sulfuric acid is used in a ton of recipes. Once you have sufficient resource generation, automating this on passive is a must."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest3.description1}"]
 			id: "104CAE7C2406E9BF"
 			shape: "gear"
 			size: 1.0d
@@ -104,7 +104,7 @@
 			tasks: [
 				{
 					id: "4D8F720BB22F7474"
-					title: "Hydrochloric Acid"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest5.task_5588811057149736052.title}"
 					type: "checkmark"
 				}
 				{
@@ -175,7 +175,7 @@
 			tasks: [
 				{
 					id: "20ADD35560F5A11B"
-					title: "Biomass"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest9.task_2354770543837028635.title}"
 					type: "checkmark"
 				}
 				{
@@ -194,14 +194,14 @@
 				"3F74E863172E757F"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Can alternatively be made with basins, see the first chapter for reference."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest10.description1}"]
 			icon: "gtceu:ethanol_bucket"
 			id: "3CB84935C465C540"
 			size: 1.0d
 			tasks: [
 				{
 					id: "419F116AD4733E56"
-					title: "Ethanol"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest10.task_4728517284290838102.title}"
 					type: "checkmark"
 				}
 				{
@@ -223,11 +223,11 @@
 						}
 					}
 					optional_task: true
-					title: "Ethanol"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest10.task_6227365958513758545.title}"
 					type: "item"
 				}
 			]
-			title: "Ethanol"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest10.title}"
 			x: 2.5d
 			y: 19.0d
 		}
@@ -239,7 +239,7 @@
 			tasks: [
 				{
 					id: "4F81151616E89614"
-					title: "Ethylene"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest11.task_5728883385609786900.title}"
 					type: "checkmark"
 				}
 				{
@@ -279,7 +279,7 @@
 			tasks: [
 				{
 					id: "4E58A7986F1D5BE6"
-					title: "Vinyl Chloride"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest13.task_5645446406049979366.title}"
 					type: "checkmark"
 				}
 				{
@@ -403,7 +403,7 @@
 			tasks: [
 				{
 					id: "069673AEFB5037EE"
-					title: "Acidic Osmium Solution"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest22.task_474694006112008174.title}"
 					type: "checkmark"
 				}
 				{
@@ -555,7 +555,7 @@
 			tasks: [
 				{
 					id: "29F52086D31D7845"
-					title: "Rhodium Sulfate"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest31.task_3023358488288786501.title}"
 					type: "checkmark"
 				}
 				{
@@ -618,7 +618,7 @@
 			tasks: [
 				{
 					id: "1AC8263E17A28078"
-					title: "Tetrafluoroethylene"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest34.task_1929834488454611064.title}"
 					type: "checkmark"
 				}
 				{
@@ -639,7 +639,7 @@
 			tasks: [
 				{
 					id: "089B70E61E159675"
-					title: "Chloroform"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest35.task_620213507343095413.title}"
 					type: "checkmark"
 				}
 				{
@@ -660,7 +660,7 @@
 			tasks: [
 				{
 					id: "3EE73A010E54EFC9"
-					title: "Hydrofluoric Acid"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest36.task_4532655326181519305.title}"
 					type: "checkmark"
 				}
 				{
@@ -680,7 +680,7 @@
 			tasks: [
 				{
 					id: "765A4DC2FB58644A"
-					title: "Methane"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest37.task_8528214344215323722.title}"
 					type: "checkmark"
 				}
 				{
@@ -700,7 +700,7 @@
 			tasks: [
 				{
 					id: "5B55244AE6F023BF"
-					title: "Fluorine"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest38.task_6581206334592525247.title}"
 					type: "checkmark"
 				}
 				{
@@ -840,7 +840,7 @@
 				"1BC9B0DBEB0F9AE5"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Sodalite and Clay electrolysis are both great ways to automate this once you have &bMV&r electrolyzers"]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest48.description1}"]
 			id: "0C029ABAE1BD9231"
 			rewards: [{
 				count: 3
@@ -928,7 +928,7 @@
 			tasks: [
 				{
 					id: "5138666FCD1BF732"
-					title: "Diaminobenzidine"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest52.task_5852540346136524594.title}"
 					type: "checkmark"
 				}
 				{
@@ -952,7 +952,7 @@
 			tasks: [
 				{
 					id: "716853FA571D1365"
-					title: "Nitrochlorobenzene"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest53.task_8171873858532217701.title}"
 					type: "checkmark"
 				}
 				{
@@ -972,7 +972,7 @@
 			tasks: [
 				{
 					id: "24A0DDF33003AE6E"
-					title: "Nitration Mixture"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest54.task_2639353418191449710.title}"
 					type: "checkmark"
 				}
 				{
@@ -993,7 +993,7 @@
 			tasks: [
 				{
 					id: "6AF71D0B8CCC68DB"
-					title: "Chlorobenzene"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest55.task_7707661222711945435.title}"
 					type: "checkmark"
 				}
 				{
@@ -1014,7 +1014,7 @@
 			tasks: [
 				{
 					id: "0A3BB8126F2E0289"
-					title: "Diphenyl Isophthalate"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest56.task_737385353319416457.title}"
 					type: "checkmark"
 				}
 				{
@@ -1039,7 +1039,7 @@
 			tasks: [
 				{
 					id: "0C74CC27D0A941BF"
-					title: "Phthalic Acid"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest57.task_897566697130115519.title}"
 					type: "checkmark"
 				}
 				{
@@ -1066,7 +1066,7 @@
 				}
 				{
 					id: "12C9B8173AB4C9E9"
-					title: "Naphthalene"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest58.task_1353815572910229993.title}"
 					type: "checkmark"
 				}
 				{
@@ -1076,7 +1076,7 @@
 					type: "item"
 				}
 			]
-			title: "Potassium Dust and Naphthalene"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest58.title}"
 			x: 12.0d
 			y: 19.0d
 		}
@@ -1094,7 +1094,7 @@
 				}
 				{
 					id: "23DD4F8D3734EE17"
-					title: "Dimethylbenzene"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest59.task_2584309229115731479.title}"
 					type: "checkmark"
 				}
 				{
@@ -1104,7 +1104,7 @@
 					type: "item"
 				}
 			]
-			title: "Potassium Dichromate Dust and Dimethylbenzene"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest59.title}"
 			x: 12.0d
 			y: 18.0d
 		}
@@ -1114,7 +1114,7 @@
 				"3082B526665B4B24"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Processing Ilmenite or Bauxite gives Rutile as byproduct, and you can electrolyze the Bauxite dust or process Ilmenite for more Rutile yield."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest60.description1}"]
 			id: "61A21D40EC64D60E"
 			size: 1.0d
 			tasks: [{
@@ -1144,7 +1144,7 @@
 			tasks: [
 				{
 					id: "399EE9678941AB20"
-					title: "Titanium Tetrachloride"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest62.task_4152012537375861536.title}"
 					type: "checkmark"
 				}
 				{
@@ -1165,7 +1165,7 @@
 			tasks: [
 				{
 					id: "3215A0791594DDE9"
-					title: "Hot Titanium Ingot"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest63.task_3608967118320885225.title}"
 					type: "checkmark"
 				}
 				{
@@ -1411,7 +1411,7 @@
 		}
 		{
 			dependencies: ["3AA8F5EDD58D4F43"]
-			description: ["(Almost) free Netherite."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest81.description1}"]
 			id: "346DEF55D35A9E96"
 			size: 1.0d
 			tasks: [{
@@ -1424,7 +1424,7 @@
 		}
 		{
 			dependencies: ["3AA8F5EDD58D4F43"]
-			description: ["By electrolyzing the Purified Debris Dust that you get you are able to obtain the Debris Dust to kick off the processing chain again, thus looping the system."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest82.description1}"]
 			id: "2F561AA9ED46E0F8"
 			size: 1.0d
 			tasks: [{
@@ -1432,7 +1432,7 @@
 				item: "gtceu:purified_debris_dust"
 				type: "item"
 			}]
-			title: "Debris Looping"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest82.title}"
 			x: 24.5d
 			y: 18.0d
 		}
@@ -1481,7 +1481,7 @@
 			tasks: [
 				{
 					id: "632427F657A7003C"
-					title: "Hot Titanium Ingot"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest86.task_7143878847902449724.title}"
 					type: "checkmark"
 				}
 				{
@@ -1502,7 +1502,7 @@
 			tasks: [
 				{
 					id: "2C2C90EDD06D87E6"
-					title: "Sulfur Dichloride"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest87.task_3183078387722586086.title}"
 					type: "checkmark"
 				}
 				{
@@ -1522,7 +1522,7 @@
 			tasks: [
 				{
 					id: "20F3E88E8DB52339"
-					title: "Chlorine Trifluoride"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest88.task_2374497127514841913.title}"
 					type: "checkmark"
 				}
 				{
@@ -1611,7 +1611,7 @@
 			tasks: [
 				{
 					id: "4F29D2326E02AFD4"
-					title: "Hot Pure Netherite Ingot"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest93.task_5704321517077311444.title}"
 					type: "checkmark"
 				}
 				{
@@ -1647,7 +1647,7 @@
 			tasks: [
 				{
 					id: "615439B1D90A3017"
-					title: "Tetrachloroethylene"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest95.task_7013293955736023063.title}"
 					type: "checkmark"
 				}
 				{
@@ -1668,7 +1668,7 @@
 			tasks: [
 				{
 					id: "2FC7FD124DE2CC42"
-					title: "Dichloroethane"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest96.task_3442998695205981250.title}"
 					type: "checkmark"
 				}
 				{
@@ -1688,7 +1688,7 @@
 			tasks: [
 				{
 					id: "7EDA664C4AE2E70C"
-					title: "Wood Vinegar"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest97.task_9140730871561774860.title}"
 					type: "checkmark"
 				}
 				{
@@ -1708,7 +1708,7 @@
 			tasks: [
 				{
 					id: "38B4C17E7B182F39"
-					title: "Wood Tar"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest98.task_4086103510907105081.title}"
 					type: "checkmark"
 				}
 				{
@@ -1729,7 +1729,7 @@
 			tasks: [
 				{
 					id: "067431C22BEBCE55"
-					title: "Phenol"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest99.task_465051371556294229.title}"
 					type: "checkmark"
 				}
 				{
@@ -1750,7 +1750,7 @@
 			tasks: [
 				{
 					id: "5697A9E7FBD7B9A8"
-					title: "Acetone"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest100.task_6239642622572870056.title}"
 					type: "checkmark"
 				}
 				{
@@ -1774,7 +1774,7 @@
 			tasks: [
 				{
 					id: "455E3D3C6EE0445E"
-					title: "Bisphenol A"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest101.task_4998499966195352670.title}"
 					type: "checkmark"
 				}
 				{
@@ -1801,7 +1801,7 @@
 			tasks: [
 				{
 					id: "55746ED641BD5B30"
-					title: "Epichlorohydrin"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest102.task_6157668457027296048.title}"
 					type: "checkmark"
 				}
 				{
@@ -1815,7 +1815,7 @@
 			y: 19.5d
 		}
 		{
-			description: ["This recipe is quite easy to make."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest103.description1}"]
 			icon: "gtceu:propene_bucket"
 			id: "7DF87CEDE533948D"
 			optional: true
@@ -1823,7 +1823,7 @@
 			tasks: [
 				{
 					id: "04580F1A50CD22F6"
-					title: "Propene and Hypochlorous Acid"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest103.task_313016779801436918.title}"
 					type: "checkmark"
 				}
 				{
@@ -1843,7 +1843,7 @@
 			y: 20.25d
 		}
 		{
-			description: ["This recipe is the easiest to make."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest104.description1}"]
 			icon: "gtceu:propene_bucket"
 			id: "629C4DE28BB97660"
 			optional: true
@@ -1851,7 +1851,7 @@
 			tasks: [
 				{
 					id: "2C5B2A46AA946E7A"
-					title: "Propene, Chlorine and Water"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest104.task_3196194843547430522.title}"
 					type: "checkmark"
 				}
 				{
@@ -1871,7 +1871,7 @@
 			y: 21.0d
 		}
 		{
-			description: ["This recipe has the least amount of byproducts."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest105.description1}"]
 			icon: "gtceu:glycerol_bucket"
 			id: "2F55E0917FE80801"
 			optional: true
@@ -1879,7 +1879,7 @@
 			tasks: [
 				{
 					id: "10373E891DA5F3A6"
-					title: "Glycerol and Hydrochloric Acid"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest105.task_1168471386954789798.title}"
 					type: "checkmark"
 				}
 				{
@@ -1906,7 +1906,7 @@
 			tasks: [
 				{
 					id: "79B0A1AADC878B14"
-					title: "Allyl Chloride and Hypochlorous Acid"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest106.task_8768686229706738452.title}"
 					type: "checkmark"
 				}
 				{
@@ -1955,7 +1955,7 @@
 			tasks: [
 				{
 					id: "43E9B9E4B544E4E9"
-					title: "Acetic Acid"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest108.task_4893646862059627753.title}"
 					type: "checkmark"
 				}
 				{
@@ -1976,7 +1976,7 @@
 			tasks: [
 				{
 					id: "5418E2E385B6D16C"
-					title: "Vinyl Acetate"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest109.task_6059842765455806828.title}"
 					type: "checkmark"
 				}
 				{
@@ -1997,7 +1997,7 @@
 			tasks: [
 				{
 					id: "0A7287ABB26F2946"
-					title: "Polyvinyl Acetate"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest110.task_752813259227081030.title}"
 					type: "checkmark"
 				}
 				{
@@ -2016,7 +2016,7 @@
 				"03B49B558B85346B"
 				"439D8AE6D3DC41AF"
 			]
-			description: ["A polymer used to coat materials making them more secure."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest111.description1}"]
 			id: "3306CAE5E57839A2"
 			rewards: [{
 				count: 3
@@ -2042,7 +2042,7 @@
 			tasks: [
 				{
 					id: "0A18B444703C80DF"
-					title: "Butyraldehyde"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest112.task_727529545854124255.title}"
 					type: "checkmark"
 				}
 				{
@@ -2071,7 +2071,7 @@
 					type: "item"
 				}
 			]
-			title: "Purified Galena and Sphalerite"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest113.title}"
 			x: 22.5d
 			y: 16.25d
 		}
@@ -2083,7 +2083,7 @@
 			tasks: [
 				{
 					id: "556B050A71284138"
-					title: "Indium Concentrate"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest114.task_6155018858138190136.title}"
 					type: "checkmark"
 				}
 				{
@@ -2225,7 +2225,7 @@
 					type: "item"
 				}
 			]
-			title: "Sapphires"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest122.title}"
 			x: 0.0d
 			y: 12.5d
 		}
@@ -2249,7 +2249,7 @@
 			optional: true
 			tasks: [{
 				id: "49E62DC78BE77A44"
-				title: "positioner"
+				title: "{ftbquests.chapter.processing_lines_chap_123.quest124.task_5324993944481135172.title}"
 				type: "checkmark"
 			}]
 			x: 16.5d
@@ -2339,7 +2339,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Uranium Hexafluoride"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest129.title}"
 			x: 25.0d
 			y: 9.0d
 		}
@@ -2367,7 +2367,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Enriched Uranium Hexafluoride"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest130.title}"
 			x: 26.0d
 			y: 8.0d
 		}
@@ -2395,7 +2395,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Depleted Uranium Hexafluoride"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest131.title}"
 			x: 26.0d
 			y: 10.0d
 		}
@@ -2565,11 +2565,11 @@
 		{
 			dependencies: ["4BCC078B76C6CAE3"]
 			description: [
-				"A singular &o&dNether Star&r can be broken down into 5 shards. Using this you can more cheaply loop them."
+				"{ftbquests.chapter.processing_lines_chap_123.quest142.description1}"
 				""
-				"With an Autoclave at &9IV&r, you can higher chances at getting your elemental infused shards by using the nether star shards and energizing them in a Polarizer."
+				"{ftbquests.chapter.processing_lines_chap_123.quest142.description2}"
 				""
-				"At &4UHV&r you can guarantee infused shards by using energized elemental fluids, which you can get from fusion reactors."
+				"{ftbquests.chapter.processing_lines_chap_123.quest142.description3}"
 			]
 			icon: "mysticalagradditions:nether_star_shard"
 			id: "200BA54AC5EC0BF0"
@@ -2581,11 +2581,11 @@
 				}
 				{
 					id: "30D9A1473D4A2A42"
-					title: "Making Sure &4YOU&r Read This"
+					title: "{ftbquests.chapter.processing_lines_chap_123.quest142.task_3520021911109773890.title}"
 					type: "checkmark"
 				}
 			]
-			title: "Basic Nether Star Looping"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest142.title}"
 			x: 29.0d
 			y: 13.0d
 		}
@@ -2725,7 +2725,7 @@
 				"27CDE08D18C0AAE4"
 				"1A5AE57C3F996A31"
 			]
-			description: ["While there are multiple ways to do this, for demonstration purposes this method is shown."]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest149.description1}"]
 			id: "6109BB0B2C118C28"
 			tasks: [{
 				id: "11557AB1EAFAFC78"
@@ -2751,7 +2751,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Chlorine"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest150.title}"
 			x: 3.0d
 			y: 16.5d
 		}
@@ -2771,7 +2771,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Water"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest151.title}"
 			x: 2.0d
 			y: 17.25d
 		}
@@ -2791,7 +2791,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Methane"
+			title: "{ftbquests.chapter.processing_lines_chap_123.quest152.title}"
 			x: 3.0d
 			y: 18.0d
 		}
@@ -2841,12 +2841,12 @@
 		}
 		{
 			dependencies: ["24CF3F64E74A027E"]
-			description: ["Once you reach the Nether, you can create the most efficient Nether Star line using your &2UIV&r tier autoclave and the nether tempered elemental fluids, where, not only are you guaranteed to get infused shards, but have a chance to get extra!"]
+			description: ["{ftbquests.chapter.processing_lines_chap_123.quest155.description1}"]
 			icon: "minecraft:nether_star"
 			id: "2AA8CBE804E07BC7"
 			tasks: [{
 				id: "38C47CEF4F0CDF23"
-				title: "Perfect Nether Star Looping"
+				title: "{ftbquests.chapter.processing_lines_chap_123.quest155.task_4090531728824524579.title}"
 				type: "checkmark"
 			}]
 			x: 34.5d
@@ -2924,5 +2924,5 @@
 			y: 12.5d
 		}
 	]
-	title: "Processing Lines (Chap 1,2,3)"
+	title: "{ftbquests.chapter.processing_lines_chap_123.title}"
 }

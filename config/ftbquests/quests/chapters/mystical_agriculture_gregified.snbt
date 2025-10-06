@@ -11,9 +11,9 @@
 	quests: [
 		{
 			description: [
-				"Grow your resources instead"
+				"{ftbquests.chapter.mystical_agriculture_gregified.quest1.description1}"
 				""
-				"Currently best used for Nether Stars and Airs"
+				"{ftbquests.chapter.mystical_agriculture_gregified.quest1.description2}"
 			]
 			id: "56B697F3D73D8A5F"
 			shape: "hexagon"
@@ -997,7 +997,7 @@
 			tasks: [
 				{
 					id: "30138EDA3C6FE9B3"
-					title: "12-Crown-4 (Li)"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest71.task_3464269606346025395.title}"
 					type: "checkmark"
 				}
 				{
@@ -1021,7 +1021,7 @@
 			tasks: [
 				{
 					id: "318CC75FFEEE528F"
-					title: "15-Crown-5 (Na)"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest72.task_3570447819710812815.title}"
 					type: "checkmark"
 				}
 				{
@@ -1045,7 +1045,7 @@
 			tasks: [
 				{
 					id: "00E6FA8B41200FA2"
-					title: "18-Crown-6 (K)"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest73.task_65014720643469218.title}"
 					type: "checkmark"
 				}
 				{
@@ -1068,7 +1068,7 @@
 			tasks: [
 				{
 					id: "0B6D2540F53713E5"
-					title: "12-Crown-4"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest74.task_823355267800830949.title}"
 					type: "checkmark"
 				}
 				{
@@ -1091,7 +1091,7 @@
 			tasks: [
 				{
 					id: "4AFEA8AC008A1AFD"
-					title: "15-Crown-5"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest75.task_5403942059588066045.title}"
 					type: "checkmark"
 				}
 				{
@@ -1115,7 +1115,7 @@
 			tasks: [
 				{
 					id: "1B4778C80E9F9878"
-					title: "18-Crown-6"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest76.task_1965672563004643448.title}"
 					type: "checkmark"
 				}
 				{
@@ -1171,7 +1171,7 @@
 			tasks: [
 				{
 					id: "68A26B9D231E9B2D"
-					title: "Triethylene Glycol"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest80.task_7539707048814877485.title}"
 					type: "checkmark"
 				}
 				{
@@ -1191,7 +1191,7 @@
 			tasks: [
 				{
 					id: "642BC1768FE93CA0"
-					title: "Diethylene Glycol"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest81.task_7218075542756080800.title}"
 					type: "checkmark"
 				}
 				{
@@ -1211,7 +1211,7 @@
 			tasks: [
 				{
 					id: "235D598914EE8CFA"
-					title: "Ethylene Glycol"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest82.task_2548291409458138362.title}"
 					type: "checkmark"
 				}
 				{
@@ -1230,7 +1230,7 @@
 			tasks: [
 				{
 					id: "0FECC619EB444387"
-					title: "Ethylene Oxide"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest83.task_1147509819696235399.title}"
 					type: "checkmark"
 				}
 				{
@@ -1253,7 +1253,7 @@
 			tasks: [
 				{
 					id: "392237AF8F56116D"
-					title: "Triglycol Dichloride"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest84.task_4116914236533641581.title}"
 					type: "checkmark"
 				}
 				{
@@ -1273,7 +1273,7 @@
 			tasks: [
 				{
 					id: "0D5205DEB891B798"
-					title: "Sulfuryl Chloride"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest85.task_959836124720773016.title}"
 					type: "checkmark"
 				}
 				{
@@ -1292,7 +1292,7 @@
 			tasks: [
 				{
 					id: "6D761274B55A8662"
-					title: "Sulfur Dichloride"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest86.task_7887512089854117474.title}"
 					type: "checkmark"
 				}
 				{
@@ -1311,7 +1311,7 @@
 			tasks: [
 				{
 					id: "3894238C15DA8510"
-					title: "Thionyl Chloride"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest87.task_4076922647246177552.title}"
 					type: "checkmark"
 				}
 				{
@@ -1330,7 +1330,7 @@
 			tasks: [
 				{
 					id: "4E8490312406ED92"
-					title: "Toluene"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest88.task_5657805572616416658.title}"
 					type: "checkmark"
 				}
 				{
@@ -1438,7 +1438,7 @@
 			tasks: [
 				{
 					id: "14E37DD56C9480D2"
-					title: "2.2.2-Cryptand"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest96.task_1505185056075055314.title}"
 					type: "checkmark"
 				}
 				{
@@ -1462,7 +1462,7 @@
 			tasks: [
 				{
 					id: "5BCF019BE4A97B03"
-					title: "2.2.2-Cryptand (Li)"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest97.task_6615508146698418947.title}"
 					type: "checkmark"
 				}
 				{
@@ -1486,7 +1486,7 @@
 			tasks: [
 				{
 					id: "6583FF1119FE6457"
-					title: "2.2.2-Cryptand (Na)"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest98.task_7314970668695446615.title}"
 					type: "checkmark"
 				}
 				{
@@ -1510,7 +1510,7 @@
 			tasks: [
 				{
 					id: "0597F4E0A3FECE31"
-					title: "2.2.2-Cryptand (K)"
+					title: "{ftbquests.chapter.mystical_agriculture_gregified.quest99.task_403059937334185521.title}"
 					type: "checkmark"
 				}
 				{
@@ -1595,7 +1595,7 @@
 				}
 				type: "item"
 			}]
-			title: "Mystical Greenhouse"
+			title: "{ftbquests.chapter.mystical_agriculture_gregified.quest102.title}"
 			x: -11.5d
 			y: -7.0d
 		}
@@ -1649,7 +1649,7 @@
 				}
 				type: "item"
 			}]
-			title: "Essence Burning"
+			title: "{ftbquests.chapter.mystical_agriculture_gregified.quest103.title}"
 			x: -12.5d
 			y: -7.0d
 		}
@@ -1670,16 +1670,16 @@
 				"6D9D31BEE724E7F2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Both Lithium Persulfate Dust and Sodium Persulfate Dust can be additionally required by using the opposing liquid allowing you to recycle the catalyst infinitely as long as the respective Lithium/Sodium is available."]
+			description: ["{ftbquests.chapter.mystical_agriculture_gregified.quest105.description1}"]
 			id: "31FE488A7302A0D2"
 			tasks: [{
 				id: "39AAE923E4183A6D"
-				title: "MA Chemical Looping"
+				title: "{ftbquests.chapter.mystical_agriculture_gregified.quest105.task_4155389946562624109.title}"
 				type: "checkmark"
 			}]
 			x: -10.5d
 			y: 4.0d
 		}
 	]
-	title: "Mystical Agriculture Gregified"
+	title: "{ftbquests.chapter.mystical_agriculture_gregified.title}"
 }

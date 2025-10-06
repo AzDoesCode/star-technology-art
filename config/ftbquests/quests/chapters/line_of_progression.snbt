@@ -1017,7 +1017,7 @@
 					type: "item"
 				}
 			]
-			title: "Basic Chips"
+			title: "{ftbquests.chapter.line_of_progression.quest51.title}"
 			x: 0.0d
 			y: -29.5d
 		}
@@ -1051,7 +1051,7 @@
 					type: "item"
 				}
 			]
-			title: "Better Chips"
+			title: "{ftbquests.chapter.line_of_progression.quest52.title}"
 			x: 1.5d
 			y: -29.5d
 		}
@@ -1070,7 +1070,7 @@
 					type: "item"
 				}
 			]
-			title: "Highly Advanced Chips"
+			title: "{ftbquests.chapter.line_of_progression.quest53.title}"
 			x: 4.5d
 			y: -29.5d
 		}
@@ -1089,7 +1089,7 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Chips"
+			title: "{ftbquests.chapter.line_of_progression.quest54.title}"
 			x: 3.0d
 			y: -29.5d
 		}
@@ -1136,7 +1136,7 @@
 					type: "item"
 				}
 			]
-			title: "Enhanced Chips"
+			title: "{ftbquests.chapter.line_of_progression.quest55.title}"
 			x: 3.0d
 			y: -28.0d
 		}
@@ -1185,7 +1185,7 @@
 			optional: true
 			tasks: [{
 				id: "03D2F19E7E4E8C5A"
-				title: "positioner"
+				title: "{ftbquests.chapter.line_of_progression.quest59.task_275548190249225306.title}"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -1344,7 +1344,7 @@
 			dependencies: ["2DA7FFD9B7A550B9"]
 			id: "35D5CC08AE53A7FA"
 			optional: true
-			subtitle: "Third UHV Circuit"
+			subtitle: "{ftbquests.chapter.line_of_progression.quest73.subtitle}"
 			tasks: [{
 				id: "7278702A05728EA6"
 				item: {
@@ -1361,7 +1361,7 @@
 			dependencies: ["35D5CC08AE53A7FA"]
 			id: "2F0E0C63E0DE0F5A"
 			optional: true
-			subtitle: "Second UEV Circuit"
+			subtitle: "{ftbquests.chapter.line_of_progression.quest74.subtitle}"
 			tasks: [{
 				id: "74164D342D52608B"
 				item: {
@@ -1376,10 +1376,10 @@
 		}
 		{
 			dependencies: ["2F0E0C63E0DE0F5A"]
-			description: ["A beast of a circuit."]
+			description: ["{ftbquests.chapter.line_of_progression.quest75.description1}"]
 			id: "73E9000BE5288623"
 			optional: true
-			subtitle: "First UIV Circuit"
+			subtitle: "{ftbquests.chapter.line_of_progression.quest75.subtitle}"
 			tasks: [{
 				id: "104B5031089707D7"
 				item: {
@@ -1396,7 +1396,7 @@
 			dependencies: ["4DF812EEFB4FD1C3"]
 			id: "2DA7FFD9B7A550B9"
 			optional: true
-			subtitle: "Fourth and Last UV Circuit"
+			subtitle: "{ftbquests.chapter.line_of_progression.quest76.subtitle}"
 			tasks: [{
 				id: "4B3DDFC692C95879"
 				item: {
@@ -1413,7 +1413,7 @@
 			dependencies: ["1C9396E2587051F7"]
 			id: "4DF812EEFB4FD1C3"
 			optional: true
-			subtitle: "Fourth and Last ZPM Circuit"
+			subtitle: "{ftbquests.chapter.line_of_progression.quest77.subtitle}"
 			tasks: [{
 				id: "08AF5523EEC4E80C"
 				item: {
@@ -1566,7 +1566,7 @@
 		{
 			dependencies: ["421DF7880AD00F58"]
 			id: "2C389E4B673A803E"
-			subtitle: "First ZPM Circuit"
+			subtitle: "{ftbquests.chapter.line_of_progression.quest88.subtitle}"
 			tasks: [{
 				id: "2B6DA2DF1C1EA537"
 				item: "gtceu:quantum_processor_mainframe"
@@ -1578,7 +1578,7 @@
 		{
 			dependencies: ["75942788374CDEF3"]
 			id: "297CE2423324B92B"
-			subtitle: "Last ULV Circuit"
+			subtitle: "{ftbquests.chapter.line_of_progression.quest89.subtitle}"
 			tasks: [{
 				id: "3B54565722872EC4"
 				item: "gtceu:nand_chip"
@@ -1660,7 +1660,7 @@
 					type: "item"
 				}
 			]
-			title: "Draconically Advanced Chips"
+			title: "{ftbquests.chapter.line_of_progression.quest95.title}"
 			x: 6.0d
 			y: -29.5d
 		}
@@ -1737,5 +1737,5 @@
 			y: -17.5d
 		}
 	]
-	title: "Line Of Progression"
+	title: "{ftbquests.chapter.line_of_progression.title}"
 }

@@ -7,107 +7,85 @@ StartupEvents.registry('item', event => {
 
     //Akreyrium
     event.create('crystalline_akreyrium')
-        .displayName('Crystalline Akreyrium')
         .texture('kubejs:item/akreyrium/crystalline_akreyrium');
     
     event.create('amorphous_akreyrium')
-        .displayName('Amorphous Akreyrium')
         .texture('kubejs:item/akreyrium/amorphous_akreyrium');
     
     event.create('blank_injection_catalyst')
-        .displayName('Blank Injection Catalyst')
         .texture('kubejs:item/akreyrium/blank_injection_catalyst');
 
     event.create('electron_injection_catalyst')
-        .displayName('§dElectron§r Injection Catalyst')
         .texture('kubejs:item/akreyrium/electron_injection_catalyst');
 
     event.create('tau_injection_catalyst')
-        .displayName('§bTau§r Injection Catalyst')
         .texture('kubejs:item/akreyrium/tau_injection_catalyst');
 
     event.create('aspect_of_weight')
-        .displayName('§bAspect of Weight')
         .texture('kubejs:item/akreyrium/aspect_of_weight');
 
     event.create('muon_injection_catalyst')
-        .displayName('§aMuon§r Injection Catalyst')
         .texture('kubejs:item/akreyrium/muon_injection_catalyst');
 
     event.create('damaged_injection_catalyst')
-        .displayName('§4Damaged Injection Catalyst')
         .texture('kubejs:item/akreyrium/damaged_injection_catalyst');
 
     event.create('netherite_reinforced_mesh')
-        .displayName('Netherite Reinforced Mesh')
         .texture('kubejs:item/netherite_reinforced_mesh');
 
     event.create('leptonic_akreyrium_catalyst')
-        .displayName('Leptonic-Akreyrium Catalyst')
         .texture('kubejs:item/akreyrium/leptonic_akreyrium_catalyst');
 
     //Nether Stars
     [{type: 'Fire', color: 'c'}, {type: 'Ice', color: 'b'}, {type: 'Earth', color: '8'}, {type: 'Lightning', color: 'e'}].forEach(shard => {
         const { type, color } = shard;
         event.create(`${type.toLowerCase()}_infused_shard`)
-            .displayName(`§${color}${type.replace(/_/, ' ')}§r Infused Shard`)
             .tooltip(`§${color}?§e✧§${color}?`)
             .texture(`kubejs:item/lines/netherstar/${type.toLowerCase()}_infused_shard`)
             .glow(true);
-        });
+    });
 
     event.create('star_casting_mold')
-        .displayName('Casting Mold (Star)')
         .texture('kubejs:item/lines/netherstar/star_casting_mold');
     
     event.create('impure_nether_star')
-        .displayName('Impure Nether Star')
         .tooltip('§e✧-')
         .texture('kubejs:item/lines/netherstar/impure_nether_star');
 
     event.create('nether_star_shard')
-        .displayName('Nether Star Shard')
         .tooltip('§e✧')
         .texture('kubejs:item/lines/netherstar/nether_star_shard');
         
     event.create('energized_nether_star_shard')
-        .displayName('Energized Nether Star Shard')
-        .tooltip('§e✧+')
+        .tooltip('"§e✧+')
         .texture('kubejs:item/lines/netherstar/energized_nether_star_shard')
         .glow(true);
 
     event.create('nether_tempered_shard')
-        .displayName('Nether Tempered Star Shard')
         .tooltip('§e✧++')
         .texture('kubejs:item/lines/netherstar/nether_tempered_shard')
         .glow(true);
     
     //Mystical Magmas
     event.create('ancient_netherite_reinforced_mesh')
-        .displayName('Ancient-Netherite Reinforced Mesh')
         .texture('kubejs:item/ancient_netherite_reinforced_mesh');
 
     // Purpur
     event.create('true_absolute_chorus')
-        .displayName('Awakened Chorus Core')
         .texture('kubejs:item/true_absolute_chorus')
         .glow(true);
 
     // Abyss Harvesting
     event.create('voidic_reinforced_mesh')
-        .displayName('Voidic Reinforced Mesh')
         .texture('kubejs:item/voidic_reinforced_mesh');
 
     event.create('saturation_core_1')
-        .displayName('Abyssal Saturation Core [§5Low Saturation§f]')
         .texture('kubejs:item/saturation_core_1');
 
     event.create('saturation_core_2')
-        .displayName('Abyssal Saturation Core [§5Moderate Saturation§f]')
         .texture('kubejs:item/saturation_core_2');
 
     event.create('saturation_core_3')
-        .displayName('Abyssal Saturation Core [§5High Saturation§f]')
         .texture('kubejs:item/saturation_core_3');
 
     // Fishery

@@ -11,17 +11,17 @@
 		{
 			dependencies: ["26E81A8B2EB80A6C"]
 			description: [
-				"Building your first multiblock may seem daunting, but don't fret as there's an easy guide for any multiblock through EMI!"
+				"{ftbquests.chapter.mechanics.quest1.description1}"
 				""
-				"By looking at the uses of a multiblock controller in EMI, you will be shown every block needed with the amount alongside a physical display that you can look at layer by layer to help you build it."
+				"{ftbquests.chapter.mechanics.quest1.description2}"
 				""
-				"Most multiblocks can accept multiple input bus/hatches however there is a minimum to casings a machine needs so if yours isn't forming then try replacing some of them with casing."
+				"{ftbquests.chapter.mechanics.quest1.description3}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "73D5AA58DE5B72AA"
 			tasks: [{
 				id: "7ACFE29FEF327178"
-				title: "Multiblock Creation"
+				title: "{ftbquests.chapter.mechanics.quest1.task_8849540969347051896.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -30,15 +30,15 @@
 		{
 			dependencies: ["26E81A8B2EB80A6C"]
 			description: [
-				"If you are running low on resources but want to speed up production, you can use one side of an already existing multiblock and build a second one off of it!"
+				"{ftbquests.chapter.mechanics.quest2.description1}"
 				""
-				"You can share almost any blocks in a multiblock including coils and input/output buses and hatches. The item's tooltip will say if a block cannot be shared."
+				"{ftbquests.chapter.mechanics.quest2.description2}"
 			]
 			icon: "gtceu:multi_smelter"
 			id: "48374090EA89E869"
 			tasks: [{
 				id: "7A308EF75BC2E098"
-				title: "Multiblock Wall Sharing"
+				title: "{ftbquests.chapter.mechanics.quest2.task_8804694464556884120.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -47,35 +47,35 @@
 		{
 			dependencies: ["7E74A114F4054345"]
 			description: [
-				"Worried your multiblock extruder is going to use the wrong cast? Well there's a feature to stop that!"
+				"{ftbquests.chapter.mechanics.quest3.description1}"
 				""
-				"If you enable distinct buses on every input bus on a multiblock then it will separate the ingredients that's stored in each one."
-				"This means that if you insert a material into the bus with a certain cast, it can only ever use that cast and never any in other buses."
+				"{ftbquests.chapter.mechanics.quest3.description2}"
+				"{ftbquests.chapter.mechanics.quest3.description3}"
 			]
 			icon: "gtceu:mv_input_bus"
 			id: "2757CDEC1D8F5CCE"
 			tasks: [{
 				id: "2119AA3F34C6DB0F"
-				title: "Item Bus"
+				title: "{ftbquests.chapter.mechanics.quest3.task_2385124666114497295.title}"
 				type: "checkmark"
 			}]
-			title: "Distinct Buses"
+			title: "{ftbquests.chapter.mechanics.quest3.title}"
 			x: -1.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6EBA06E5F9B25100"]
 			description: [
-				"If you put two Energy Hatches onto a multiblock, it will allow you to \"Overclock\" the machine to the next voltage tier."
-				"This is used quite a lot in the EBF to give you access to the next voltage tier of material but can be used on almost any other multiblock."
+				"{ftbquests.chapter.mechanics.quest4.description1}"
+				"{ftbquests.chapter.mechanics.quest4.description2}"
 				""
-				"Examples of multiblocks that cannot form with two energy hatches is the Circuit and Normal Assembler to not allow progress skipping."
+				"{ftbquests.chapter.mechanics.quest4.description3}"
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "34EDF98BDC245F77"
 			tasks: [{
 				id: "71D295023BB7E3F5"
-				title: "Overclocking"
+				title: "{ftbquests.chapter.mechanics.quest4.task_8201781708219474933.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -84,16 +84,16 @@
 		{
 			dependencies: ["775AAF108AFAF707"]
 			description: [
-				"When using a multiblock version of a single block, you have the option to \"Perfect Overclock\" the machine."
-				"You can access this in the same way as a normal Overclock however it will decrease the processing time even more!"
+				"{ftbquests.chapter.mechanics.quest5.description1}"
+				"{ftbquests.chapter.mechanics.quest5.description2}"
 				""
-				"To see the speeds when Perfect Overclocking, do Shift + Left Click on the voltage button on the bottom of the recipe on EMI"
+				"{ftbquests.chapter.mechanics.quest5.description3}"
 			]
 			icon: "gtceu:ev_energy_input_hatch"
 			id: "0C78BD4A7A0B98E4"
 			tasks: [{
 				id: "1869A59961DFCE24"
-				title: "Perfect Overclocking"
+				title: "{ftbquests.chapter.mechanics.quest5.task_1759119207655525924.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -102,17 +102,17 @@
 		{
 			dependencies: ["4840218DA8E61B65"]
 			description: [
-				"One benefit of gaining access to the Large Chemical Reactor (LCR) is that you now have access to some chemical skips."
+				"{ftbquests.chapter.mechanics.quest6.description1}"
 				""
-				"Every recipe in this multiblock that uses Circuit 24 will usually only use the base chemicals which will allow you to compact long chemical lines down into a single machine."
+				"{ftbquests.chapter.mechanics.quest6.description2}"
 				""
-				"A few examples of this is most acids, and liquid epoxy."
+				"{ftbquests.chapter.mechanics.quest6.description3}"
 			]
 			icon: "gtceu:large_chemical_reactor"
 			id: "0F4C5DF2922568B2"
 			tasks: [{
 				id: "70814049DBEF16DA"
-				title: "Large Chemical Reactor Skips"
+				title: "{ftbquests.chapter.mechanics.quest6.task_8106831490210272986.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -121,15 +121,15 @@
 		{
 			dependencies: ["171BD0E155CF98CA"]
 			description: [
-				"Fluid Output hatches have the power to be locked to only accept a certain fluid. This can be useful in multiblocks like the Large Chemical Reactor and the Distillation Tower which usually will have multiple fluids being made in the same machine."
+				"{ftbquests.chapter.mechanics.quest7.description1}"
 				""
-				"You can use this to have processing lines without fluids going to the wrong machine or the wrong tank and stopping the machine."
+				"{ftbquests.chapter.mechanics.quest7.description2}"
 			]
 			icon: "gtceu:mv_input_hatch"
 			id: "4A4275186719AD8D"
 			tasks: [{
 				id: "5948FBA874C4FE68"
-				title: "Lockable Fluid Hatches"
+				title: "{ftbquests.chapter.mechanics.quest7.task_6433668768630898280.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -138,29 +138,29 @@
 		{
 			dependencies: ["6C5688897B6A4C42"]
 			description: [
-				"Each voltage tier has a cable material that is counted as a super conductor, which means there is no energy loss on a line of cables as well as being able to hold a higher amount of amperage."
+				"{ftbquests.chapter.mechanics.quest8.description1}"
 				""
-				"These consist of:"
-				"&7LV:&r Soul Infused"
-				"&bMV:&r Signalum"
-				"&6HV:&r Lumium"
-				"&5EV:&r Enderium"
-				"&9IV:&r Shellite"
-				"&dLuV:&r Twinite"
-				"&cZPM:&r Dragonsteel"
-				"&3UV:&r Prismalium and Melodium"
-				"&4UHV:&r Stellarium"
-				"&aUEV:&r Ancient Runicalium and Seaborgium Palladium Enriched Estalt Flerovium Alloy"
-				"&2UIV:&r Rhenium Super Composite Alloy"
+				"{ftbquests.chapter.mechanics.quest8.description2}"
+				"{ftbquests.chapter.mechanics.quest8.description3}"
+				"{ftbquests.chapter.mechanics.quest8.description4}"
+				"{ftbquests.chapter.mechanics.quest8.description5}"
+				"{ftbquests.chapter.mechanics.quest8.description6}"
+				"{ftbquests.chapter.mechanics.quest8.description7}"
+				"{ftbquests.chapter.mechanics.quest8.description8}"
+				"{ftbquests.chapter.mechanics.quest8.description9}"
+				"{ftbquests.chapter.mechanics.quest8.description10}"
+				"{ftbquests.chapter.mechanics.quest8.description11}"
+				"{ftbquests.chapter.mechanics.quest8.description12}"
+				"{ftbquests.chapter.mechanics.quest8.description13}"
 				""
-				"&7&lSpecial note:&r"
-				"GregTech also adds its own superconductors. These however are much harder to craft, and mostly get ignored because of this."
+				"{ftbquests.chapter.mechanics.quest8.description14}"
+				"{ftbquests.chapter.mechanics.quest8.description15}"
 			]
 			icon: "gtceu:soul_infused_hex_wire"
 			id: "18080B4F89AD24D2"
 			tasks: [{
 				id: "2902228D7DFFED96"
-				title: "Cable Superconductors"
+				title: "{ftbquests.chapter.mechanics.quest8.task_2954962296608124310.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -169,17 +169,17 @@
 		{
 			dependencies: ["14A9381889183318"]
 			description: [
-				"Throughout progression, you may want to check back at older circuit tiers to see if you have gained access to a more efficient recipe."
+				"{ftbquests.chapter.mechanics.quest9.description1}"
 				""
-				"This could be upgrading from basic components to SMD components or advanced SMD components, or gaining access to a new wafer type that can change the entire recipe."
+				"{ftbquests.chapter.mechanics.quest9.description2}"
 				""
-				"Not only are these recipes cheaper, but they usually give a much higher quantity per craft for both components AND circuits"
+				"{ftbquests.chapter.mechanics.quest9.description3}"
 			]
 			icon: "gtceu:basic_integrated_circuit"
 			id: "6F7EE9A1BC718801"
 			tasks: [{
 				id: "5C3E946968BBEC0C"
-				title: "Cheaper Circuit Recipes"
+				title: "{ftbquests.chapter.mechanics.quest9.task_6646913280495053836.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -187,57 +187,57 @@
 		}
 		{
 			description: [
-				"EMI/JEI has its own integration into GregTech that allows the user to more easily figure out recipes like,"
+				"{ftbquests.chapter.mechanics.quest10.description1}"
 				""
-				"&5-&r The minimum voltage tier of the recipe being on the bottom right"
-				"&5-&r Allowing you to see the speed of the recipe at each voltage tier"
-				"&5-&r Showing the speeds for Perfect Overclocking"
-				"&5-&r Having a preview of every multiblock in the pack"
+				"{ftbquests.chapter.mechanics.quest10.description2}"
+				"{ftbquests.chapter.mechanics.quest10.description3}"
+				"{ftbquests.chapter.mechanics.quest10.description4}"
+				"{ftbquests.chapter.mechanics.quest10.description5}"
 			]
 			id: "69D57FE912CAF112"
 			tasks: [{
 				id: "0D132FC336812CBD"
-				title: "EMI Tricks"
+				title: "{ftbquests.chapter.mechanics.quest10.task_942149262530129085.title}"
 				type: "checkmark"
 			}]
-			title: "EMI/JEI Tricks"
+			title: "{ftbquests.chapter.mechanics.quest10.title}"
 			x: 0.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0F9486CD70580835"]
 			description: [
-				"Many GregTech machines include a circuit configuration window in the bottom-left of the interface. Circuits, ranging from Blank to 32, determine which recipes the machine can process."
+				"{ftbquests.chapter.mechanics.quest11.description1}"
 				""
-				"To check the required circuit for a recipe, click the arrow between the input and output slots to view the machine's recipe list."
+				"{ftbquests.chapter.mechanics.quest11.description2}"
 				""
-				"If a recipe shows no circuit or a blank one, select Blank. If it specifies a numbered circuit (e.g., 4), select the corresponding circuit in the configuration window."
+				"{ftbquests.chapter.mechanics.quest11.description3}"
 			]
 			icon: "kubejs:ulv_universal_circuit"
 			id: "2A608D87158DF4CB"
 			tasks: [{
 				id: "66C48E64A4B5CC1B"
-				title: "Ghost Circuits"
+				title: "{ftbquests.chapter.mechanics.quest11.task_7405200250215189531.title}"
 				type: "checkmark"
 			}]
-			title: "Ghost Circuits"
+			title: "{ftbquests.chapter.mechanics.quest11.title}"
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0A1BF10244D43021"]
 			description: [
-				"Some GregTech machines support multiple modes, which you can switch using the window on the left side of the UI. This allows one machine to perform different tasks."
+				"{ftbquests.chapter.mechanics.quest12.description1}"
 				""
-				"The first machine you'll encounter with this functionality is the Wooden Barrel"
+				"{ftbquests.chapter.mechanics.quest12.description2}"
 				""
-				"When changing modes, make sure to update the machine (by removing and reinserting inputs) so recipes work correctly."
+				"{ftbquests.chapter.mechanics.quest12.description3}"
 			]
 			icon: "gtceu:lv_robot_arm"
 			id: "76CD29559C341985"
 			tasks: [{
 				id: "2E13FEFD769A142F"
-				title: "Machine Modes"
+				title: "{ftbquests.chapter.mechanics.quest12.task_3320277714872177711.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -246,41 +246,41 @@
 		{
 			dependencies: ["0A6534BD104A2B08"]
 			description: [
-				"Parallels are a mechanic that allow machines to run multiples of the same recipe at once, dramatically increasing throughput. Though how they work is a little funky."
+				"{ftbquests.chapter.mechanics.quest13.description1}"
 				""
-				"Parallel Hatches work by consuming the maximum amperage of a tier and using that to determine how many recipes can run in parallel (given your parallel hatch is large enough)."
+				"{ftbquests.chapter.mechanics.quest13.description2}"
 				""
-				"A common misconception is that using two 4A or two 16A hatches to get 8A and 32A respectively will do anything. It won't. All that does is give machines a larger buffer, &4&lNOT&r greater abilities."
+				"{ftbquests.chapter.mechanics.quest13.description3}"
 				""
-				"&oMore on the &nNext Page"
+				"{ftbquests.chapter.mechanics.quest13.description4}"
 				"{@pagebreak}"
 				""
-				"Another thing to note: since multiple recipes run at once, the process will take slightly longer per batch. However, this tradeoff is worthwhile since every 4x increase in parallels nets 2x more efficiency."
+				"{ftbquests.chapter.mechanics.quest13.description5}"
 				""
-				"An equation to calculate the max number of parallels and time increase at any tier is on the &n&oNext Page&r."
+				"{ftbquests.chapter.mechanics.quest13.description6}"
 				"{@pagebreak}"
 				""
-				"&nEquations&r"
+				"{ftbquests.chapter.mechanics.quest13.description7}"
 				""
-				"Amount of Parallels = min(ParallelCapability, ParallelHatchSize)"
+				"{ftbquests.chapter.mechanics.quest13.description8}"
 				""
-				"(1/(%amp)) * (4^(#ofOverclocks)) = ParallelCapability"
+				"{ftbquests.chapter.mechanics.quest13.description9}"
 				""
-				"2^(#ofOverclocks) = Time Increase Multiplier of the Recipe"
+				"{ftbquests.chapter.mechanics.quest13.description10}"
 				""
-				"&nKey:&r"
+				"{ftbquests.chapter.mechanics.quest13.description11}"
 				""
-				"%amp = % of an amp the recipe consumes at its tier, typically close to 100% or 50%, but not always."
+				"{ftbquests.chapter.mechanics.quest13.description12}"
 				""
-				"#ofOverclocks = The number of voltage tiers your machine's &e&oSpeed&r is above the recipe's required voltage."
+				"{ftbquests.chapter.mechanics.quest13.description13}"
 				""
-				"ParallelHatchSize = Maximum number of Parallels a Hatch can Perform (4, 16, 64, ...)"
+				"{ftbquests.chapter.mechanics.quest13.description14}"
 			]
 			icon: "gtceu:zpm_parallel_hatch"
 			id: "70EE9D4811A27CF2"
 			tasks: [{
 				id: "71769BC93B85A6BA"
-				title: "Parallelization"
+				title: "{ftbquests.chapter.mechanics.quest13.task_8175893462127060666.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -289,33 +289,33 @@
 		{
 			dependencies: ["141911C5DD68CD2A"]
 			description: [
-				"Dreamlinks are a form of wireless power unique to StarT"
+				"{ftbquests.chapter.mechanics.quest14.description1}"
 				""
-				"The only form of power Dreamlinks accept are lasers. To produce these, use an active transformer."
+				"{ftbquests.chapter.mechanics.quest14.description2}"
 				""
-				"To transfer power, you need Dream-link Nodes. These provide a kind of reception, that dream link hatches/covers accept."
+				"{ftbquests.chapter.mechanics.quest14.description3}"
 				""
-				"By putting your Node and Hatch on the same network, they will share power, just like Flux Networks."
+				"{ftbquests.chapter.mechanics.quest14.description4}"
 				""
-				"Each new tier of node has better range than the previous one."
+				"{ftbquests.chapter.mechanics.quest14.description5}"
 				""
-				"The ranges are:"
-				"- Dream-link Node: 24 Blocks"
-				"- Oneiric Relay: 48 Blocks"
-				"- Daydream Spire: 96 Blocks"
-				"- Beacon of Lucidity: Unlimited Range"
-				"- Paragon of the Veil: Unlimited Range and Cross-Dimensional"
+				"{ftbquests.chapter.mechanics.quest14.description6}"
+				"{ftbquests.chapter.mechanics.quest14.description7}"
+				"{ftbquests.chapter.mechanics.quest14.description8}"
+				"{ftbquests.chapter.mechanics.quest14.description9}"
+				"{ftbquests.chapter.mechanics.quest14.description10}"
+				"{ftbquests.chapter.mechanics.quest14.description11}"
 			]
 			icon: "start_core:uhv_64a_dream_link_energy_hatch"
 			id: "2F63F0E239737E38"
 			tasks: [{
 				id: "6FCD3DDD086DB963"
-				title: "Wireless Power"
+				title: "{ftbquests.chapter.mechanics.quest14.task_8056163327974160739.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 2.5d
 		}
 	]
-	title: "Mechanics"
+	title: "{ftbquests.chapter.mechanics.title}"
 }
