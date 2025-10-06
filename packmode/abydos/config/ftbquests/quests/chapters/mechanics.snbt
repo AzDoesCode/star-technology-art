@@ -13,7 +13,7 @@
 			description: [
 				"Building your first multiblock may seem daunting, but don't fret as there's an easy guide for any multiblock through EMI!"
 				""
-				"By looking at the uses on a multiblock controller in EMI, you will be shown everyblock needed with the amount alongside a physical display that you can look at layer by layer to help you build it."
+				"By looking at the uses of a multiblock controller in EMI, you will be shown every block needed with the amount alongside a physical display that you can look at layer by layer to help you build it."
 				""
 				"Most multiblocks can accept multiple input bus/hatches however there is a minimum to casings a machine needs so if yours isn't forming then try replacing some of them with casing."
 			]
@@ -32,7 +32,7 @@
 			description: [
 				"If you are running low on resources but want to speed up production, you can use one side of an already existing multiblock and build a second one off of it!"
 				""
-				"You can share almost any blocks in a multiblock as well like coils, and input and output bus/hatches. The item will say if its not allowed to be shared."
+				"You can share almost any blocks in a multiblock including coils and input/output buses and hatches. The item's tooltip will say if a block cannot be shared."
 			]
 			icon: "gtceu:multi_smelter"
 			id: "48374090EA89E869"
@@ -121,7 +121,7 @@
 		{
 			dependencies: ["171BD0E155CF98CA"]
 			description: [
-				"Fluid Output hatches have the power to be locked to only accept a certain fluid. This can be useful in multiblocks like the Large Chemical Reactor and the Distilation Tower which usually will have multiple fluids being made in the same machine."
+				"Fluid Output hatches have the power to be locked to only accept a certain fluid. This can be useful in multiblocks like the Large Chemical Reactor and the Distillation Tower which usually will have multiple fluids being made in the same machine."
 				""
 				"You can use this to have processing lines without fluids going to the wrong machine or the wrong tank and stopping the machine."
 			]
@@ -154,7 +154,7 @@
 				"&2UIV:&r Rhenium Super Composite Alloy"
 				""
 				"&7&lSpecial note:&r"
-				"Gregtech also adds it's own superconductors. These however are much harder to craft, and mostly get ignored because of this."
+				"GregTech also adds its own superconductors. These however are much harder to craft, and mostly get ignored because of this."
 			]
 			icon: "gtceu:soul_infused_hex_wire"
 			id: "18080B4F89AD24D2"
@@ -246,35 +246,35 @@
 		{
 			dependencies: ["0A6534BD104A2B08"]
 			description: [
-				"Parallels are a mechanic where a machine can run multiple of the same recipe at once which dramatically increases the rate at which you can do things. Though how they work is a little funky."
+				"Parallels are a mechanic that allow machines to run multiples of the same recipe at once, dramatically increasing throughput. Though how they work is a little funky."
 				""
-				"Parallel Hatches work by consuming the maximum amperage of a tier and using that as a determinate for how many recipes it can run at once (given your parallel hatch is big enough)."
+				"Parallel Hatches work by consuming the maximum amperage of a tier and using that to determine how many recipes can run in parallel (given your parallel hatch is large enough)."
 				""
-				"Now a common misconception is that putting 2 4a or 2 16a hatches to get 8a and 32a respectively will do anything. It won't. All that does is give machines larger buffer, &4&lNOT&r greater ability."
+				"A common misconception is that using two 4A or two 16A hatches to get 8A and 32A respectively will do anything. It won't. All that does is give machines a larger buffer, &4&lNOT&r greater abilities."
 				""
 				"&oMore on the &nNext Page"
 				"{@pagebreak}"
 				""
-				"Another thing to note is that given multiple recipes are ran it takes slightly longer to run but this is worth it in the end since every 4x more parallels nets to 2x more efficeincy."
+				"Another thing to note: since multiple recipes run at once, the process will take slightly longer per batch. However, this tradeoff is worthwhile since every 4x increase in parallels nets 2x more efficiency."
 				""
 				"An equation to calculate the max number of parallels and time increase at any tier is on the &n&oNext Page&r."
 				"{@pagebreak}"
 				""
 				"&nEquations&r"
 				""
-				"Amount of Parallels = min( ParallelCapability , ParallelHatchSize )"
+				"Amount of Parallels = min(ParallelCapability, ParallelHatchSize)"
 				""
-				"(1/(%amp)) * (4^(#ofOverclocks)) = ParallelCapabiliy"
+				"(1/(%amp)) * (4^(#ofOverclocks)) = ParallelCapability"
 				""
 				"2^(#ofOverclocks) = Time Increase Multiplier of the Recipe"
 				""
 				"&nKey:&r"
 				""
-				"%amp = % of an amp the recipe consumes at it's tier, typically this is close to 100% or 50% but not always."
+				"%amp = % of an amp the recipe consumes at its tier, typically close to 100% or 50%, but not always."
 				""
-				"#ofOverclocks = The number of voltage tiers your machine's &e&oSpeed&r is above the recipe require voltage."
+				"#ofOverclocks = The number of voltage tiers your machine's &e&oSpeed&r is above the recipe's required voltage."
 				""
-				"ParallelHatchSize = Maximum Parallels a Hatch can Perform (4,16,64...)"
+				"ParallelHatchSize = Maximum number of Parallels a Hatch can Perform (4, 16, 64, ...)"
 			]
 			icon: "gtceu:zpm_parallel_hatch"
 			id: "70EE9D4811A27CF2"

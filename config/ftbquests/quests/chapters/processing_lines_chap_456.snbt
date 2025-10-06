@@ -100,7 +100,7 @@
 				"0743A08E81AB84D3"
 				"1F416C7A641914EC"
 			]
-			description: ["Naquadah and it's family tree of materials will now be used everywhere, so you better passive the Naquadah line asap."]
+			description: ["Naquadah and its family tree of materials will now be used everywhere, so you better passive the Naquadah line asap."]
 			id: "445BC7DFD3387DD4"
 			rewards: [{
 				count: 3
@@ -1924,7 +1924,7 @@
 			optional: true
 			tasks: [{
 				id: "1DF81F94D45BC87C"
-				title: "postioner"
+				title: "positioner"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -3551,7 +3551,7 @@
 			id: "39202B7E28ABD0EC"
 			tasks: [{
 				id: "0560BAFCBFA5335C"
-				title: "Best Akeyrium"
+				title: "Best Akreyrium"
 				type: "checkmark"
 			}]
 			x: 26.5d

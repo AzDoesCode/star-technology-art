@@ -219,7 +219,7 @@
 			description: [
 				"Thermal Dynamos are cheaper than GregTech energy generation machines."
 				"Thermal Dynamos can be upgraded."
-				"Depending on the upgrades installed, you can get more power from a fuel than gregtech generators."
+				"Depending on the upgrades installed, you can get more power from a fuel than GregTech generators."
 				"Best for early game up to mid game."
 			]
 			icon: {
@@ -1563,7 +1563,7 @@
 			description: [
 				"The controller, although not necessary for your flux network to operate, allows you to use wireless charging."
 				""
-				"No longer will you fall out of the sky because of empty jetboots, or lose access to ae2 because your terminal ran out of power."
+				"No longer will you fall out of the sky because of empty jetboots, or lose access to AE2 because your terminal ran out of power."
 			]
 			id: "69F43BE9D0935398"
 			tasks: [{
@@ -1639,7 +1639,7 @@
 				"1DBE1786C8F14A9E"
 				"4F2692F874F68EF8"
 			]
-			description: ["Diatrons are the best lapidary dynamo fuel. Even the lowest tier of diatrons has energy-positive prodution!"]
+			description: ["Diatrons are the best lapidary dynamo fuel. Even the lowest tier of diatrons has energy-positive production!"]
 			id: "5DDDD7D45FF6A06D"
 			tasks: [
 				{
@@ -1785,9 +1785,9 @@
 		{
 			dependencies: ["7DDFBCDFC3F09A6B"]
 			description: [
-				"Each tier of rotor holder up on top of its inherent &b10% efficiency bonus&r &7([1-.1] or .9 or 90% fuel consumption)&r, each tier up doubles consumption and power giving you a &62x energy&r output for 1.8x more fuel. It is always worth it if you can supply enough fuel."
+				"On top of its inherent &b10% efficiency bonus&r &7([1-.1] or .9 or 90% fuel consumption)&r, each tier up of rotor holder doubles consumption and power giving you a &62x energy&r output for 1.8x more fuel. It is always worth it if you can supply enough fuel."
 				""
-				"In other words it doubles parallels and give efficiency."
+				"In other words, it doubles parallels and gives more efficiency."
 			]
 			icon: {
 				Count: 1

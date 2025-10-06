@@ -308,7 +308,7 @@
 		{
 			dependencies: ["53A9F3758C218CDC"]
 			description: [
-				"QuarkTech armor is really nice. You can run and fly faster, toggle Nightvision and eat automatically."
+				"QuarkTech armor is really nice. You can run and fly faster, toggle night vision and eat automatically."
 				""
 				"You can also now hold Hot Ingots without dying."
 			]
@@ -423,13 +423,13 @@
 				"0055CE82469F239C"
 			]
 			description: [
-				"The Power Substation is the endgame power storage. You might not need it in LuV, but later on you &lwill&r need this."
+				"The Power Substation is the endgame power storage. You might not need it yet in LuV, but later on you &lwill&r need this."
 				""
-				"The structure itself does not store power, but the capacitor blocks you can place into the station can give it storage capability."
+				"The structure itself does not store power, the capacitor blocks placed inside the station are what gives it storage capability."
 				""
 				"Because of this, you can keep upgrading the substation as you progress through the pack, up until UHV."
 				""
-				"When you reach UHV, you can craft the Ultimate Capacitor, which can store a *small* amount of power."
+				"When you reach UHV, you can craft the Ultimate Capacitor which can store a *small* amount of power."
 			]
 			id: "5B72F7526494EAEC"
 			rewards: [{
@@ -689,7 +689,7 @@
 		}
 		{
 			dependencies: ["67ABB3BF6D0C183B"]
-			description: ["Your first fusion product. Passiving this isn't a bad idea, as it will be the only thing you will really use your Mk I Fusion Reactor for."]
+			description: ["Your first fusion product. Passiving this isn't a bad idea, as it will be the only thing you will really use your MK I Fusion Reactor for."]
 			id: "084F23122E4CA277"
 			rewards: [{
 				id: "71877D22B63F1155"
@@ -1046,7 +1046,7 @@
 		{
 			dependencies: ["3B2D79D40B9617D5"]
 			description: [
-				"All these alloys and their names make you go crazy. Seriously, how do you pronounce some of those names."
+				"All these alloys and their names make you go crazy. Seriously, how do you pronounce some of those names?"
 				""
 				"WDYM they get \"&obetter&r\"........"
 			]

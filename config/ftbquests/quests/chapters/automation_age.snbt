@@ -1060,7 +1060,7 @@
 			description: [
 				"Allows you to scan your surrounding chunks for fluids."
 				""
-				"Spoilers, its going to be oil."
+				"Spoilers, it's going to be oil."
 			]
 			hide_dependency_lines: true
 			id: "4FFD2642BC183495"
@@ -2474,12 +2474,12 @@
 		}
 		{
 			dependencies: ["0AB3A8C14C3A0512"]
-			description: ["Heavy Oil can alternatively be made in a Pyrolysed Oven"]
+			description: ["Heavy Oil can alternatively be made in a Pyrolyse Oven"]
 			icon: "minecraft:spruce_log"
 			id: "74186F521D41913D"
 			tasks: [{
 				id: "0E8DB02CDB2185B9"
-				title: "Pyrolyses Oil"
+				title: "Pyrolysed Oil"
 				type: "checkmark"
 			}]
 			x: -8.5d

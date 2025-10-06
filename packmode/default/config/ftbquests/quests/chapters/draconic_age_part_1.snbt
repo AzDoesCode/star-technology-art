@@ -99,9 +99,9 @@
 			description: [
 				"These stones are found in veins across the nether. Their mystical properties are needed to advance in casing technology."
 				""
-				"&4Brimstone&r: is found near radioactive ore deposites"
+				"&4Brimstone&r: is found near radioactive ore deposits"
 				""
-				"&3Cryostone&r: is found near conductive ore deposites"
+				"&3Cryostone&r: is found near conductive ore deposits"
 			]
 			id: "709EF5314988C381"
 			rewards: [{
@@ -941,7 +941,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "First UIV Cicuit"
+			subtitle: "First UIV Circuit"
 			tasks: [{
 				id: "6EF791353FFC298F"
 				item: "kubejs:draconic_wetware_processor_mainframe"
@@ -1341,7 +1341,7 @@
 				"2F62965D05463E44"
 			]
 			description: [
-				"Having witnessed the creation of Maxwell, you have been blessed by it's enlightenment. You have reached the end of your journey for now, and as with the knowledge bestowed upon you, you hear it's voice, telling you to move forward, and embrace an even larger challenge."
+				"Having witnessed the creation of Maxwell, you have been blessed by its enlightenment. You have reached the end of your journey for now, and as with the knowledge bestowed upon you, you hear its voice, telling you to move forward, and embrace an even larger challenge."
 				""
 				""
 				"If you enjoyed StarT, and want more &msuffering&r enjoyment, don't fret. For your cravings we have developed StarT Hardmode."

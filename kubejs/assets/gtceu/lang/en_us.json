@@ -65,7 +65,7 @@
 
     "block.gtceu.primitive_ore_factory.tooltip.0": "§7Your first all in one ore processing machine.",
     
-    "block.gtceu.steam_ore_factory.tooltip.0": "§7A slightly more advanced ore processor, that can accept inputs from busses and hatches, and because of that can be automated.",
+    "block.gtceu.steam_ore_factory.tooltip.0": "§7A slightly more advanced ore processor, that can accept inputs from buses and hatches, and because of that can be automated.",
 
     "block.gtceu.electric_ore_factory.tooltip.0": "§7The electric all in one ore processing machine.",
     
@@ -113,7 +113,7 @@
 
     "block.gtceu.void_extractor.tooltip.0": "§7A machine that uses the ever present abyss under your feet to extract resources. Where they come from is unknown, but there is no time for those questions.",
     "block.gtceu.void_extractor.tooltip.1": "Can only have §bone§r Energy Hatch",
-    "block.gtceu.void_extractor.tooltip.2": "§7You are gonna need multiple Output Busses and Hatches",
+    "block.gtceu.void_extractor.tooltip.2": "§7You are gonna need multiple Output Buses and Hatches",
     
     "block.gtceu.essence_enchancer.tooltip.0": "§7A convoluted machine, that can infuse mystical essences with large amounts of electricity to trigger a change in their composition, making them more useful.",
     "block.gtceu.essence_enchancer.tooltip.1": "Has §6Perfect Overclock",
@@ -1174,9 +1174,9 @@
 
     "block.gtceu.multithreaded_component_synthesis_forge": "Multi-threaded Component Synthesis Forge",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.0": "§3§lMulti-threaded Mass Component Assembler",
-    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.1": "§7The paragon of known component manufacturing capabilities able to absorb the techincal capabilites of attached systems and maximize them to the greatest yield.",
+    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.1": "§7The paragon of known component manufacturing capabilities able to absorb the technical capabilities of attached systems and maximize them to the greatest yield.",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.2": "§8-----------------------------------",
-    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.3": "§dComponent Sythesis",
+    "block.gtceu.multithreaded_component_synthesis_forge.tooltip.3": "§dComponent Synthesis",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.4": "§7Components and Component parts are crafted in sets of 64 while their material cost is only 75% of what it would typically be. In addition to this, the machine runs the recipes with a single 4/3 overclock already applied.",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.5": "§8-----------------------------------",
     "block.gtceu.multithreaded_component_synthesis_forge.tooltip.6": "Has §3Multi-threading§r and §cSubtick Parallels",

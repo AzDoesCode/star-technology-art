@@ -166,7 +166,7 @@
 				"00B6B1AFD9AB29C3"
 				"120E7C97781B59E9"
 			]
-			description: ["A sturdy core that can precisely regulate it's inner working environment."]
+			description: ["A sturdy core that can precisely regulate its inner working environment."]
 			id: "77E6700262CDB4E0"
 			rewards: [{
 				id: "577AB092403F0B3D"
@@ -1475,7 +1475,7 @@
 				"30C974448C57F0EC"
 				"3212A3351DAD4492"
 			]
-			description: ["The Maker of Gates applauds you and bestoys upon you their recognition."]
+			description: ["The Maker of Gates applauds you and bestows upon you their recognition."]
 			hide_dependency_lines: true
 			id: "624480A1E62B52EF"
 			rewards: [{
@@ -1701,7 +1701,7 @@
 				"07AD6651D0B40E22"
 				"43DAD4B63603BFC3"
 			]
-			description: ["Used to contain powers just within comprehention."]
+			description: ["Used to contain powers just within comprehension."]
 			hide_dependency_lines: true
 			id: "4A0AD203617FEF0E"
 			tasks: [{

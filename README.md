@@ -18,7 +18,7 @@ This is **not** a beginner-friendly modpack, but we are constantly improving acc
 📖 **Comprehensive Quest Book** – Updated with every release to guide your journey.  
 🐱 **Komaru** – Your loyal feline companion, here to emotionally support you through the grind!
 
-Inspired by legendary **GregTech modpacks** like _Nomifactory, Gregtech: New Horizons_, and _Technological Journey_, **Star Technology** brings their best ideas into a **skyblock setting**. Huge respect to their creators—check them out too!
+Inspired by legendary **GregTech modpacks** like _Nomifactory_, _GregTech: New Horizons_, and _Technological Journey_, **Star Technology** brings their best ideas into a **skyblock setting**. Huge respect to their creators—check them out too!
 
 ***
 

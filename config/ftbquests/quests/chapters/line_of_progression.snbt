@@ -1379,7 +1379,7 @@
 			description: ["A beast of a circuit."]
 			id: "73E9000BE5288623"
 			optional: true
-			subtitle: "First UIV Cicuit"
+			subtitle: "First UIV Circuit"
 			tasks: [{
 				id: "104B5031089707D7"
 				item: {
